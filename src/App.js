@@ -9,9 +9,9 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-    const maxNumberOfCardsToDisplay = 3;
+    const maxNumberOfCardsToDisplay = 5;
     const maxNumberOfPagesToDisplay = 5;
-
+    
     return (
         <div className="App">
             <Logo />
@@ -19,7 +19,12 @@ function App() {
             <Routes>
                 <Route
                     path="/"
-                    element={<Home />}
+                    element={
+                        <Home
+                            maxNumberOfCardsToDisplay={maxNumberOfCardsToDisplay}
+                            maxNumberOfPagesToDisplay={maxNumberOfPagesToDisplay}
+                        />
+                    }
                 ></Route>
                 <Route
                     path="/post/:post_slug"

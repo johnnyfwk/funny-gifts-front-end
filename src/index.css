@@ -69,7 +69,7 @@ figcaption {
     background: #ff67bb;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(var(--card-min-width), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
 }
 
 .post-card {

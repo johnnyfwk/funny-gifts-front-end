@@ -8,14 +8,13 @@ import ItemCard from "../components/ItemCard";
 export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay }) {
     const [searchParams, setSearchParams] = useSearchParams();
     const page = searchParams.get("page");
-    console.log(page, "<------- page")
 
     const { post_slug } = useParams();
 
     const [ post, setPost ] = useState(null);
-    const [ items, setitems ] = useState(null);
-    const [ allPages, setAllPages ]= useState(null); 
-    const [ pages, setPagesToDisplay ] = useState(null);
+    const [ items, setItems ] = useState(null);
+    const [ allPages, setAllPages ] = useState(null); 
+    const [ pagesToDisplay, setPagesToDisplay ] = useState(null);
 
     useEffect(() => {
         const currentPost = allPosts.filter((post) => post.slug === post_slug);
@@ -23,9 +22,9 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
 
         const allItemsInPost = allItems.filter((item) => (item.category === currentPost[0].category) && (currentPost[0].tags.every(tag => item.tags.includes(tag))));
         if (page === null) {
-            setitems(allItemsInPost.slice(0, maxNumberOfCardsToDisplay));
+            setItems(allItemsInPost.slice(0, maxNumberOfCardsToDisplay));
         } else {
-            setitems(allItemsInPost.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
+            setItems(allItemsInPost.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
         }
 
         const numberOfPages = Math.ceil(allItemsInPost.length / maxNumberOfCardsToDisplay);
@@ -36,18 +35,16 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         setAllPages(listOfAllPages);
 
         var listOfPagesToDisplay;
-        if (page === null && numberOfPages === 1) {
-            listOfPagesToDisplay = listOfAllPages.slice(0, maxNumberOfPagesToDisplay);
-        } else if (page === null && numberOfPages > 1) {
-            listOfPagesToDisplay = listOfAllPages.slice(0, maxNumberOfPagesToDisplay);
-        } else if (numberOfPages > 1 && parseInt(page) <= Math.ceil(maxNumberOfPagesToDisplay/2)) {
+        if ((page === null && numberOfPages === 1) ||
+            (page === null && numberOfPages > 1) ||
+            (numberOfPages > 1 && parseInt(page) <= Math.ceil(maxNumberOfPagesToDisplay/2))
+        ) {
             listOfPagesToDisplay = listOfAllPages.slice(0, maxNumberOfPagesToDisplay);
         } else if (numberOfPages > 1 && parseInt(page) > numberOfPages - (Math.ceil(maxNumberOfPagesToDisplay/2))) {
             listOfPagesToDisplay = listOfAllPages.slice(-maxNumberOfPagesToDisplay);
         } else {
             listOfPagesToDisplay = listOfAllPages.slice(parseInt(page) - Math.ceil(maxNumberOfPagesToDisplay/2), parseInt(page) + Math.floor(maxNumberOfPagesToDisplay/2));
         }
-        console.log(listOfPagesToDisplay)
         setPagesToDisplay(listOfPagesToDisplay);
     }, [post_slug, page, maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay]);
 
@@ -85,17 +82,17 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                     }
 
                     <div className="pagination" onClick={handlePagination}>
-                        {pages.length > 1 && parseInt(page) > 1
+                        {pagesToDisplay.length > 1 && parseInt(page) > 1
                             ? <Link to={`/post/${post_slug}?page=1`}>&lt;&lt;</Link>
                             : null
                         }
 
-                        {pages.length > 1 && parseInt(page) > 1
+                        {pagesToDisplay.length > 1 && parseInt(page) > 1
                             ? <Link to={`/post/${post_slug}?page=${parseInt(page) - 1}`}>&lt;</Link>
                             : null
                         }
 
-                        {pages.map((pageNumber, index) => {
+                        {pagesToDisplay.map((pageNumber, index) => {
                             return (
                                 (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
                                     ? <div key={index}>{pageNumber}</div>
@@ -103,17 +100,17 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                             )
                         })}
 
-                        {pages.length > 1 && page === null
+                        {pagesToDisplay.length > 1 && page === null
                             ? <Link to={`/post/${post_slug}?page=2`}>&gt;</Link>
                             : null
                         }
 
-                        {pages.length > 1 && page !== null && (parseInt(page) !== pages[pages.length - 1])
+                        {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
                             ? <Link to={`/post/${post_slug}?page=${parseInt(page) + 1}`}>&gt;</Link>
                             : null
                         }
 
-                        {pages.length > 1 && parseInt(page) !== pages[pages.length - 1]
+                        {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
                             ? <Link to={`/post/${post_slug}?page=${allPages.length}`}>&gt;&gt;</Link>
                             : null
                         }
