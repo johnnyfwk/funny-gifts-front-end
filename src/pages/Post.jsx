@@ -13,7 +13,6 @@ export default function Post() {
 
     useEffect(() => {
         const currentPost = allPosts.filter((post) => post.slug === post_slug);
-        console.log(currentPost)
         setPost(currentPost);
         setitems(allItems.filter((item) => (item.category === currentPost[0].category) && (currentPost[0].tags.every(tag => item.tags.includes(tag)))));
     }, [post_slug]);

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export default function PostCard({ post }) {
-    console.log(post)
     return (
         <div className="post-card">
             <Link to={`/post/${post.slug}`}>

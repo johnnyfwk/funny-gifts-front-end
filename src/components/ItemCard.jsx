@@ -9,7 +9,6 @@ export default function ItemCard({ item }) {
             <h2>
                 <Link to={`/item/${item.slug}`} className="item-card-name">{item.name}</Link>
             </h2>
-            <p>{item.description}</p>
         </div>
     )
 }

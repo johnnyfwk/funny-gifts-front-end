@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { allItems } from "../assets/content/items";
 
@@ -26,8 +26,6 @@ export default function Item() {
         return null;
     }
 
-    console.log(selectedImage)
-
     return (
         <div>
             <Helmet>
@@ -44,9 +42,9 @@ export default function Item() {
                 <div id="item-tag-label-and-tags">
                     <strong>Tags:</strong>
                     <div id="item-tags-wrapper">
-                        {item[0].tags.map((tag) => {
+                        {item[0].tags.map((tag, index) => {
                             return (
-                                <div>{tag}</div>
+                                <div key={index}>{tag}</div>
                             )
                         })}
                     </div>
@@ -75,8 +73,6 @@ export default function Item() {
                     <div className="item-external-link-button">
                         <a href={item[0].externalLink} target="_blank" rel="noopener noreferrer" className="item-external-link">Visit {item[0].supplier}</a>
                     </div>
-
-                    {/* <a href={item[0].externalLink} target="_blank" rel="noopener noreferrer" className="item-external-link-button">Visit {item[0].supplier}</a> */}
                 </section>
 
                 <section>
