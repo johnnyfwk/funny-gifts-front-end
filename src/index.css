@@ -1,4 +1,9 @@
 :root {
+    --max-width: 1000px;
+    --item-card-image-max-height: 300px;
+    --item-image-max-height: 400px;
+    --card-min-width: 150px;
+
     --night: #0C0F0A;
     --white: #FFFFFF;
     --rose: #FF206E;
@@ -18,10 +23,11 @@ img {
 
 #logo {
     background: grey;
+    font-size: 2rem;
 }
 
 nav {
-    background: violet;
+    background: cyan;
 }
 
 header {
@@ -30,8 +36,121 @@ header {
 
 main {
     background: pink;
+    display: grid;
+    gap: 50px;
+}
+
+section {
+    background: yellow;
 }
 
 footer {
     background: grey;
 }
+
+
+
+/***************************** BODY (CONTENT) *****************************/
+.body {
+    display: grid;
+    gap: 20px;
+    line-height: 1.5rem;
+}
+
+figcaption {
+    font-style: italic;
+}
+/***************************** BODY (CONTENT) *****************************/
+
+
+/***************************** POST CARDS *****************************/
+.post-cards-wrapper {
+    background: #ff67bb;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-min-width), 1fr));
+}
+
+.post-card {
+    background: violet;
+}
+
+.post-card-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/***************************** POST CARDS *****************************/
+
+
+
+/***************************** ITEM CARDS *****************************/
+.item-cards-wrapper {
+    background: #ff67bb;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-min-width), 1fr));
+}
+
+.item-card {
+    background: violet;
+}
+
+.item-card img {
+    max-height: var(--item-card-image-max-height);
+}
+
+.item-card-name {
+    font-size: 1.2rem;
+}
+/***************************** ITEM CARDS *****************************/
+
+
+
+/***************************** ITEM *****************************/
+#item {
+    display: grid;
+    gap: 30px;
+}
+
+#item-tag-label-and-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#item-tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+}
+
+#item-images {
+    display: grid;
+    gap: 10px;
+}
+
+#item img {
+    max-height: var(--item-image-max-height);
+}
+
+#item-image-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#item-image-thumbnails img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.item-external-link-button {
+    background: red;
+}
+
+.item-external-link {
+    background: lime;
+    padding: 20px;
+    display: inline-block;
+}
+/***************************** ITEM *****************************/

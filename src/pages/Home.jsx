@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet";
+import { allPosts } from "../assets/content/posts";
+import PostCard from "../components/PostCard";
 
 export default function Home() {
     return (
@@ -16,8 +18,13 @@ export default function Home() {
             </header>
 
             <main>
-                <h2>Home Sub-heading</h2>
-                <p>This is some text in the main tag of the Home page.</p>
+                <section>
+                    <div className="post-cards-wrapper">
+                        {allPosts.map((post, index) => {
+                            return <PostCard key={index} post={post} />
+                        })}
+                    </div>
+                </section>
             </main>
         </div>
     )
