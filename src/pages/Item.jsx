@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { allItems } from "../assets/content/items";
 import ItemCard from "../components/ItemCard";
 
-export default function Item() {
+export default function Item({ maxNumberOfCardsToDisplay }) {
     const { item_slug } = useParams();
 
     const [ item, setItem ] = useState(null);
@@ -15,7 +15,7 @@ export default function Item() {
         const currentItem = allItems.filter((item) => item.slug === item_slug);
         setItem(currentItem);
         setSelectedImage(currentItem[0].images[0]);
-        setRelatedItems(allItems.filter((item) => item.tags.some((tag) => currentItem[0].tags.includes(tag)) && item.slug !== currentItem[0].slug));
+        setRelatedItems(allItems.filter((item) => item.tags.some((tag) => currentItem[0].tags.includes(tag)) && item.slug !== currentItem[0].slug).slice(0, maxNumberOfCardsToDisplay));
     }, [item_slug]);
 
     function handleItemImageThumbnail(event) {
