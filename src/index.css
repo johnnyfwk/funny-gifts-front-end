@@ -84,6 +84,17 @@ figcaption {
 
 
 
+/***************************** POST CARDS *****************************/
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+/***************************** POST CARDS *****************************/
+
+
+
 /***************************** ITEM CARDS *****************************/
 .item-cards-wrapper {
     background: #ff67bb;
