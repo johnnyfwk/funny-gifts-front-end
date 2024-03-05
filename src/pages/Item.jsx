@@ -2,17 +2,20 @@ import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { allItems } from "../assets/content/items";
+import ItemCard from "../components/ItemCard";
 
 export default function Item() {
     const { item_slug } = useParams();
 
     const [ item, setItem ] = useState(null);
     const [ selectedImage, setSelectedImage ] = useState(null);
+    const [ relatedItems, setRelatedItems ] = useState(null);
     
     useEffect(() => {
         const currentItem = allItems.filter((item) => item.slug === item_slug);
         setItem(currentItem);
         setSelectedImage(currentItem[0].images[0]);
+        setRelatedItems(allItems.filter((item) => item.tags.some((tag) => currentItem[0].tags.includes(tag)) && item.slug !== currentItem[0].slug));
     }, [item_slug]);
 
     function handleItemImageThumbnail(event) {
@@ -77,7 +80,14 @@ export default function Item() {
 
                 <section>
                     <h3>Related Items</h3>
-                    <p>This is some text.</p>
+                    {relatedItems.length === 0
+                        ? <div>No related items.</div>
+                        : <div className="item-cards-wrapper">
+                            {relatedItems.map((item, index) => {
+                                return <ItemCard key={index} item={item} />
+                            })}
+                        </div>
+                    }
                 </section>
             </main>
         </div>
