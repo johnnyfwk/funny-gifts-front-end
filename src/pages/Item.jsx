@@ -16,7 +16,7 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
         setItem(currentItem);
         setSelectedImage(currentItem[0].images[0]);
         setRelatedItems(allItems.filter((item) => item.tags.some((tag) => currentItem[0].tags.includes(tag)) && item.slug !== currentItem[0].slug).slice(0, maxNumberOfCardsToDisplay));
-    }, [item_slug]);
+    }, [item_slug, maxNumberOfCardsToDisplay]);
 
     function handleItemImageThumbnail(event) {
         const imageArray = event.target.currentSrc.split("/");
