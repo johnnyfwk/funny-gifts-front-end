@@ -2,7 +2,7 @@
     --max-width: 1000px;
     --item-card-image-max-height: 300px;
     --item-image-max-height: 400px;
-    --card-min-width: 150px;
+    --card-min-width: 160px;
 
     --night: #0C0F0A;
     --white: #FFFFFF;
@@ -42,6 +42,7 @@ main {
 
 section {
     background: yellow;
+    max-width: var(--max-width);
 }
 
 footer {
@@ -53,7 +54,7 @@ footer {
 /***************************** BODY (CONTENT) *****************************/
 .body {
     display: grid;
-    gap: 20px;
+    gap: 15px;
     line-height: 1.5rem;
 }
 
@@ -88,15 +89,11 @@ figcaption {
     background: #ff67bb;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(var(--card-min-width), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
 }
 
 .item-card {
     background: violet;
-}
-
-.item-card img {
-    max-height: var(--item-card-image-max-height);
 }
 
 .item-card-name {
