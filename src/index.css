@@ -55,7 +55,7 @@ footer {
 .body {
     display: grid;
     gap: 15px;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
 }
 
 figcaption {
@@ -110,6 +110,10 @@ figcaption {
 .item-card-name {
     font-size: 1.2rem;
 }
+
+.item-card img {
+    max-height: var(--item-image-max-height);
+}
 /***************************** ITEM CARDS *****************************/
 
 
@@ -117,7 +121,7 @@ figcaption {
 /***************************** ITEM *****************************/
 #item {
     display: grid;
-    gap: 30px;
+    gap: 15px;
 }
 
 #item-tag-label-and-tags {

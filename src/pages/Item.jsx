@@ -78,7 +78,7 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                 </section>
 
                 <section>
-                    <h3>Related Items</h3>
+                    <h3>Other Awesome Stuff</h3>
                     {relatedItems.length === 0
                         ? <div>No related items.</div>
                         : <div className="item-cards-wrapper">
