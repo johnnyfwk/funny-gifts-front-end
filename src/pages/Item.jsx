@@ -73,7 +73,7 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                     <div dangerouslySetInnerHTML={{ __html: item[0].body }} className="body" />
 
                     <div className="item-external-link-button">
-                        <a href={item[0].externalLink} target="_blank" rel="noopener noreferrer" className="item-external-link">Visit {item[0].supplier}</a>
+                        <a href={item[0].externalLink} target="_blank" rel="noopener noreferrer" className="item-external-link">Buy from {item[0].supplier}</a>
                     </div>
                 </section>
 
