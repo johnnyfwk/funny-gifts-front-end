@@ -61,6 +61,898 @@ export const allItems = [
 
 
     {
+        name: "Fuggler",
+        slug: "fuggler",
+        description: "Give your kids this plush toy with weird eyes and human-like teeth when they misbehave.",
+        body: "<p>If your kids are easily scared of creepy monsters, get them this Fuggler for their birthday or Christmas.</p><p>With its odd button eyes and human-like teeth, it's guaranteed to give them nightmares every night.</p><p>There are 40 Fugglers to choose from so you can surround their beds with them and their beautiful faces will help your kids fall asleep.</p>",
+        images: [
+            {
+                src: "fuggler.webp",
+                alt: "Fuggler"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "plush toys",
+            "monsters"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3V8kZUG",
+        price: 13.98,
+    },
+    {
+        name: "Useless Box",
+        slug: "useless-box",
+        description: "Flick the switch on this box and it will turn itself off.",
+        body: "<p>This box would make a great gift for someone who is very practical and hates pointless gifts. Flick the switch and a plastic finger will emerge from the box, turn itself off, and go back into its dwelling.</p>",
+        images: [
+            {
+                src: "useless-box.webp",
+                alt: "Useless Box"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "useless",
+            "funny",
+            "boxes"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3T2qAct",
+        price: 20.59,
+    },
+    {
+        name: "Coffin Shelf and Makeup Brush Holder",
+        slug: "coffin-shelf-and-makeup-brush-holder",
+        description: "Keep your makeup organised in this coffin-shaped shelf and brush holder.",
+        body: "<p>Lay your makeup to rest in this coffin-shaped shelf which can be placed on your desk or hung on the wall.</p><p>It has three shelves so you can keep your lipsticks, mascaras, and nail polishes organised.</p><p>The shelf comes with a makeup brush holder that's also coffin-shaped to give your room that gothic vibe.</p>",
+        images: [
+            {
+                src: "coffin-shelf-and-makeup-brush-holder.webp",
+                alt: "Coffin Shelf and Makeup Brush Holder"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "shelves",
+            "coffins",
+            "makeup"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3T7yiSx",
+        price: 74.41,
+    },
+    {
+        name: "Vagina Hidden Objects Picture Book",
+        slug: "vagina-hidden-objects-picture-book",
+        description: "Find five vaginas on each page in this colouring book.",
+        body: "<p>If you don't have much luck with the ladies, you will struggle with this vagina-themed search-and-find colouring book. However, complete this book and you WILL become a ladies' man.</p><p>It contains 25 colouring pages each with five vaginas to find. If you find them all in the book, we're pretty sure you won't have any trouble finding it in real life.</p>",
+        images: [
+            {
+                src: "vagina-hidden-objects-picture-book.webp",
+                alt: "Vagina Hidden Objects Picture Book"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "colouring books",
+            "search and find",
+            "vaginas",
+            "adult"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3ImW1cy",
+        price: 6.23,
+    },
+    {
+        name: "Nature's Vaginas Photobook",
+        slug: "natures-vaginas-photobook",
+        description: "A photobook containing images of nature that look like vaginas.",
+        body: "<p>Do you see vaginas everywhere you look when you walk around and miss seeing them when you're sitting at home?</p><p>If the answer is yes, you need to get yourself this photobook featuring 40 images of nature that look like vaginas, including a waterfall, an onion, and split bark on a tree.</p>",
+        images: [
+            {
+                src: "natures-vaginas-photobook.webp",
+                alt: "Nature's Vaginas Photobook"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "photo books",
+            "vaginas",
+            "funny",
+            "adult"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wLwzeb",
+        price: 8.30,
+    },
+    {
+        name: "The Big Adventures of the Cute Vajayjay Coloring Book",
+        slug: "the-big-adventures-of-the-cute-vajayjay-coloring-book",
+        description: "A colouring book featuring Vajayjay the vagina doing various activities.",
+        body: "<p>Do you get sick of your partner drawing on your private parts when you sleep like a child drawing on the wall?</p><p>If so, buy them this 25-page colouring book for adults featuring Vajayjay the vagina doing a variety of activities, including skateboarding, skydiving, and running a marathon, so you never have to wake up with a multicoloured vagina ever again.</p>",
+        images: [
+            {
+                src: "the-big-adventures-of-the-cute-vajayjay-coloring-book.webp",
+                alt: "The Big Adventures of the Cute Vajayjay Coloring Book"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "colouring books",
+            "vaginas",
+            "funny",
+            "adult"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TnuyOe",
+        price: 6.99,
+    },
+    {
+        name: "Pooping Dog Butt Toothpaste Cap",
+        slug: "pooping-dog-butt-toothpaste-cap",
+        description: "A toothpaste cap shaped liked a dog's bum.",
+        body: "<p>Let this dog squeeze one out for you when you brush your teeth.</p><p>Attach this dog bum-shaped cap onto a toothpaste tube, give it a squzze, and the dog will push a shiny one out onto your toothbrush.</p><p>To prevent the toothpaste from drying out, simply plug the dog's bum with the stopper.</p>",
+        images: [
+            {
+                src: "pooping-dog-butt-toothpaste-cap.webp",
+                alt: "Pooping Dog Butt Toothpaste Cap"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "toothpaste caps",
+            "dogs",
+            "animals",
+            "bums",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3T8IFWk",
+        price: 2.48,
+    },
+    {
+        name: "Bum Stress Ball",
+        slug: "bum-stress-ball",
+        description: "Reduce stress and anxiety by squeezing this bum.",
+        body: "<p>If squeezing your partner's bum helps to reduce your stress level but they're not around when you're feeling anxious, don't go squeezing some random's bum; that's illegal and you will get arrested.</p><p>Instead, get this bum-shaped stress toy. You can keep it in your pocket and when anxiety gets the better of you, pull your bum out and give it a good squeeze.</p>",
+        images: [
+            {
+                src: "bum-stress-ball.webp",
+                alt: "Bum Stress Ball"
+            }
+        ],
+        category: "Health",
+        tags: [
+            "stress toys",
+            "bums",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PbNw81",
+        price: 7.58,
+    },
+    {
+        name: "Bum Vase",
+        slug: "bum-vase",
+        description: "Keep your plants and flowers in this bum-shaped vase.",
+        body: "<p>Keep your flowers in this cheeky vase shaped like a bum. It features a drainage hole on the base so it can be used as plant pot (the creator missed a trick by not putting it where the bum hole should be).</p><p>If you're not into plants or gardening, it can also be used as a pen holder or just as a decorative piece in your home.</p>",
+        images: [
+            {
+                src: "bum-vase.webp",
+                alt: "Bum Vase"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "vases",
+            "bums",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3Tntav0",
+        price: 17.99,
+    },
+    {
+        name: "Poo Bingo",
+        slug: "poo-bingo",
+        description: "A bingo game featuring animals and their poops.",
+        body: "<p>Learn about animals and their poops in this bingo style game.</p><p>Each player is given a bingo card with animals and poop on it. The caller pulls a random animal or poop token from the box and if a player has that token on their card, they can cover it with a poop counter. The first player to match all the tokens and shout \"Poo Bingo!\" wins the game.</p>",
+        images: [
+            {
+                src: "poo-bingo.webp",
+                alt: "Poo Bingo"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "bingo",
+            "poop",
+            "games",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a1Bea9",
+        price: 16.99,
+    },
+    {
+        name: "Bum or Face",
+        slug: "bum-or-face",
+        description: "Guess whether the images in this book is an animal's face or bum.",
+        body: "<p>This book features images of animals and you have to guess whether you're looking at its face or bum. The next page reveals the answer along with some facts about the animal and how they use camouflage to survive in their environment.</p><p>If you buy and love this book, you can create the same concept using your friends' faces and sell it on the Internet.</p>",
+        images: [
+            {
+                src: "bum-or-face.webp",
+                alt: "Bum or Face"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "bums",
+            "animals",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3Ix3tlb",
+        price: 4.00,
+    },
+    {
+        name: "Muscle Man Pillow",
+        slug: "muscle-man-pillow",
+        description: "Let this pillow in the shape of a muscular body hug you to sleep.",
+        body: "<p>This pillow is perfect for those who are single and miss sleeping on their ex's muscular body.</p><p>It features a bulging arm, three-pack, and a big peck so you rest your head on this beautiful body and drift off to sleep every night until you find a real human with the body of a Greek god.</p>",
+        images: [
+            {
+                src: "muscle-man-pillow.webp",
+                alt: "Muscle Man Pillow"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "pillows",
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3P9Sbak",
+        price: 18.90,
+    },
+    {
+        name: "Chicken Nugget Necklace",
+        slug: "chicken-nugget-necklace",
+        description: "A realistic looking chicken nugget on a necklace.",
+        body: "<p>Show everyone how much you love chicken nuggets with this necklace featuring a realistic nug.</p><p>Wear it on full display to your favourite fast-food chain and they'll probably give you free nuggets because they'll think you're not all there for attaching food to your necklace.</p>",
+        images: [
+            {
+                src: "chicken-nugget-necklace.webp",
+                alt: "Chicken Nugget Necklace"
+            }
+        ],
+        category: "Jewellery",
+        tags: [
+            "necklaces",
+            "chicken nuggets",
+            "food"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/49G9PLc",
+        price: 8.50,
+    },
+    {
+        name: "Bacon Soap",
+        slug: "bacon-soap",
+        description: "Stop smelling bad and wash yourself with this bacon scented soap.",
+        body: "<p>If the person you fancy loves the smell of bacon, make yourself irresistibly attractive to them by washing your face and private parts with this bacon scented soap. Once they take a whiff of your porky odour, they'll start looking at you differently and drooling uncontrollably.</p>",
+        images: [
+            {
+                src: "bacon-soap.webp",
+                alt: "Bacon Soap"
+            }
+        ],
+        category: "Beauty",
+        tags: [
+            "soaps",
+            "bacon"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wJ5oAK",
+        price: 8.50,
+    },
+    {
+        name: "i Pad",
+        slug: "i-pad",
+        description: "The cheapest i Pad in the world that doesn't require power to run.",
+        body: "<p>If your kid wants an iPad for their birthday, be the best parent in the world and buy them 10....hell....buy them 100 of these eye pads. Place them in an Apple iPad box and they'll get the biggest surpise on their special day.</p>",
+        images: [
+            {
+                src: "i-pad.webp",
+                alt: "i Pad"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "cotton wool pads",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3uZ0PSe",
+        price: 1.69,
+    },
+    {
+        name: "Beginners' Weights",
+        slug: "beginners-weights",
+        description: "Start your body building journey with these beginners' weights.",
+        body: "<p>If you struggle to lift the lightest weights in the gym, start off with these beginner weights. When you are able to comfortably lift them doing multiple sets, you're ready to start lifting a metal straw.</p>",
+        images: [
+            {
+                src: "beginners-weights.webp",
+                alt: "Beginners' Weights"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "cotton buds",
+            "weightlifting",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3uYfL36",
+        price: 1.69,
+    },
+    {
+        name: "Gift Not Included",
+        slug: "gift-not-included",
+        description: "Give naughty family members batteries for the gift they really wanted.",
+        body: "<p>If your children or girlfriend/wife have been bad this year, give them this bag of batteries for Christmas instead of the gift they were expecting. It will teach them a lesson not to be bad and they can't complain they didn't get a present.</p>",
+        images: [
+            {
+                src: "gift-not-included.webp",
+                alt: "Gift Not Included"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "batteries",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wQ8C5f",
+        price: 2.49,
+    },
+    {
+        name: "1,000,000 Piece Jigsaw Puzzle",
+        slug: "1000000-piece-jigsaw-puzzle",
+        description: "Challenge a friend to complete this 1,000,000 piece jigsaw puzzle that's actually a bag of sand.",
+        body: "<p>If you know someone who is frustrated by the lack of difficult jigsaw puzzles, buy them this bag of sand that's marketed as a 1,000,000 piece jigsaw puzzle and tell them the image they'll be creating is sand.</p>",
+        images: [
+            {
+                src: "1000000-piece-jigsaw-puzzle.webp",
+                alt: "1,000,000 Piece Jigsaw Puzzle"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "jigsaw puzzles",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wCK6Vc",
+        price: 1.69,
+    },
+    {
+        name: "Fill Your Pants",
+        slug: "fill-your-pants",
+        description: "A game where you shove as many items as you can in your giant underwear.",
+        body: "<p>A game played in pairs where the aim is to find as many items described on your card as you can and shove them into your giant underwear in two minutes.</p>",
+        images: [
+            {
+                src: "fill-your-pants.webp",
+                alt: "Fill Your Pants"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "games",
+            "underwear",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3ImNS7Y",
+        price: 12.99,
+    },
+    {
+        name: "Flushin' Frenzy",
+        slug: "flushin-frenzy",
+        description: "Plunge the toilet and catch the poop that flies out in this novelty game.",
+        body: "<p>If you enjoy handling jobbies, make your fetish less weird with this poop-themed game.</p><p>Flush the dice out to see how many times you need to plunge the toilet. When the poop flies out, try to grab it before the other players. You get one token if you grab it first and two if you catch it in mid-air. The person with the most tokens wins the game and becomes a poo master.</p>",
+        images: [
+            {
+                src: "flushin-frenzy.webp",
+                alt: "Flushin' Frenzy"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "games",
+            "poop",
+            "toilet",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PbFVq1",
+        price: 21.99,
+    },
+    {
+        name: "Baby Poop Stress Toy",
+        slug: "baby-poop-stress-toy",
+        description: "Reduce stress and anxiety by squeezing this baby poop.",
+        body: "<p>If you think tiny poops you produce are cute, you'll find this stress toy in the form of a baby poop with a dummy even cuter.</p><p>It can be used to help reduce stress and anxiety as well as practice for becoming a parent. Hold, cuddle, and kiss it every hour of every day and when your baby arrives, you'll be ready to show him or her all the love it deserves.</p>",
+        images: [
+            {
+                src: "baby-poop-stress-toy.webp",
+                alt: "Baby Poop Stress Toy"
+            },
+        ],
+        category: "Health",
+        tags: [
+            "stress toys",
+            "poop",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/437vdXh",
+        price: 5.49,
+    },
+    {
+        name: "Glow in the Dark Croc Balls Charm",
+        slug: "glow-in-the-dark-croc-balls-charm",
+        description: "Decorate your footwear with this glow-in-the-dark scrotum-shaped shoe charm.",
+        body: "<p>Designed specially for crocs, this scrotum-shaped shoe charm will turn heads wherever you go. Wearing it will make you look so fashionable that you wouldn't look out of place on a catwalk in London or Paris.</p><p>They glow in the dark so others will be able to see you're a fashionably creative individual when you're walking around at night.</p>",
+        images: [
+            {
+                src: "glow-in-the-dark-croc-balls-charm.webp",
+                alt: "Glow in the Dark Croc Balls Charm"
+            }
+        ],
+        category: "Clothes & Accessories",
+        tags: [
+            "shoe charms",
+            "scrotum",
+            "glow in the dark",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3V05cXU",
+        price: 5.99,
+    },
+    {
+        name: "Willy Stress Toy",
+        slug: "willy-stress-toy",
+        description: "Take your sexual frustration out on this willy-shaped stress toy.",
+        body: "<p>If your partner isn't performing well in the bedroom, take your frustration out on this willy-shaped stress toy. With its pink head and hairy balls, you'll feel so much better after squeezing and abusing it for several days.</p>",
+        images: [
+            {
+                src: "willy-stress-toy.webp",
+                alt: "Willy Stress Toy"
+            }
+        ],
+        category: "Health",
+        tags: [
+            "stress toys",
+            "penis",
+            "adult"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3V7vSpE",
+        price: 5.99,
+    },
+    {
+        name: "Skull Teaspoons",
+        slug: "skull-teaspoons",
+        description: "Make your tea or coffee with these skull-shaped teaspoons.",
+        body: "<p>Make the perfect brew with these 6-inch stainless steel skull-shaped teaspoons. With its unique design, you will make tea and coffee that nobody will hate.</p>",
+        images: [
+            {
+                src: "skull-teaspoons.webp",
+                alt: "Skull Teaspoons"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "teaspoons",
+            "skulls"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/48KgN0z",
+        price: 11.99,
+    },
+    {
+        name: "Chicken Shoulder Bag",
+        slug: "chicken-shoulder-bag",
+        description: "Stuff this chicken-shaped shoulder bag with all your personal possessions.",
+        body: "<p>This chicken-shaped fleece shoulder bag will come in hen-dy if you need to carry a lot of stuff when you're out and about. Unzip the chicken's back and stuff it with all your personal possessions.</p><p>Of all the shoulder bags we have seen on the Internet, this one is definitely our peck of the bunch.</p>",
+        images: [
+            {
+                src: "chicken-shoulder-bag.webp",
+                alt: "Chicken Shoulder Bag"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "shoulder bags",
+            "chickens",
+            "animals"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3IsDxaG",
+        price: 16.57,
+    },
+    {
+        name: "Coffin Shoulder Bag",
+        slug: "coffin-shoulder-bag",
+        description: "A coffin-shaped shoulder bag you'll be dying to buy.",
+        body: "<p>This coffin-shaped shoulder bag would make a great gift for a friend who is really laid-back. It features a zipper closure and allows the bag to be opened like a real coffin when unzipped.</p>",
+        images: [
+            {
+                src: "coffin-shoulder-bag.webp",
+                alt: "Coffin Shoulder Bag"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "shoulder bags",
+            "coffins"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TmlGZ0",
+        price: 19.99,
+    },
+    {
+        name: "Cheese Handbag",
+        slug: "cheese-handbag",
+        description: "A cheese-shaped handbag that will go grate with any outfit.",
+        body: "<p>If you're looking for a gouda handbag, this cheese-shaped one might be the one for you.</p><p>Featuring cheese eyes on the its flap, you'll want to brie-ng the handbag with you whever you go.</p>",
+        images: [
+            {
+                src: "cheese-handbag.webp",
+                alt: "Cheese Handbag"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "handbags",
+            "cheese"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wJkAhe",
+        price: 8.11,
+    },
+    {
+        name: "Shark Backpack",
+        slug: "shark-backpack",
+        description: "A shark-shaped backpack that will fin-ish off any outfit.",
+        body: "<p>Prevent this shark from becoming hangry by feeding it your phone, wallet/purse, and keys whenever you go out.</p><p>The backpack features a zipper for the shark's mouth and a chain strap to minimise the likelihood it will chew through it and escape back to the sea.</p>",
+        images: [
+            {
+                src: "shark-backpack.webp",
+                alt: "Shark Backpack"
+            },
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "backpacks",
+            "sharks",
+            "animals"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3V6PAln",
+        price: 39.95,
+    },
+    {
+        name: "Telephone Handbag",
+        slug: "telephone-handbag",
+        description: "A handbag shaped like a retro telephone that's calling you to buy it.",
+        body: "<p>Keep your possessions in this handbag shaped like a retro telephone when you're out and about.</p><p>It features a handset that can be used as a handle and removed so you can pretend to be talking to someone when a stranger tries to hit on you and a detachable strap so the handbag can be used as a clutch or shoulder bag.</p>",
+        images: [
+            {
+                src: "telephone-handbag.webp",
+                alt: "Telephone Handbag"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "handbags",
+            "phones"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/48GI2ZS",
+        price: 32.19,
+    },
+    {
+        name: "Stack of Money Handbag",
+        slug: "stack-of-money-handbag",
+        description: "Carry your money in this handbag that looks like a stack of cash.",
+        body: "<p>Feel like a million dollars with this handbag that looks like a stack of American bills.</p><p>It's covered in rhinestone crystals and comes with three detachable chain straps — 1 x long golden, 1 x short golden, and 1 x short crystal — so you'll look great no matter what you wear with it.</p>",
+        images: [
+            {
+                src: "stack-of-money-handbag.webp",
+                alt: "Stack of Money Handbag"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "handbags",
+            "money"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3ToFxXB",
+        price: 23.99,
+    },
+    {
+        name: "Basketball Handbag",
+        slug: "basketball-handbag",
+        description: "A basketball-shaped handbag you would travel far for just to buy.",
+        body: "<p>Replace your boring designer handbag for this one shaped like a basketball.</p><p>Measuring 16cm x 17cm x 6cm, it provides plenty of storage for your possessions that can be accessed via the zipper and a detachable metal chain strap that will allow you to carry the handbag on your shoulder.</p><p>If you buy the handbag and find that it's not for you, throw it in a random basketball hoop and you'll get a refund of two points.</p>",
+        images: [
+            {
+                src: "basketball-handbag.webp",
+                alt: "Basketball Handbag"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "handbags",
+            "basketball"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/435ZSEe",
+        price: 19.99,
+    },
+    {
+        name: "Tiger Head Backpack",
+        slug: "tiger-head-backpack",
+        description: "Carry your possessions in this white tiger head-shaped backpack.",
+        body: "<p>Keep your possessions in backpack shaped as a white tiger head. Measuring 40cm x 30cm x 60cm, the backpack has a zipper fastening system at the back where you can store your items.</p>",
+        images: [
+            {
+                src: "tiger-head-backpack.webp",
+                alt: "Tiger Head Backpack"
+            }
+        ],
+        category: "Bags & Luggage",
+        tags: [
+            "backpacks",
+            "tigers",
+            "animals"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a1Hr68",
+        price: 31.99,
+    },
+    {
+        name: "Umbrella Hat",
+        slug: "umbrella-hat",
+        description: "An umbrella that you wear on your head.",
+        body: "<p>Don't you hate it when it's raining and you can't use both hands to swear at randoms on the street or pick both your nostrils simultaneously? Now you can do both with this umbrella hat.</p><p>Measuring 36\" in diameter and weighing 8.4 oz, it'll keep you comfortably dry while you find creative ways to swear at the old lady that you see on the street every morning or pick a huge booger out of your nose without worrying about the rain washing it off your finger.</p>",
+        images: [
+            {
+                src: "umbrella-hat.webp",
+                alt: "Umbrella Hat"
+            }
+        ],
+        category: "Outdoor",
+        tags: [
+            "umbrellas",
+            "hats",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3IKU89T",
+        price: 16.99,
+    },
+    {
+        name: "Building Blocks Mug",
+        slug: "building-blocks-mug",
+        description: "A mug you can personalise with building blocks.",
+        body: "<p>If you love building stuff and taking loads of tea breaks, this building blocks mug is for you.</p><p>It comes with vehicles and minifigures you can disassemble and attach to the sides of the mug so you can get creative and personalise it with your own architectural designs.</p>",
+        images: [
+            {
+                src: "building-blocks-mug.webp",
+                alt: "Building Blocks Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "building blocks"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3P8lmL3",
+        price: 11.99,
+    },
+    {
+        name: "Climbing Mug",
+        slug: "climbing-mug",
+        description: "A mug featuring a climbing grip as its handle.",
+        body: "<p>If you're British or live in the UK, you will know it's a criminal offence to spill someone's mug of tea. We heard about an office worker being arrested and sent to jail for 50 years for spilling their manager's tea because they weren't gripping onto the mug properly.</p><p>If you're a climber, get this mug with a climbing grips as its handle. Not only will it improve your grip when climbing and potentially save your life, but it will also improve your mug-gripping skills so you will never spill a drop of tea ever again.</p>",
+        images: [
+            {
+                src: "climbing-mug.webp",
+                alt: "Climbing Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "climbing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3v9Czgd",
+        price: 21.90,
+    },
+    {
+        name: "Gun Mug",
+        slug: "gun-mug",
+        description: "A mug featuring a gun-shaped handle.",
+        body: "<p>Fire your old mug for this one featuring a gun-shaped handle. It has a fun novelty look that it won't miss the mark when gifting it to a friend or family member.</p>",
+        images: [
+            {
+                src: "gun-mug.webp",
+                alt: "Gun Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "guns"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/48KievU",
+        price: 13.99,
+    },
+    {
+        name: "Grenade Mug",
+        slug: "grenade-mug",
+        description: "A grenade-shaped mug with a lid.",
+        body: "<p>You'll have a blast drinking your tea or coffee from this grenade-shaped mug. The top of the grenade acts as a lid to keep whatever you're drinking warm.</p>",
+        images: [
+            {
+                src: "grenade-mug.webp",
+                alt: "Grenade Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "grenades"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3UZXi0G",
+        price: 16.84,
+    },
+    {
+        name: "Knuckle Duster Mug",
+        slug: "knuckle-duster-mug",
+        description: "A mug featuring a knuckle duster-shaped handle.",
+        body: "<p>Featuring a knuckle duster-shaped handle, this mug will make whatever you drink from it pack a punch or make it taste melee nice.</p>",
+        images: [
+            {
+                src: "knuckle-duster-mug.webp",
+                alt: "Knuckle Duster Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "knuckle dusters",
+            "weapon"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4cfadlE",
+        price: 9.99,
+    },
+    {
+        name: "Tyres Mug",
+        slug: "tyres-mug",
+        description: "A wheely good mug shaped like tyres.",
+        body: "<p>You'll never get tyre-d of drinking your favourite hot beverage from this mug. Shaped like a stack of tyres, it also features a spanner handle that's so fun to hold, it'll turn out to be your favourite mug.</p>",
+        images: [
+            {
+                src: "tyres-mug.webp",
+                alt: "Tyres Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "tyres"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3V7n3fw",
+        price: 14.56,
+    },
+    {
+        name: "Trash Can Mug",
+        slug: "trash-can-mug",
+        description: "A mug shaped like an outdoor bin.",
+        body: "<p>Enjoy your tea or coffee from this mug shaped like an outdoor bin. It features the wheels you would find on a real bin and a lid so you can lift it and down the tasty bin juice that resides at the bottom of it.</p>",
+        images: [
+            {
+                src: "trash-can-mug.webp",
+                alt: "Trash Can Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "bins",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/49RWK14",
+        price: 16.99,
+    },
+    {
+        name: "Ginger Blow Up Man Doll",
+        slug: "ginger-blow-up-man-doll",
+        description: "Have some fun with this blow up man doll with ginger hair.",
+        body: "<p>Do you fancy the pants off of ginger men but you are too shy to talk to a real human ginger man? Buy yourself this ginger blow up man doll.</p><p>With its strong eyebrows and sideburns, nice mouth, sexy chest hair, and no penis, you'll love spending every second with this ginger inflatable hunk who looks like he wants to hug you all the time.</p>",
+        images: [
+            {
+                src: "ginger-blow-up-man-doll.webp",
+                alt: "Ginger Blow Up Man Doll"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "inflatable",
+            "ginger",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a2F2b6",
+        price: 11.50,
+    },
+    {
         name: "Ginger Beard & Eyebrows",
         slug: "ginger-beard-and-eyebrows",
         description: "Become a ginger person instantly with this ginger beard and eyebrow set.",
@@ -669,7 +1561,7 @@ export const allItems = [
         name: "Porta Potty Shot Glasses",
         slug: "porta-potty-shot-glasses",
         description: "Enjoy your favourite alcoholic drinks from these portable toilet-shaped shot glasses.",
-        body: "<p></p><p>Have you ever walked passed a portable toilet and hoped it would tip over somehow and its contents would cover the person inside? Yeah, so have we.</p><p>You can experience the next best thing with these shot glasses in the shape of portable toilets. Fill them with a whiskey or dark coloured alcoholic drink and imagine your friends are downing the contents of a real portable toilet as you laugh and puke at the same time.</p>",
+        body: "<p>Have you ever walked passed a portable toilet and hoped it would tip over somehow and its contents would cover the person inside? Yeah, so have we.</p><p>You can experience the next best thing with these shot glasses in the shape of portable toilets. Fill them with a whiskey or dark coloured alcoholic drink and imagine your friends are downing the contents of a real portable toilet as you laugh and puke at the same time.</p>",
         images: [
             {
                 src: "porta-potty-shot-glasses.webp",
@@ -1582,7 +2474,7 @@ export const allItems = [
                 alt: "McDonald's Backpack"
             }
         ],
-        category: "Bags",
+        category: "Bags & Luggage",
         tags: [
             "McDonalds",
             "backpacks"

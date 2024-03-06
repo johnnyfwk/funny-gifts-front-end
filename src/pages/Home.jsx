@@ -62,13 +62,13 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             <Helmet>
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://skiver.co.uk/" />
-                <title>Fun Gifts You'll Want To Buy • Skiver</title>
-                <meta name="description" content="Finding awesome gifts you can buy online." />
+                <title>Fun Gifts You'll Love • Skiver</title>
+                <meta name="description" content="Finding fun gifts online that everyone will love." />
             </Helmet>
 
             <header>
-                <h1>Fun Gifts You'll Want</h1>
-                <p>This is some text in the header tag of the Home page.</p>
+                <h1>Fun Gifts You'll Love</h1>
+                <p>This is some text on the Home page.</p>
             </header>
 
             <main>
