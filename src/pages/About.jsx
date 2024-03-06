@@ -16,8 +16,10 @@ export default function About() {
             </header>
 
             <main>
-                <h2>About Sub-heading</h2>
-                <p>This is some text in the main tag of the About page.</p>
+                <section>
+                    <h2>About Sub-heading</h2>
+                    <p>This is some text in the main tag of the About page.</p>
+                </section>
             </main>
         </div>
     )

@@ -16,8 +16,10 @@ export default function Contact() {
             </header>
 
             <main>
-                <h2>Contact Sub-heading</h2>
-                <p>This is some text in the main tag of the Contact page.</p>
+                <section>
+                    <h2>Contact Sub-heading</h2>
+                    <p>This is some text in the main tag of the Contact page.</p>
+                </section>
             </main>
         </div>
     )

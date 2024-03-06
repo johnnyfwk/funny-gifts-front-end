@@ -52,7 +52,6 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                         })}
                     </div>
                 </div>
-                
             </header>
 
             <main>

@@ -67,7 +67,7 @@ export const allItems = [
                 alt: "Grow Your Own Willy"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "penis",
             "funny",
@@ -90,7 +90,7 @@ export const allItems = [
                 alt: "Inflatable Dueling Dicks"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "penis",
             "inflatables",
@@ -138,7 +138,7 @@ export const allItems = [
                 alt: "Farting Undies"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "underwear",
             "fart",
@@ -160,7 +160,7 @@ export const allItems = [
                 alt: "Pet Rock"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "funny",
             "rocks",
@@ -207,7 +207,7 @@ export const allItems = [
                 alt: "Beard Baubles"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "funny",
             "baubles",
@@ -231,7 +231,7 @@ export const allItems = [
                 alt: "Rainbow Willy Warmer"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "penis",
             "willy warmers",
@@ -278,7 +278,7 @@ export const allItems = [
                 alt: "Giant Inflatable Willy Costume"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "funny",
             "penis",
@@ -303,7 +303,7 @@ export const allItems = [
                 alt: "Emergency Moustaches"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "funny",
             "moustaches",
@@ -348,7 +348,7 @@ export const allItems = [
                 alt: "Fishing for Floaters Bath Fishing Game"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "funny",
             "poop",
@@ -372,7 +372,7 @@ export const allItems = [
                 alt: "Goat Yoga Party Game"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "yoga",
             "goats",
@@ -418,7 +418,7 @@ export const allItems = [
                 alt: "Semenology"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "sperm",
             "mixology",
@@ -440,7 +440,7 @@ export const allItems = [
                 alt: "Natural Harvest"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "cookbooks",
             "sperm"
@@ -484,7 +484,7 @@ export const allItems = [
                 alt: "Penis Pokey"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "penis",
             "adult",
@@ -507,7 +507,7 @@ export const allItems = [
                 alt: "Willy Toothbrush"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "toothbrush",
             "bathroom",
@@ -554,7 +554,7 @@ export const allItems = [
                 alt: "Gentleman's Ball Scratcher"
             }
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "funny",
             "scrotum"
@@ -575,7 +575,7 @@ export const allItems = [
                 alt: "Pizza Blanket"
             }
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "blankets",
             "home",
@@ -628,7 +628,7 @@ export const allItems = [
                 alt: "Images You Should Not Masturbate To"
             },
         ],
-        category: "Gifts",
+        category: "Travel",
         tags: [
             "wanker",
             "funny",
@@ -651,7 +651,7 @@ export const allItems = [
                 alt: "Duck with a Dick"
             },
         ],
-        category: "Gifts",
+        category: "Food & Drink",
         tags: [
             "funny",
             "duck",
