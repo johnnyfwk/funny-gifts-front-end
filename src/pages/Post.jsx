@@ -34,7 +34,7 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         }
         setAllPages(listOfAllPages);
 
-        var listOfPagesToDisplay;
+        let listOfPagesToDisplay;
         if ((page === null && numberOfPages === 1) ||
             (page === null && numberOfPages > 1) ||
             (numberOfPages > 1 && parseInt(page) <= Math.ceil(maxNumberOfPagesToDisplay/2))
@@ -86,12 +86,10 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                             ? <Link to={`/post/${post_slug}?page=1`}>&lt;&lt;</Link>
                             : null
                         }
-
                         {pagesToDisplay.length > 1 && parseInt(page) > 1
                             ? <Link to={`/post/${post_slug}?page=${parseInt(page) - 1}`}>&lt;</Link>
                             : null
                         }
-
                         {pagesToDisplay.map((pageNumber, index) => {
                             return (
                                 (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
@@ -99,17 +97,14 @@ export default function Post({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                                     : <Link key={index} to={`/post/${post_slug}?page=${pageNumber}`}>{pageNumber}</Link>
                             )
                         })}
-
                         {pagesToDisplay.length > 1 && page === null
                             ? <Link to={`/post/${post_slug}?page=2`}>&gt;</Link>
                             : null
                         }
-
                         {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
                             ? <Link to={`/post/${post_slug}?page=${parseInt(page) + 1}`}>&gt;</Link>
                             : null
                         }
-
                         {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
                             ? <Link to={`/post/${post_slug}?page=${allPages.length}`}>&gt;&gt;</Link>
                             : null
