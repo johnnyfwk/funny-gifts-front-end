@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-    const maxNumberOfCardsToDisplay = 3;
+    const maxNumberOfCardsToDisplay = 10;
     const maxNumberOfPagesToDisplay = 5;
     
     return (

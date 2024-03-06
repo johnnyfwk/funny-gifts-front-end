@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 import { useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { allPosts } from "../assets/content/posts";
-import PostCard from "../components/PostCard";
+import { allItems } from "../assets/content/items";
+import ItemCard from "../components/ItemCard"; 
 import * as utils from '../utils';
 
 export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay }) {
@@ -10,25 +10,25 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
     const category_slug = searchParams.get("category");
     const page = searchParams.get("page");
     
-    const [ posts, setPosts ] = useState(null);
+    const [ items, setItems ] = useState(null);
     const [ allPages, setAllPages ] = useState(null); 
     const [ pagesToDisplay, setPagesToDisplay ] = useState(null);
 
     useEffect(() => {
-        let allPostsInCategory;
+        let allItemsInCategory;
         if (category_slug === null) {
-            allPostsInCategory = allPosts;
+            allItemsInCategory = allItems;
         } else {
-            allPostsInCategory = allPosts.filter((post) => utils.convertToSlug(post.category) === category_slug);
+            allItemsInCategory = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
         }
         
         if (page === null) {
-            setPosts(allPostsInCategory.slice(0, maxNumberOfCardsToDisplay));
+            setItems(allItemsInCategory.slice(0, maxNumberOfCardsToDisplay));
         } else {
-            setPosts(allPostsInCategory.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
+            setItems(allItemsInCategory.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
         }
 
-        const numberOfPages = Math.ceil(allPostsInCategory.length / maxNumberOfCardsToDisplay);
+        const numberOfPages = Math.ceil(allItemsInCategory.length / maxNumberOfCardsToDisplay);
         const listOfAllPages = [];
         for (let pageNumber = 1; pageNumber <= numberOfPages; pageNumber++) {
             listOfAllPages.push(pageNumber);
@@ -53,7 +53,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         window.scrollTo(0, 0);
     }
 
-    if (!posts) {
+    if (!items) {
         return null;
     }
 
@@ -62,22 +62,22 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             <Helmet>
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://skiver.co.uk/" />
-                <title>Awesome Stuff That Exists • Skiver</title>
-                <meta name="description" content="Finding awesome stuff you'll want." />
+                <title>Fun Gifts You'll Want To Buy • Skiver</title>
+                <meta name="description" content="Finding awesome gifts you can buy online." />
             </Helmet>
 
             <header>
-                <h1>Awesome Stuff That Exists</h1>
+                <h1>Fun Gifts You'll Want</h1>
                 <p>This is some text in the header tag of the Home page.</p>
             </header>
 
             <main>
                 <section>
-                    {posts.length === 0
-                        ? <div>There are no posts to display.</div>
+                    {items.length === 0
+                        ? <div>There are no items to display.</div>
                         : <div className="post-cards-wrapper">
-                            {posts.map((post, index) => {
-                                return <PostCard key={index} post={post} />
+                            {items.map((item, index) => {
+                                return <ItemCard key={index} item={item} />
                             })}
                         </div>
                     }
