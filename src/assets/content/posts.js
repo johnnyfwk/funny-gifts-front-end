@@ -328,7 +328,7 @@ export const allPosts = [
         modified: "2024-03-05"
     },
     {
-        name: "Funny Gifts",
+        name: "5 Funny Gifts",
         slug: "funny-gifts",
         description: "Funny gifts that will make you pee your pants.",
         body: "<p>Lorem <a href='https://johnnyfong.com/' target='_blank'>ipsum</a> dolor sit amet, consectetur adipiscing elit. Etiam malesuada pulvinar ante. Donec faucibus at nisi pharetra ornare. Suspendisse euismod mi ex, in vestibulum ante accumsan quis. Pellentesque vitae est eu libero volutpat mollis eget id dui. Vivamus consequat sem vel nisl sagittis, sed blandit lacus viverra. Donec vehicula ex a libero congue, nec scelerisque leo aliquam. Fusce fringilla nunc eget risus cursus, vel imperdiet neque dignissim. Proin erat dui, mollis sit amet lacus ut, fringilla elementum justo. Proin vel dolor iaculis, vehicula mi sed, finibus orci.<p>Sed vel porttitor risus. Donec ultricies in tellus fermentum ornare. Cras dignissim, ipsum congue suscipit lobortis, ligula lectus euismod nisl, eu placerat ipsum ligula sit amet elit. In eleifend dictum nisi, vitae fringilla orci aliquam ut. Integer eget velit dui. Proin nibh turpis, sodales sed aliquet vel, pulvinar non neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut auctor dui vel ullamcorper posuere.</p>",
@@ -345,8 +345,8 @@ export const allPosts = [
         modified: "2024-03-05"
     },
     {
-        name: "Weird Gifts",
-        slug: "weird-gifts",
+        name: "4 Unusual gifts for that weirdo in your life",
+        slug: "unusual-gifts-for-that-weirdo-in-your-life",
         description: "The weirdest gifts that exist.",
         body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada pulvinar ante. Donec faucibus at nisi pharetra ornare. Suspendisse euismod mi ex, in vestibulum ante accumsan quis. Pellentesque vitae est eu libero volutpat mollis eget id dui. Vivamus consequat sem vel nisl sagittis, sed blandit lacus viverra. Donec vehicula ex a libero congue, nec scelerisque leo aliquam. Fusce fringilla nunc eget risus cursus, vel imperdiet neque dignissim. Proin erat dui, mollis sit amet lacus ut, fringilla elementum justo. Proin vel dolor iaculis, vehicula mi sed, finibus orci.<p>Sed vel porttitor risus. Donec ultricies in tellus fermentum ornare. Cras dignissim, ipsum congue suscipit lobortis, ligula lectus euismod nisl, eu placerat ipsum ligula sit amet elit. In eleifend dictum nisi, vitae fringilla orci aliquam ut. Integer eget velit dui. Proin nibh turpis, sodales sed aliquet vel, pulvinar non neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut auctor dui vel ullamcorper posuere.</p>",
         image: {
@@ -362,7 +362,7 @@ export const allPosts = [
         modified: ""
     },
     {
-        name: "Wanker Gifts",
+        name: "3 Wanker Gifts",
         slug: "wanker-gifts",
         description: "Gifts for people who can't stop masturbating.",
         body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada pulvinar ante. Donec faucibus at nisi pharetra ornare. Suspendisse euismod mi ex, in vestibulum ante accumsan quis. Pellentesque vitae est eu libero volutpat mollis eget id dui. Vivamus consequat sem vel nisl sagittis, sed blandit lacus viverra. Donec vehicula ex a libero congue, nec scelerisque leo aliquam. Fusce fringilla nunc eget risus cursus, vel imperdiet neque dignissim. Proin erat dui, mollis sit amet lacus ut, fringilla elementum justo. Proin vel dolor iaculis, vehicula mi sed, finibus orci.<p>Sed vel porttitor risus. Donec ultricies in tellus fermentum ornare. Cras dignissim, ipsum congue suscipit lobortis, ligula lectus euismod nisl, eu placerat ipsum ligula sit amet elit. In eleifend dictum nisi, vitae fringilla orci aliquam ut. Integer eget velit dui. Proin nibh turpis, sodales sed aliquet vel, pulvinar non neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut auctor dui vel ullamcorper posuere.</p>",
@@ -379,7 +379,7 @@ export const allPosts = [
         modified: ""
     },
     {
-        name: "Tiny Gifts",
+        name: "2 Tiny Gifts",
         slug: "tiny-gifts",
         description: "The tiniest gifts you'll ever see.",
         body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada pulvinar ante. Donec faucibus at nisi pharetra ornare. Suspendisse euismod mi ex, in vestibulum ante accumsan quis. Pellentesque vitae est eu libero volutpat mollis eget id dui. Vivamus consequat sem vel nisl sagittis, sed blandit lacus viverra. Donec vehicula ex a libero congue, nec scelerisque leo aliquam. Fusce fringilla nunc eget risus cursus, vel imperdiet neque dignissim. Proin erat dui, mollis sit amet lacus ut, fringilla elementum justo. Proin vel dolor iaculis, vehicula mi sed, finibus orci.<p>Sed vel porttitor risus. Donec ultricies in tellus fermentum ornare. Cras dignissim, ipsum congue suscipit lobortis, ligula lectus euismod nisl, eu placerat ipsum ligula sit amet elit. In eleifend dictum nisi, vitae fringilla orci aliquam ut. Integer eget velit dui. Proin nibh turpis, sodales sed aliquet vel, pulvinar non neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut auctor dui vel ullamcorper posuere.</p>",
@@ -396,7 +396,7 @@ export const allPosts = [
         modified: ""
     },
     {
-        name: "Giant Gifts",
+        name: "1 Giant Gifts",
         slug: "giant-gifts",
         description: "The biggest gifts you'll ever see.",
         body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada pulvinar ante. Donec faucibus at nisi pharetra ornare. Suspendisse euismod mi ex, in vestibulum ante accumsan quis. Pellentesque vitae est eu libero volutpat mollis eget id dui. Vivamus consequat sem vel nisl sagittis, sed blandit lacus viverra. Donec vehicula ex a libero congue, nec scelerisque leo aliquam. Fusce fringilla nunc eget risus cursus, vel imperdiet neque dignissim. Proin erat dui, mollis sit amet lacus ut, fringilla elementum justo. Proin vel dolor iaculis, vehicula mi sed, finibus orci.<p>Sed vel porttitor risus. Donec ultricies in tellus fermentum ornare. Cras dignissim, ipsum congue suscipit lobortis, ligula lectus euismod nisl, eu placerat ipsum ligula sit amet elit. In eleifend dictum nisi, vitae fringilla orci aliquam ut. Integer eget velit dui. Proin nibh turpis, sodales sed aliquet vel, pulvinar non neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut auctor dui vel ullamcorper posuere.</p>",

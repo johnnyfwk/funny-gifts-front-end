@@ -64,25 +64,6 @@ figcaption {
 /***************************** BODY (CONTENT) *****************************/
 
 
-/***************************** POST CARDS *****************************/
-.post-cards-wrapper {
-    background: #ff67bb;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
-}
-
-.post-card {
-    background: violet;
-}
-
-.post-card-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-/***************************** POST CARDS *****************************/
-
-
 
 /***************************** POST CARDS *****************************/
 .pagination {
@@ -109,10 +90,6 @@ figcaption {
 
 .item-card-name {
     font-size: 1.2rem;
-}
-
-.item-card img {
-    max-height: var(--item-image-max-height);
 }
 /***************************** ITEM CARDS *****************************/
 
@@ -166,3 +143,54 @@ figcaption {
     display: inline-block;
 }
 /***************************** ITEM *****************************/
+
+
+
+/***************************** POST CARDS *****************************/
+.post-cards-wrapper {
+    background: #ff67bb;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.post-card {
+    background: violet;
+}
+
+.post-card-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/***************************** POST CARDS *****************************/
+
+
+
+/***************************** POST ITEM CARD *****************************/
+.post-item-cards-wrapper {
+    display: grid;
+    gap: 30px;
+}
+
+.post-item-card {
+    display: grid;
+    gap: 10px;
+}
+
+.post-item-card img {
+    max-height: var(--item-image-max-height);
+}
+
+.post-item-card a {
+    display: inline-block;
+}
+/***************************** POST ITEM CARD *****************************/
+
+
+
+/***************************** POST *****************************/
+#post section {
+    display: grid;
+    gap: 50px;
+}
+/***************************** POST *****************************/
