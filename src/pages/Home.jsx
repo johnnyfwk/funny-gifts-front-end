@@ -90,124 +90,128 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 : null
             }
             
-            <header>
-                <h1>{titleAndH1}</h1>
-                <p>{description}</p>
-            </header>
+            <div className="header-wrapper">
+                <header>
+                    <h1>{titleAndH1}</h1>
+                    <p>{description}</p>
+                </header>
+            </div>
+            
+            <div className="main-wrapper">
+                <main>
+                    <section>
+                        {items.length === 0
+                            ? <div>There are no items to display.</div>
+                            : <div className="item-cards-wrapper">
+                                {items.map((item, index) => {
+                                    return <ItemCard key={index} item={item} />
+                                })}
+                            </div>
+                        }
+                    </section>
 
-            <main>
-                <section>
-                    {items.length === 0
-                        ? <div>There are no items to display.</div>
-                        : <div className="item-cards-wrapper">
-                            {items.map((item, index) => {
-                                return <ItemCard key={index} item={item} />
-                            })}
-                        </div>
-                    }
-                </section>
+                    <section>
+                        {!category_slug && !tag_slug
+                            ? <div className="pagination">
+                                {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                    ? <Link to={`/?page=1`} onClick={handlePagination}>&lt;&lt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                    ? <Link to={`/?page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.map((pageNumber, index) => {
+                                    return (
+                                        (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
+                                            ? <div key={index}>{pageNumber}</div>
+                                            : <Link key={index} to={`/?page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
+                                    )
+                                })}
+                                {pagesToDisplay.length > 1 && page === null
+                                    ? <Link to={`/?page=2`} onClick={handlePagination}>&gt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
+                                    ? <Link to={`/?page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
+                                    ? <Link to={`/?page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
+                                    : null
+                                }
+                            </div>
+                            : null
+                        }
 
-                <section>
-                    {!category_slug && !tag_slug
-                        ? <div className="pagination">
-                            {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?page=1`} onClick={handlePagination}>&lt;&lt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.map((pageNumber, index) => {
-                                return (
-                                    (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                        ? <div key={index}>{pageNumber}</div>
-                                        : <Link key={index} to={`/?page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
-                                )
-                            })}
-                            {pagesToDisplay.length > 1 && page === null
-                                ? <Link to={`/?page=2`} onClick={handlePagination}>&gt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
-                                ? <Link to={`/?page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
-                                ? <Link to={`/?page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
-                                : null
-                            }
-                        </div>
-                        : null
-                    }
+                        {category_slug
+                            ? <div className="pagination">
+                                {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                    ? <Link to={`/?category=${category_slug}&page=1`} onClick={handlePagination}>&lt;&lt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                    ? <Link to={`/?category=${category_slug}&page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.map((pageNumber, index) => {
+                                    return (
+                                        (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
+                                            ? <div key={index}>{pageNumber}</div>
+                                            : <Link key={index} to={`/?category=${category_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
+                                    )
+                                })}
+                                {pagesToDisplay.length > 1 && page === null
+                                    ? <Link to={`/?category=${category_slug}&page=2`}>&gt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
+                                    ? <Link to={`/?category=${category_slug}&page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
+                                    ? <Link to={`/?category=${category_slug}&page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
+                                    : null
+                                }
+                            </div>
+                            : null
+                        }
 
-                    {category_slug
-                        ? <div className="pagination">
-                            {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?category=${category_slug}&page=1`} onClick={handlePagination}>&lt;&lt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?category=${category_slug}&page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.map((pageNumber, index) => {
-                                return (
-                                    (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                        ? <div key={index}>{pageNumber}</div>
-                                        : <Link key={index} to={`/?category=${category_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
-                                )
-                            })}
-                            {pagesToDisplay.length > 1 && page === null
-                                ? <Link to={`/?category=${category_slug}&page=2`}>&gt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
-                                ? <Link to={`/?category=${category_slug}&page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
-                                ? <Link to={`/?category=${category_slug}&page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
-                                : null
-                            }
-                        </div>
-                        : null
-                    }
-
-                    {tag_slug
-                        ? <div className="pagination">
-                            {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?tag=${tag_slug}&page=1`} onClick={handlePagination}>&lt;&lt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?tag=${tag_slug}&page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.map((pageNumber, index) => {
-                                return (
-                                    (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                        ? <div key={index}>{pageNumber}</div>
-                                        : <Link key={index} to={`/?tag=${tag_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
-                                )
-                            })}
-                            {pagesToDisplay.length > 1 && page === null
-                                ? <Link to={`/?tag=${tag_slug}&page=2`} onClick={handlePagination}>&gt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
-                                ? <Link to={`/?tag=${tag_slug}&page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
-                                : null
-                            }
-                            {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
-                                ? <Link to={`/?tag=${tag_slug}&page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
-                                : null
-                            }
-                        </div>
-                        : null
-                    }
-                </section>
-            </main>
+                        {tag_slug
+                            ? <div className="pagination">
+                                {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                    ? <Link to={`/?tag=${tag_slug}&page=1`} onClick={handlePagination}>&lt;&lt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                    ? <Link to={`/?tag=${tag_slug}&page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.map((pageNumber, index) => {
+                                    return (
+                                        (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
+                                            ? <div key={index}>{pageNumber}</div>
+                                            : <Link key={index} to={`/?tag=${tag_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
+                                    )
+                                })}
+                                {pagesToDisplay.length > 1 && page === null
+                                    ? <Link to={`/?tag=${tag_slug}&page=2`} onClick={handlePagination}>&gt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
+                                    ? <Link to={`/?tag=${tag_slug}&page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
+                                    : null
+                                }
+                                {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
+                                    ? <Link to={`/?tag=${tag_slug}&page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
+                                    : null
+                                }
+                            </div>
+                            : null
+                        }
+                    </section>
+                </main>
+            </div>
         </div>
     )
 }
