@@ -10,6 +10,7 @@ import GiftGuides from "./pages/GiftGuides";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Error404 from "./pages/Error404";
 
 function App() {
     const maxNumberOfCardsToDisplay = 10;
@@ -80,6 +81,11 @@ function App() {
                 <Route
                     path="/contact"
                     element={<Contact />}
+                ></Route>
+
+                <Route
+                    path="*"
+                    element={<Error404 />}
                 ></Route>
             </Routes>
 

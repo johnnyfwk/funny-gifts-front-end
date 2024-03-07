@@ -13,6 +13,7 @@ export default function Footer() {
                         <div>Skiver</div>
                         <Link to="/about">About</Link>
                         <Link to="/contact">Contact</Link>
+                        <Link to="/gift-guides/">Gift Guides</Link>
                     </div>
                     <div className="footer-links">
                         <div>Categories</div>

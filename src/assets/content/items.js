@@ -12,9 +12,9 @@ export const allItems = [
 
     <a href='xxxxxxxxxxxxxxxxxxxxxxxxxxx' target='_blank'>xxxxxxxxxxxxxxxxxxxxxxxxxxx</a>
 
-    <div><ul><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li></ul></div>
+    <div><p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p><ul><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li></ul></div>
 
-    <div><ol><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li></ol></div>
+    <div><p>xxxxxxxxxxxxxxxxxxxxxxxxxxx</p><ol><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><li>xxxxxxxxxxxxxxxxxxxxxxxxxxx</li></ol></div>
 
     <iframe class='youtube-video' src='xxxxxxxxxxxxxxxxxxxxxxxxxxx' title='xxxxxxxxxxxxxxxxxxxxxxxxxxx' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>
 

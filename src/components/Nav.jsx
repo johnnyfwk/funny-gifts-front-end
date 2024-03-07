@@ -67,7 +67,7 @@ export default function Nav({ isNavVisible, setIsNavVisible }) {
                         })}
                     </div>
                 </div>
-                <Link to="/gift-guides" onClick={handleNavLink}>Gift Guides</Link>
+                <Link to="/gift-guides/" onClick={handleNavLink}>Gift Guides</Link>
             </nav>
         </div>
     )
