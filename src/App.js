@@ -10,6 +10,8 @@ import GiftGuides from "./pages/GiftGuides";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Error404 from "./pages/Error404";
 
 function App() {
@@ -81,6 +83,16 @@ function App() {
                 <Route
                     path="/contact"
                     element={<Contact />}
+                ></Route>
+
+                <Route
+                    path="/terms-and-conditions"
+                    element={<TermsAndConditions />}
+                ></Route>
+
+                <Route
+                    path="/privacy-policy"
+                    element={<PrivacyPolicy />}
                 ></Route>
 
                 <Route
