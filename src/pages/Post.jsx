@@ -31,7 +31,7 @@ export default function Post() {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href={`https://skiver.co.uk/post/${post_slug}`}/>
+                <link rel="canonical" href={`https://skiver.co.uk/gift-guides/${post_slug}`}/>
                 <title>{post[0].name} • Skiver</title>
                 <meta name="description" content={post[0].description} />
             </Helmet>

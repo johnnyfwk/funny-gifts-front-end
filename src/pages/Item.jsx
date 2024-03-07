@@ -1,8 +1,9 @@
 import { Helmet } from "react-helmet";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { allItems } from "../assets/content/items";
 import ItemCard from "../components/ItemCard";
+import * as utils from "../utils";
 
 export default function Item({ maxNumberOfCardsToDisplay }) {
     const { item_slug } = useParams();
@@ -43,7 +44,7 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href={`https://skiver.co.uk/item/${item_slug}`} />
+                <link rel="canonical" href={`https://skiver.co.uk/items/${item_slug}`} />
                 <title>{item[0].name} • Skiver</title>
                 <meta name="description" content={item[0].description} />
             </Helmet>
@@ -57,7 +58,7 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                     <div id="item-tags-wrapper">
                         {item[0].tags.map((tag, index) => {
                             return (
-                                <div key={index}>{tag}</div>
+                                <Link key={index} to={`/?tag=${utils.convertToSlug(tag)}&page=1`}>{tag}</Link>
                             )
                         })}
                     </div>
