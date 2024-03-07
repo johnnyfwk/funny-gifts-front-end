@@ -54,55 +54,58 @@ export default function GiftGuides({ maxNumberOfCardsToDisplay, maxNumberOfPages
                 <meta name="description" content="Find the perfect gift with our gift guides." />
             </Helmet>
 
-            <header>
-                <h1>Gift Guides</h1>
-                <p>Find the perfect gift for anyone by checking out our gift guides.</p>
-            </header>
+            <div className="header-wrapper">
+                <header>
+                    <h1>Gift Guides</h1>
+                    <p>Find the perfect gift for anyone by checking out our gift guides.</p>
+                </header>
+            </div>
 
+            <div className="main-wrapper">
+                <main>
+                    <section>
+                        <div className="post-cards-wrapper">
+                            {posts.map((post, index) => {
+                                return (
+                                    <PostCard key={index} post={post} />
+                                )
+                            })}
+                        </div>
+                    </section>
 
-            <main>
-                <section>
-                    <div className="post-cards-wrapper">
-                        {posts.map((post, index) => {
-                            return (
-                                <PostCard key={index} post={post} />
-                            )
-                        })}
-                    </div>
-                </section>
-
-                <section>
-                    <div className="pagination" onClick={handlePagination}>
-                        {pagesToDisplay.length > 1 && parseInt(page) > 1
-                            ? <Link to={`/gift-guides?page=1`}>&lt;&lt;</Link>
-                            : null
-                        }
-                        {pagesToDisplay.length > 1 && parseInt(page) > 1
-                            ? <Link to={`/gift-guides?page=${parseInt(page) - 1}`}>&lt;</Link>
-                            : null
-                        }
-                        {pagesToDisplay.map((pageNumber, index) => {
-                            return (
-                                (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                    ? <div key={index}>{pageNumber}</div>
-                                    : <Link key={index} to={`/gift-guides?page=${pageNumber}`}>{pageNumber}</Link>
-                            )
-                        })}
-                        {pagesToDisplay.length > 1 && page === null
-                            ? <Link to={`/gift-guides?page=2`}>&gt;</Link>
-                            : null
-                        }
-                        {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
-                            ? <Link to={`/gift-guides?page=${parseInt(page) + 1}`}>&gt;</Link>
-                            : null
-                        }
-                        {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
-                            ? <Link to={`/gift-guides?page=${allPages.length}`}>&gt;&gt;</Link>
-                            : null
-                        }
-                    </div>
-                </section>
-            </main>
+                    <section>
+                        <div className="pagination" onClick={handlePagination}>
+                            {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                ? <Link to={`/gift-guides?page=1`}>&lt;&lt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                ? <Link to={`/gift-guides?page=${parseInt(page) - 1}`}>&lt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.map((pageNumber, index) => {
+                                return (
+                                    (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
+                                        ? <div key={index}>{pageNumber}</div>
+                                        : <Link key={index} to={`/gift-guides?page=${pageNumber}`}>{pageNumber}</Link>
+                                )
+                            })}
+                            {pagesToDisplay.length > 1 && page === null
+                                ? <Link to={`/gift-guides?page=2`}>&gt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
+                                ? <Link to={`/gift-guides?page=${parseInt(page) + 1}`}>&gt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
+                                ? <Link to={`/gift-guides?page=${allPages.length}`}>&gt;&gt;</Link>
+                                : null
+                            }
+                        </div>
+                    </section>
+                </main>
+            </div>
         </div>
     )
 }

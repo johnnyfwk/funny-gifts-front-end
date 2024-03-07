@@ -36,23 +36,27 @@ export default function Post() {
                 <meta name="description" content={post[0].description} />
             </Helmet>
 
-            <header>
-                <h1>{post[0].name}</h1>
-                <p>{post[0].description}</p>
-            </header>
+            <div className="header-wrapper">
+                <header>
+                    <h1>{post[0].name}</h1>
+                    <p>{post[0].description}</p>
+                </header>
+            </div>
 
-            <main id="post">
-                <section>
-                    <div dangerouslySetInnerHTML={{ __html: post[0].body }} className="body" />
+            <div className="main-wrapper">
+                <main id="post">
+                    <section>
+                        <div dangerouslySetInnerHTML={{ __html: post[0].body }} className="body" />
 
-                    {items.length === 0
-                        ? <div>There are no items to display.</div>
-                        : <div className="post-item-cards-wrapper">
-                            {items.map((item, index) => <PostItemCard key={index} item={item} />)}
-                        </div>
-                    }
-                </section>
-            </main>
+                        {items.length === 0
+                            ? <div>There are no items to display.</div>
+                            : <div className="post-item-cards-wrapper">
+                                {items.map((item, index) => <PostItemCard key={index} item={item} />)}
+                            </div>
+                        }
+                    </section>
+                </main>
+            </div>
         </div>
     )
 }

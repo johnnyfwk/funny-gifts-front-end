@@ -6,16 +6,18 @@ const categories = Array.from(new Set(allItems.map((item) => item.category))).so
 
 export default function Nav() {
     return (
-        <nav>
-            <div>
-                Categories
+        <div className="nav-wrapper">
+            <nav>
                 <div>
-                    {categories.map((category, index) => {
-                        return <Link to={`/?category=${utils.convertToSlug(category)}&page=1`} key={index}>{category}</Link>
-                    })}
+                    Categories
+                    <div>
+                        {categories.map((category, index) => {
+                            return <Link to={`/?category=${utils.convertToSlug(category)}&page=1`} key={index}>{category}</Link>
+                        })}
+                    </div>
                 </div>
-            </div>
-            <Link to="/gift-guides">Gift Guides</Link>
-        </nav>
+                <Link to="/gift-guides">Gift Guides</Link>
+            </nav>
+        </div>
     )
 }

@@ -62,7 +62,7 @@ export const allItems = [
     {
         name: "Random",
         slug: "random",
-        description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        description: "Random description",
         body: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         images: [
             {
