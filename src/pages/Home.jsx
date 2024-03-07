@@ -6,7 +6,7 @@ import ItemCard from "../components/ItemCard";
 import * as utils from '../utils';
 
 export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay }) {
-    const [searchParams, setSearchParams] = useSearchParams();
+    const [ searchParams ] = useSearchParams();
     const category_slug = searchParams.get("category");
     const page = searchParams.get("page");
     
@@ -21,12 +21,6 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         } else {
             allItemsInCategory = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
         }
-        
-        if (page === null) {
-            setItems(allItemsInCategory.slice(0, maxNumberOfCardsToDisplay));
-        } else {
-            setItems(allItemsInCategory.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
-        }
 
         const numberOfPages = Math.ceil(allItemsInCategory.length / maxNumberOfCardsToDisplay);
         const listOfAllPages = [];
@@ -34,12 +28,15 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             listOfAllPages.push(pageNumber);
         }
         setAllPages(listOfAllPages);
+        
+        if (page === null) {
+            setItems(allItemsInCategory.slice(0, maxNumberOfCardsToDisplay));
+        } else {
+            setItems(allItemsInCategory.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
+        }
 
-        var listOfPagesToDisplay;
-        if ((page === null && numberOfPages === 1) ||
-            (page === null && numberOfPages > 1) ||
-            (numberOfPages > 1 && parseInt(page) <= Math.ceil(maxNumberOfPagesToDisplay/2))
-        ) {
+        let listOfPagesToDisplay;
+        if ((page === null) || (numberOfPages > 1 && parseInt(page) <= Math.ceil(maxNumberOfPagesToDisplay/2))) {
             listOfPagesToDisplay = listOfAllPages.slice(0, maxNumberOfPagesToDisplay);
         } else if (numberOfPages > 1 && parseInt(page) > numberOfPages - (Math.ceil(maxNumberOfPagesToDisplay/2))) {
             listOfPagesToDisplay = listOfAllPages.slice(-maxNumberOfPagesToDisplay);
@@ -75,13 +72,15 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 <section>
                     {items.length === 0
                         ? <div>There are no items to display.</div>
-                        : <div className="post-cards-wrapper">
+                        : <div className="item-cards-wrapper">
                             {items.map((item, index) => {
                                 return <ItemCard key={index} item={item} />
                             })}
                         </div>
                     }
+                </section>
 
+                <section>
                     {!category_slug
                         ? <div className="pagination" onClick={handlePagination}>
                             {pagesToDisplay.length > 1 && parseInt(page) > 1

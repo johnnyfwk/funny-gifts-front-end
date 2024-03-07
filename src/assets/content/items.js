@@ -2716,8 +2716,7 @@ export const allItems = [
             "penis",
             "gardening",
             "funny",
-            "adult",
-            "tiny"
+            "adult"
         ],
         gender: "Unisex",
         supplier: "Firebox",
@@ -2978,7 +2977,7 @@ export const allItems = [
             "emergency"
         ],
         gender: "Male",
-        supplier: "amazon",
+        supplier: "Amazon",
         externalLink: "https://amzn.to/3To5sPh",
         price: 11.78,
     },

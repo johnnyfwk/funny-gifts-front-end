@@ -7,9 +7,15 @@ const categories = Array.from(new Set(allItems.map((item) => item.category))).so
 export default function Nav() {
     return (
         <nav>
-            {categories.map((category, index) => {
-                return <Link to={`/?category=${utils.convertToSlug(category)}&page=1`} key={index}>{category}</Link>
-            })}
+            <div>
+                Categories
+                <div>
+                    {categories.map((category, index) => {
+                        return <Link to={`/?category=${utils.convertToSlug(category)}&page=1`} key={index}>{category}</Link>
+                    })}
+                </div>
+            </div>
+            <Link to="/gift-guides">Gift Guides</Link>
         </nav>
     )
 }
