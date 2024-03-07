@@ -7,22 +7,36 @@ import * as utils from '../utils';
 
 export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay }) {
     const [ searchParams ] = useSearchParams();
-    const category_slug = searchParams.get("category");
     const page = searchParams.get("page");
+    const category_slug = searchParams.get("category");
+    const tag_slug = searchParams.get("tag");
     
     const [ items, setItems ] = useState(null);
     const [ allPages, setAllPages ] = useState(null); 
     const [ pagesToDisplay, setPagesToDisplay ] = useState(null);
 
+    const [ titleAndH1, setTitleAndH1 ] = useState("");
+    const [ description, setDescription ] = useState("");
+
     useEffect(() => {
-        let allItemsInCategory;
-        if (category_slug === null) {
-            allItemsInCategory = allItems;
-        } else {
-            allItemsInCategory = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
+        let allRelevantItems;
+        if (category_slug === null && tag_slug === null) {
+            allRelevantItems = allItems;
+            setTitleAndH1("Fun Gifts You'll Love");
+            setDescription("This is the text for the Home page.");
+        } else if (category_slug) {
+            allRelevantItems = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
+            setTitleAndH1(utils.slugToCategoryName(category_slug));
+            setDescription("");
+        } else if (tag_slug) {
+            allRelevantItems = allItems.filter((post) => post.tags.some((tag) => {
+                return utils.convertToSlug(tag) === tag_slug;
+            }));
+            setTitleAndH1(`Tag: '${tag_slug.replaceAll("-", " ").replaceAll(" and ", " & ")}'`);
+            setDescription("");
         }
 
-        const numberOfPages = Math.ceil(allItemsInCategory.length / maxNumberOfCardsToDisplay);
+        const numberOfPages = Math.ceil(allRelevantItems.length / maxNumberOfCardsToDisplay);
         const listOfAllPages = [];
         for (let pageNumber = 1; pageNumber <= numberOfPages; pageNumber++) {
             listOfAllPages.push(pageNumber);
@@ -30,9 +44,9 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         setAllPages(listOfAllPages);
         
         if (page === null) {
-            setItems(allItemsInCategory.slice(0, maxNumberOfCardsToDisplay));
+            setItems(allRelevantItems.slice(0, maxNumberOfCardsToDisplay));
         } else {
-            setItems(allItemsInCategory.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
+            setItems(allRelevantItems.slice((parseInt(page) * maxNumberOfCardsToDisplay) - maxNumberOfCardsToDisplay, parseInt(page) * maxNumberOfCardsToDisplay))
         }
 
         let listOfPagesToDisplay;
@@ -44,7 +58,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             listOfPagesToDisplay = listOfAllPages.slice(parseInt(page) - Math.ceil(maxNumberOfPagesToDisplay/2), parseInt(page) + Math.floor(maxNumberOfPagesToDisplay/2));
         }
         setPagesToDisplay(listOfPagesToDisplay);
-    }, [category_slug, page, maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay])
+    }, [category_slug, tag_slug, page, maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay])
 
     function handlePagination() {
         window.scrollTo(0, 0);
@@ -56,16 +70,29 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
 
     return (
         <div>
-            <Helmet>
-                <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://skiver.co.uk/" />
-                <title>Fun Gifts You'll Love • Skiver</title>
-                <meta name="description" content="Finding fun gifts online that everyone will love." />
-            </Helmet>
+            {!category_slug && !tag_slug
+                ? <Helmet>
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href="https://skiver.co.uk/" />
+                    <title>{titleAndH1} • Skiver</title>
+                    <meta name="description" content={description} />
+                </Helmet>
+                : null
+            }
 
+            {category_slug || tag_slug
+                ? <Helmet>
+                    <meta name="robots" content="noindex, nofollow" />
+                    <link rel="canonical" href="https://skiver.co.uk/" />
+                    <title>{titleAndH1} • Skiver</title>
+                    <meta name="description" content={description} />
+                </Helmet>
+                : null
+            }
+            
             <header>
-                <h1>Fun Gifts You'll Love</h1>
-                <p>This is some text on the Home page.</p>
+                <h1>{titleAndH1}</h1>
+                <p>{description}</p>
             </header>
 
             <main>
@@ -81,50 +108,54 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 </section>
 
                 <section>
-                    {!category_slug
-                        ? <div className="pagination" onClick={handlePagination}>
+                    {!category_slug && !tag_slug
+                        ? <div className="pagination">
                             {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?page=1`}>&lt;&lt;</Link>
+                                ? <Link to={`/?page=1`} onClick={handlePagination}>&lt;&lt;</Link>
                                 : null
                             }
                             {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?page=${parseInt(page) - 1}`}>&lt;</Link>
+                                ? <Link to={`/?page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
                                 : null
                             }
                             {pagesToDisplay.map((pageNumber, index) => {
                                 return (
                                     (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
                                         ? <div key={index}>{pageNumber}</div>
-                                        : <Link key={index} to={`/?page=${pageNumber}`}>{pageNumber}</Link>
+                                        : <Link key={index} to={`/?page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
                                 )
                             })}
                             {pagesToDisplay.length > 1 && page === null
-                                ? <Link to={`/?page=2`}>&gt;</Link>
+                                ? <Link to={`/?page=2`} onClick={handlePagination}>&gt;</Link>
                                 : null
                             }
                             {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
-                                ? <Link to={`/?page=${parseInt(page) + 1}`}>&gt;</Link>
+                                ? <Link to={`/?page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
                                 : null
                             }
                             {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
-                                ? <Link to={`/?page=${allPages.length}`}>&gt;&gt;</Link>
+                                ? <Link to={`/?page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
                                 : null
                             }
                         </div>
-                        : <div className="pagination" onClick={handlePagination}>
+                        : null
+                    }
+
+                    {category_slug
+                        ? <div className="pagination">
                             {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?category=${category_slug}&page=1`}>&lt;&lt;</Link>
+                                ? <Link to={`/?category=${category_slug}&page=1`} onClick={handlePagination}>&lt;&lt;</Link>
                                 : null
                             }
                             {pagesToDisplay.length > 1 && parseInt(page) > 1
-                                ? <Link to={`/?category=${category_slug}&page=${parseInt(page) - 1}`}>&lt;</Link>
+                                ? <Link to={`/?category=${category_slug}&page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
                                 : null
                             }
                             {pagesToDisplay.map((pageNumber, index) => {
                                 return (
                                     (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
                                         ? <div key={index}>{pageNumber}</div>
-                                        : <Link key={index} to={`/?category=${category_slug}&page=${pageNumber}`}>{pageNumber}</Link>
+                                        : <Link key={index} to={`/?category=${category_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
                                 )
                             })}
                             {pagesToDisplay.length > 1 && page === null
@@ -132,14 +163,48 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                                 : null
                             }
                             {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
-                                ? <Link to={`/?category=${category_slug}&page=${parseInt(page) + 1}`}>&gt;</Link>
+                                ? <Link to={`/?category=${category_slug}&page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
                                 : null
                             }
                             {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
-                                ? <Link to={`/?category=${category_slug}&page=${allPages.length}`}>&gt;&gt;</Link>
+                                ? <Link to={`/?category=${category_slug}&page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
                                 : null
                             }
                         </div>
+                        : null
+                    }
+
+                    {tag_slug
+                        ? <div className="pagination">
+                            {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                ? <Link to={`/?tag=${tag_slug}&page=1`} onClick={handlePagination}>&lt;&lt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.length > 1 && parseInt(page) > 1
+                                ? <Link to={`/?tag=${tag_slug}&page=${parseInt(page) - 1}`} onClick={handlePagination}>&lt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.map((pageNumber, index) => {
+                                return (
+                                    (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
+                                        ? <div key={index}>{pageNumber}</div>
+                                        : <Link key={index} to={`/?tag=${tag_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
+                                )
+                            })}
+                            {pagesToDisplay.length > 1 && page === null
+                                ? <Link to={`/?tag=${tag_slug}&page=2`} onClick={handlePagination}>&gt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.length > 1 && page !== null && (parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1])
+                                ? <Link to={`/?tag=${tag_slug}&page=${parseInt(page) + 1}`} onClick={handlePagination}>&gt;</Link>
+                                : null
+                            }
+                            {pagesToDisplay.length > 1 && parseInt(page) !== pagesToDisplay[pagesToDisplay.length - 1]
+                                ? <Link to={`/?tag=${tag_slug}&page=${allPages.length}`} onClick={handlePagination}>&gt;&gt;</Link>
+                                : null
+                            }
+                        </div>
+                        : null
                     }
                 </section>
             </main>

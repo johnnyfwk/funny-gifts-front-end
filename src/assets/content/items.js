@@ -74,7 +74,13 @@ export const allItems = [
         tags: [
             "random tag 1",
             "random tag 2",
-            "random tag 3"
+            "random tag 3",
+            "fish & chips",
+            "scotland",
+            "this and that",
+            "weird",
+            "funny",
+            "christmas"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1500,8 +1506,8 @@ export const allItems = [
         tags: [
             "nipple tassels",
             "boobs",
-            "Christmas",
-            "Christmas pudding",
+            "christmas",
+            "christmas pudding",
             "funny"
         ],
         gender: "Female",
@@ -2497,7 +2503,7 @@ export const allItems = [
         ],
         category: "Bags & Luggage",
         tags: [
-            "McDonalds",
+            "mcdonalds",
             "backpacks"
         ],
         gender: "Unisex",
@@ -2899,7 +2905,7 @@ export const allItems = [
         tags: [
             "funny",
             "baubles",
-            "Christmas",
+            "christmas",
             "beard",
             "weird"
         ],
