@@ -15,7 +15,17 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
         const currentItem = allItems.filter((item) => item.slug === item_slug);
         setItem(currentItem);
         setSelectedImage(currentItem[0].images[0]);
-        setRelatedItems(allItems.filter((item) => item.tags.some((tag) => currentItem[0].tags.includes(tag)) && item.slug !== currentItem[0].slug).slice(0, maxNumberOfCardsToDisplay));
+        const allRelatedItems = allItems.filter((item) => (item.slug !== currentItem[0].slug && item.tags.some((tag) => currentItem[0].tags.includes(tag)))
+            || (item.slug !== currentItem[0].slug && item.category === currentItem[0].category));
+
+        let relatedItemsToDisplay;
+        if (allRelatedItems.length > 0) {
+            relatedItemsToDisplay = allRelatedItems.slice(0, maxNumberOfCardsToDisplay);
+        } else {
+            const allAlternativeRelatedItems = allItems.filter((item) => item.slug !== item_slug);
+            relatedItemsToDisplay = allAlternativeRelatedItems.slice(0, maxNumberOfCardsToDisplay);
+        }
+        setRelatedItems(relatedItemsToDisplay);
     }, [item_slug, maxNumberOfCardsToDisplay]);
 
     function handleItemImageThumbnail(event) {
