@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import Logo from "./components/Logo";
+import NavButton from "./components/NavButton";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
@@ -12,12 +14,26 @@ import Footer from "./components/Footer";
 function App() {
     const maxNumberOfCardsToDisplay = 10;
     const maxNumberOfPagesToDisplay = 5;
+    const [ isNavVisible, setIsNavVisible ] = useState(false);
     
     return (
         <div className="App">
-            <Logo />
-
-            <Nav />
+            <div id="logo-and-nav-button-wrapper">
+                <div id="logo-and-nav-button">
+                    <Logo
+                        setIsNavVisible={setIsNavVisible}
+                    />
+                    <NavButton
+                        isNavVisible={isNavVisible}
+                        setIsNavVisible={setIsNavVisible}
+                    />
+                </div>
+            </div>
+            
+            <Nav
+                isNavVisible={isNavVisible}
+                setIsNavVisible={setIsNavVisible}
+            />
 
             <Routes>
                 <Route

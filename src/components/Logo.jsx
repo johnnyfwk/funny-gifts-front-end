@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom"
 
-export default function Logo() {
+export default function Logo({ setIsNavVisible }) {
+    function handleLogo() {
+        setIsNavVisible(false);
+    }
+
     return (
-        <div className="logo-wrapper">
-            <div id="logo">
-                <Link to="/">Skiver</Link>
-            </div>
+        <div id="logo">
+            <Link to="/" onClick={handleLogo}>Skiver</Link>
         </div>
     )
 }
