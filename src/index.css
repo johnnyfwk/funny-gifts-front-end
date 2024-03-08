@@ -103,6 +103,7 @@ nav {
     gap: 20px;
     padding: var(--padding-sides);
     transition: left 0.3s ease;
+    z-index: 1;
 }
 
 nav a:link,
@@ -125,7 +126,7 @@ nav a:hover {
     font-weight: bold;
     text-transform: uppercase;
     display: grid;
-    gap: 10px;
+    gap: 15px;
     color: var(--white);
 }
 
@@ -133,7 +134,7 @@ nav a:hover {
     text-transform: initial;
     font-weight: initial;
     display: grid;
-    gap: 10px;
+    gap: 15px;
 }
 
 #empty-logo-and-nav-button-element {
@@ -182,7 +183,7 @@ main {
     gap: 30px;
     max-width: var(--max-width);
     margin: auto;
-    padding: var(--padding-sides);
+    padding: var(--padding-sides) var(--padding-sides) 30px var(--padding-sides);
 }
 
 footer {
@@ -324,6 +325,17 @@ figcaption {
 #item {
     display: grid;
     gap: 15px;
+}
+
+.item-category a:link,
+.item-category a:active,
+.item-category a:visited {
+    color: var(--rose);
+    text-decoration: none;
+}
+
+.item-category a:hover {
+    text-decoration: underline;
 }
 
 #item-images-body-and-external-link-button {

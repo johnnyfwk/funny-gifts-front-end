@@ -15,7 +15,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Error404 from "./pages/Error404";
 
 function App() {
-    const maxNumberOfCardsToDisplay = 30;
+    const maxNumberOfCardsToDisplay = 60;
     const maxNumberOfPagesToDisplay = 5;
     const [ isNavVisible, setIsNavVisible ] = useState(false);
     
