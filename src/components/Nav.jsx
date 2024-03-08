@@ -49,6 +49,11 @@ export default function Nav({ isNavVisible, setIsNavVisible }) {
     return (
         <div className="nav-wrapper">
             <nav style={styleNav}>
+                <Link
+                    to="/gift-guides/"
+                    className="nav-categories-heading"
+                    onClick={handleNavLink}
+                >Gift Guides</Link>
                 <div
                     className="nav-categories-heading"
                     onMouseEnter={handleNavCategoriesMouseEnter}
@@ -67,11 +72,6 @@ export default function Nav({ isNavVisible, setIsNavVisible }) {
                         })}
                     </div>
                 </div>
-                <Link
-                    to="/gift-guides/"
-                    className="nav-categories-heading"
-                    onClick={handleNavLink}
-                >Gift Guides</Link>
             </nav>
         </div>
     )

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { allPosts } from "../assets/content/posts";
 import { allItems } from "../assets/content/items";
-import PostItemCard from "../components/PostItemCard";
+import ItemCard from '../components/ItemCard';
 
 export default function Post() {
     const { post_slug } = useParams();
@@ -49,8 +49,8 @@ export default function Post() {
 
                         {items.length === 0
                             ? <div>There are no items to display.</div>
-                            : <div className="post-item-cards-wrapper">
-                                {items.map((item, index) => <PostItemCard key={index} item={item} />)}
+                            : <div className="item-cards-wrapper">
+                                {items.map((item, index) => <ItemCard key={index} item={item} />)}
                             </div>
                         }
                     </section>
