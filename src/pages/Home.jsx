@@ -23,7 +23,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         if (category_slug === null && tag_slug === null) {
             allRelevantItems = allItems;
             setTitleAndH1("Fun Gifts You'll Love");
-            setDescription("This is the text for the Home page.");
+            setDescription("");
         } else if (category_slug) {
             allRelevantItems = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
             setTitleAndH1(utils.slugToCategoryName(category_slug));
@@ -124,7 +124,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                                 {pagesToDisplay.map((pageNumber, index) => {
                                     return (
                                         (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                            ? <div key={index}>{pageNumber}</div>
+                                            ? <div key={index}><strong>{pageNumber}</strong></div>
                                             : <Link key={index} to={`/?page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
                                     )
                                 })}
@@ -157,7 +157,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                                 {pagesToDisplay.map((pageNumber, index) => {
                                     return (
                                         (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                            ? <div key={index}>{pageNumber}</div>
+                                            ? <div key={index}><strong>{pageNumber}</strong></div>
                                             : <Link key={index} to={`/?category=${category_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
                                     )
                                 })}
@@ -190,7 +190,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                                 {pagesToDisplay.map((pageNumber, index) => {
                                     return (
                                         (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                            ? <div key={index}>{pageNumber}</div>
+                                            ? <div key={index}><strong>{pageNumber}</strong></div>
                                             : <Link key={index} to={`/?tag=${tag_slug}&page=${pageNumber}`} onClick={handlePagination}>{pageNumber}</Link>
                                     )
                                 })}

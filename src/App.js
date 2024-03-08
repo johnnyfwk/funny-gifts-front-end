@@ -15,7 +15,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Error404 from "./pages/Error404";
 
 function App() {
-    const maxNumberOfCardsToDisplay = 10;
+    const maxNumberOfCardsToDisplay = 30;
     const maxNumberOfPagesToDisplay = 5;
     const [ isNavVisible, setIsNavVisible ] = useState(false);
     
@@ -23,6 +23,7 @@ function App() {
         <div className="App">
             <div id="logo-and-nav-button-wrapper">
                 <div id="logo-and-nav-button">
+                    <div id="empty-logo-and-nav-button-element"></div>
                     <Logo
                         setIsNavVisible={setIsNavVisible}
                     />

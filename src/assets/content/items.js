@@ -59,34 +59,7 @@ export const allItems = [
     },
     ********************************* TEMPLATE *********************************/
 
-    {
-        name: "Random",
-        slug: "random",
-        description: "Random description",
-        body: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        images: [
-            {
-                src: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.webp",
-                alt: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-            }
-        ],
-        category: "Random Category",
-        tags: [
-            "random tag 1",
-            "random tag 2",
-            "random tag 3",
-            "fish & chips",
-            "scotland",
-            "this and that",
-            "weird",
-            "funny",
-            "christmas"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://johnnyfong.com/",
-        price: 20.00,
-    },
+    
     {
         name: "Fuggler",
         slug: "fuggler",
