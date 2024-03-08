@@ -1,10 +1,11 @@
 :root {
     --max-width: 1000px;
+    --padding-sides: 20px;
     --nav-button-dimensions: 22px;
     --item-card-image-max-height: 300px;
     --item-image-max-height: 400px;
-    --card-min-width: 150px;
-    --padding-sides: 20px;
+    --card-min-width: 200px;
+    --gap-between-cards: 30px;
 
     --night: #0C0F0A;
     --battleship-gray: #868785;
@@ -14,6 +15,11 @@
     --turquoise: #41EAD4;
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -21,6 +27,7 @@
 
 body {
     background: var(--night);
+    font-family: Raleway;
 }
 
 img {
@@ -32,6 +39,7 @@ img {
     background: var(--night);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #logo-and-nav-button {
@@ -45,7 +53,7 @@ img {
 }
 
 #logo {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -85,7 +93,6 @@ img {
     background: var(--night);
 }
 
-
 nav {
     background: var(--night);
     position: fixed;
@@ -116,12 +123,14 @@ nav a:hover {
 
 .nav-categories-heading {
     font-weight: bold;
+    text-transform: uppercase;
     display: grid;
     gap: 10px;
     color: var(--white);
 }
 
 .nav-categories {
+    text-transform: initial;
     font-weight: initial;
     display: grid;
     gap: 10px;
@@ -144,8 +153,24 @@ header {
     text-align: center;
 }
 
+header p {
+    line-height: 1.5rem;
+}
+
+header a:link,
+header a:active,
+header a:visited {
+    color: var(--rose);
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 2.5rem;
+    line-height: 3rem;
 }
 
 .main-wrapper {
@@ -206,7 +231,18 @@ footer {
 .body {
     display: grid;
     gap: 15px;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.body a:link,
+.body a:active,
+.body a:visited {
+    color: var(--rose);
+    text-decoration: none;
+}
+
+.body a:hover {
+    text-decoration: underline;
 }
 
 figcaption {
@@ -241,7 +277,7 @@ figcaption {
 /***************************** ITEM CARDS *****************************/
 .item-cards-wrapper {
     display: grid;
-    gap: 20px;
+    gap: var(--gap-between-cards);
     grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
 }
 
@@ -278,7 +314,7 @@ figcaption {
 }
 
 .item-card-name:hover {
-    text-decoration: underline;
+    color: var(--rose);
 }
 /***************************** ITEM CARDS *****************************/
 
@@ -316,11 +352,12 @@ figcaption {
 #item-tags-wrapper a:link,
 #item-tags-wrapper a:active,
 #item-tags-wrapper a:visited {
-    color: var(--night);
+    color: var(--rose);
+    text-decoration: none;
 }
 
 #item-tags-wrapper a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #item-images {
@@ -347,7 +384,7 @@ figcaption {
     background: var(--night);
     padding: 15px;
     display: inline-block;
-    border: 1px solid var(--night);
+    /* border: 1px solid var(--night); */
 }
 
 .item-external-link:link,
@@ -355,11 +392,12 @@ figcaption {
 .item-external-link:visited {
     color: var(--white);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .item-external-link:hover {
-    background: var(--white);
-    color: var(--night);
+    background: var(--rose);
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -379,7 +417,7 @@ figcaption {
 /***************************** POST CARDS *****************************/
 .post-cards-wrapper {
     display: grid;
-    gap: 20px;
+    gap: var(--gap-between-cards);
 }
 
 .post-card {
@@ -421,53 +459,6 @@ figcaption {
 
 
 
-/***************************** POST ITEM CARD *****************************/
-.post-item-cards-wrapper {
-    display: grid;
-    gap: 50px;
-}
-
-.post-item-card {
-    display: grid;
-    gap: 10px;
-    align-items: center;
-}
-
-.post-item-card img {
-    max-height: var(--item-image-max-height);
-}
-
-.post-item-card-name-and-description {
-    display: grid;
-    gap: 10px;
-}
-
-.post-item-card-name {
-    text-align: center;
-}
-
-.post-item-card-description {
-    line-height: 1.5rem;
-}
-
-.post-item-card a {
-    display: inline-block;
-}
-
-.post-item-card a:link,
-.post-item-card a:active,
-.post-item-card a:visited {
-    color: var(--night);
-    text-decoration: none;
-}
-
-.post-item-card a:hover {
-    text-decoration: underline;
-}
-/***************************** POST ITEM CARD *****************************/
-
-
-
 /***************************** POST *****************************/
 #post section {
     display: grid;
@@ -501,30 +492,36 @@ figcaption {
         align-content: initial;
         justify-content: center;
         gap: 40px;
-        padding: 5px var(--padding-sides);
+        padding: 0px var(--padding-sides);
     }
 
     .nav-categories-heading {
         position: relative;
         cursor: pointer;
+        padding: 0 0 10px 0;
     }
 
     .nav-categories {
         position: absolute;
         top: 100%;
-        left: -10px;
-        width: 200px;
+        left: -20px;
+        width: 220px;
         gap: initial;
     }
 
     .nav-categories a:link,
     .nav-categories a:active,
     .nav-categories a:visited {
-        padding: 10px;
+        padding: 10px 20px;
+    }
+
+    .nav-categories a:hover {
+        background: var(--rose);
+        color: var(--white);
     }
 
     .post-cards-wrapper {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
     }
 
     .post-card {

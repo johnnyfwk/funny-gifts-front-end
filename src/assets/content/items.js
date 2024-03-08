@@ -1,7 +1,5 @@
 export const allItems = [
-
-
-
+    
     /********************************* BODY TAGS *********************************
 
     <figure><img src='/images/xxxxxxxxxxxxxxxxxxxxxxxxxxx.webp' alt='xxxxxxxxxxxxxxxxxxxxxxxxxxx' loading='lazy'/><figcaption>xxxxxxxxxxxxxxxxxxxxxxxxxxx</figcaption></figure>

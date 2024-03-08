@@ -22,8 +22,6 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         let allRelevantItems;
         if (category_slug === null && tag_slug === null) {
             allRelevantItems = allItems;
-            setTitleAndH1("Fun Gifts You'll Love");
-            setDescription("");
         } else if (category_slug) {
             allRelevantItems = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
             setTitleAndH1(utils.slugToCategoryName(category_slug));
@@ -74,8 +72,8 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 ? <Helmet>
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href="https://skiver.co.uk/" />
-                    <title>{titleAndH1} • Skiver</title>
-                    <meta name="description" content={description} />
+                    <title>Gifts You Won't Hate • Skiver</title>
+                    <meta name="description" content="Finding gifts online that your friends and family won't throw in the bin." />
                 </Helmet>
                 : null
             }
@@ -89,13 +87,23 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 </Helmet>
                 : null
             }
+
+            {!category_slug && !tag_slug
+                ? <div className="header-wrapper">
+                    <header>
+                        <h1>Gifts You Won't Hate</h1>
+                        <p>Finding gifts online that your friends and family won't throw in the bin.</p>
+                    </header>
+                </div>
+                : <div className="header-wrapper">
+                    <header>
+                        <h1>{titleAndH1}</h1>
+                        <p>{description}</p>
+                    </header>
+                </div>
+            }
             
-            <div className="header-wrapper">
-                <header>
-                    <h1>{titleAndH1}</h1>
-                    <p>{description}</p>
-                </header>
-            </div>
+            
             
             <div className="main-wrapper">
                 <main>
