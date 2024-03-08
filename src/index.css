@@ -275,13 +275,14 @@ figcaption {
 .item-cards-wrapper {
     display: grid;
     gap: var(--gap-between-cards);
-    grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); */
 }
 
 .item-card {
     display: grid;
     gap: 10px;
     align-content: start;
+    justify-content: center;
     text-align: center;
 }
 
@@ -425,7 +426,6 @@ figcaption {
 .post-cards-wrapper {
     display: grid;
     gap: var(--gap-between-cards);
-    grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
 }
 
 .post-card {
@@ -474,7 +474,21 @@ figcaption {
 /***************************** POST *****************************/
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 320px) {
+    .item-cards-wrapper,
+    .post-cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .item-cards-wrapper,
+    .post-cards-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 769px) {
     #logo-and-nav-button-wrapper {
         position: initial;
         top: initial;
@@ -525,6 +539,11 @@ figcaption {
     .nav-categories a:hover {
         background: var(--rose);
         color: var(--white);
+    }
+
+    .item-cards-wrapper,
+    .post-cards-wrapper {
+        grid-template-columns: repeat(4, 1fr);
     }
 
     #item-images-body-and-external-link-button {
