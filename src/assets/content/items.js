@@ -57,7 +57,357 @@ export const allItems = [
     },
     ********************************* TEMPLATE *********************************/
 
-    
+    {
+        name: "Deeply Satisfying Poo in Progress Warning Sign",
+        slug: "deeply-satisfying-poo-in-progress-warning-sign",
+        description: "Warn others you're about to drop a huge log in the toilet with this sign.",
+        body: "<p>Let everyone know your gran is emptying her bowels in the bathroom with this warning sign.</p><p>One side reads “Caution Deeply Satisfying Poo in Progress” while the other side reads “Give It 10 Minutes”, giving others plenty of warning to avoid her “aroma”, which can cause permanent damage to the brain and burn the skin.</p>",
+        images: [
+            {
+                src: "deeply-satisfying-poo-in-progress-warning-sign.webp",
+                alt: "Deeply Satisfying Poo in Progress Warning Sign"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "signs",
+            "toilet",
+            "funny",
+            "poop"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4c0osut",
+        price: 5.70,
+    },
+    {
+        name: "Little Willy Condoms",
+        slug: "little-willy-condoms",
+        description: "Condoms for the smaller-than-average man.",
+        body: "<p>If you find that regular sized condoms hang off your penis like a towel hanging on a hook, then you need to get yourself these little willy condoms.</p><p>The pack comes with three rubbers so you have enough protection to last you six mins of fun.</p><p>If these smaller condoms are still too big for you then you need to go live in the forest and make love to fleas.</p>",
+        images: [
+            {
+                src: "little-willy-condoms.webp",
+                alt: "Little Willy Condoms"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "condoms",
+            "funny",
+            "tiny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a3lvHH",
+        price: 3.99,
+    },
+    {
+        name: "How to Swear: An Illustrated Guide",
+        slug: "how-to-swear-an-illustrated-guide",
+        description: "Learn how to swear perfectly in any scenario you find yourself in.",
+        body: "<p>If you’re worried your gran is not swearing enough, get her this book that will get her cussing at every opportunity she gets.</p><p>It provides a history of people’s favourite swear words and it will teach her how to deliver the perfect obscenity when she’s being refused access to public transport, forgotten her purse at the supermarket, or when it’s time for her monthly checkup at the doctor.</p>",
+        images: [
+            {
+                src: "how-to-swear-an-illustrated-guide.webp",
+                alt: "How to Swear: An Illustrated Guide"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "swearing",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a1jHyX",
+        price: 11.35,
+    },
+    {
+        name: "How to Poo at Work",
+        slug: "how-to-poo-at-work",
+        description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        body: "<p>This book gives you practical advice on how to avoid embarrassing situations when you visit the toilet at work, such as what to do when:</p><ul><li>a colleague follows you into the bathroom;</li><li>you run out of toilet paper and</li><li>when you receive a phone call knowing someone is listening in the next stall.</li></ul><p>This gift is perfect for anyone who always has a mishap in the workplace toilet, turning their embarrassing experiences into ones they look forward to when nature calls.</p>",
+        images: [
+            {
+                src: "how-to-poo-at-work.webp",
+                alt: "How to Poo at Work"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "toilet",
+            "funny",
+            "poop",
+            "work"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3T8Rm2X",
+        price: 5.75,
+    },
+    {
+        name: "How To Live With A Huge Penis",
+        slug: "how-to-live-with-a-huge-penis",
+        description: "Learn how to use your massive piece to your advantage in life.",
+        body: "<p>Are you sick of women treating you like a piece of meat because you have an enormous member? Is it so big that it gets to work 10 minutes before you do? Does your local pole-vaulting club keep asking you to join their team?</p><p>This self-help book will help you cope with living with such a large appendage and how to use its size to your advantage so you can live a schlong and happy life.</p>",
+        images: [
+            {
+                src: "how-to-live-with-a-huge-penis.webp",
+                alt: "How To Live With A Huge Penis"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "self help",
+            "penis"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wLYIBS",
+        price: 9.93,
+    },
+    {
+        name: "How to Fucking Swear in Sign Language",
+        slug: "how-to-fucking-swear-in-sign-language",
+        description: "Learn to swear in sign language so you can disrespect everyone equally.",
+        body: "<p>Everyone should to be treated equally, including those who have a hearing disability. If a member of the deaf community offends or disrespects you, these cards will allow you to learn creative insults in sign language and respond in the most appropriate manner, like you would with any hearing individual.</p>",
+        images: [
+            {
+                src: "how-to-fucking-swear-in-sign-language.webp",
+                alt: "How to Fucking Swear in Sign Language"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "swearing",
+            "funny",
+            "educational",
+            "cards"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4c5ulXe",
+        price: 21.62,
+    },
+    {
+        name: "How Not to Be a Dick",
+        slug: "how-not-to-be-a-dick",
+        description: "A book that will help you to become a better human being.",
+        body: "<p>This book can teach your gran how not to be annoying to others around her, containing tips on how she should act in various social situations so she can learn to be a more pleasant human being.</p><p>It would also make a great gift for your newborn as you teach it not to be annoying with all the crying and pooing wherever they please.</p>",
+        images: [
+            {
+                src: "how-not-to-be-a-dick.webp",
+                alt: "How Not to Be a Dick"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "self help",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3V7ZS4C",
+        price: 4.99,
+    },
+    {
+        name: "How To Bonk In Public",
+        slug: "how-to-bonk-in-public",
+        description: "Learn to have sex in public without getting caught.",
+        body: "<p>Have you been out with your other half and found yourselves inexplicably aroused while walking around your local graveyard but can’t wait to get back home to pounce on each other?</p><p>This book provides 50 different ways to relieve that sexual tension in public without getting caught by the police or attracting an audience like you were putting on a show.</p>",
+        images: [
+            {
+                src: "how-to-bonk-in-public.webp",
+                alt: "How To Bonk In Public"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "sex"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a4tmVy",
+        price: 6.99,
+    },
+    {
+        name: "Air Zooka",
+        slug: "air-zooka",
+        description: "Shoot a ball of air up to 20ft with this toy.",
+        body: "<p>This totally pointless – but very fun – toy shoots a ball of air over 20ft, allowing you to get up to all sorts of no good, such as blowing out the candles on a child's birthday cake, or blowing food out of someone’s hand right before they are about to take a bite out of it.</p>",
+        images: [
+            {
+                src: "air-zooka.webp",
+                alt: "Air Zooka"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "pointless",
+            "toys"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TsOePF",
+        price: 26.82,
+    },
+    {
+        name: "Lonely Wank Wipes",
+        slug: "lonely-wank-wipes",
+        description: "Wipe away your DNA with these special tissues.",
+        body: "<p>Stop using your socks, duvet cover, or pet hamster to clean up your sex juice after making love to your hand. Use these wank wipes instead, specifically designed to wipe away any evidence that you’ve been choking the chicken.</p>",
+        images: [
+            {
+                src: "lonely-wank-wipes.webp",
+                alt: "Lonely Wank Wipes"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "masturbation",
+            "funny",
+            "single"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TC8gZj",
+        price: 7.99,
+    },
+    {
+        name: "Weed",
+        slug: "weed",
+        description: "Learn about cannabis, including how to grow and roll it, with this educational book.",
+        body: "<p>If you’re intrigued by cannabis and want to learn more about it, this guidebook covers pretty much everything you need to know, including how to roll joints, smoking etiquette, how to grow it, legal places you can buy it, and the best places in the world for weed holidays.</p><p>It includes interviews with industry experts and celebrities, including Cheech Merin of Cheech & Chong, so you can be sure its content will be entertaining, educational, and insightful.</p>",
+        images: [
+            {
+                src: "weed.webp",
+                alt: "Weed"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "cannabis",
+            "educational"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43aXEDx",
+        price: 12.39,
+    },
+    {
+        name: "Masturbation vs. You",
+        slug: "masturbation-vs-you",
+        description: "Learn to masturbate less with this self-help book.",
+        body: "<p>Do you find yourself nipping to the toilet every half an hour at work to beat the meat, having a cheeky tug under the table at a fancy restaurant when you think no one is watching, or spanking the monkey on a packed bus during rush hour?</p><p>If your answer to any of those questions is yes, then you are a wankaholic and need to give your wrist a rest.</p><p>This book will help you reduce the chances of going blind by providing tips on how to masturbate less. It’s something you’ll want to keep in your hand instead of your little man.</p>",
+        images: [
+            {
+                src: "masturbation-vs-you.webp",
+                alt: "Masturbation vs. You"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "masturbation",
+            "funny",
+            "self help"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4c7JU0v",
+        price: 3.69,
+    },
+    {
+        name: "Poo Timer",
+        slug: "poo-timer",
+        description: "Give toilet users a limit of 5 minutes with this poo timer.",
+        body: "<p>One of the most frustrating things about grans is the obscene amount of time they spend on the toilet emptying their mysteriously large bowels. They take so long that when nature calls, you start doing a little dance by the bathroom door to stop yourself from peeing or pooing your pants.</p><p>End this frustration with this poo timer that gives her a time limit of five minutes to do her business so others don’t have messy accidents outside the bathroom.</p>",
+        images: [
+            {
+                src: "poo-timer.webp",
+                alt: "Poo Timer"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "poop",
+            "toilet",
+            "bathroom",
+            "timers",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3wO0ceT",
+        price: 6.69,
+    },
+    {
+        name: "CUNT Mug",
+        slug: "cunt-mug",
+        description: "A mug for those who you love dearly.",
+        body: "<p>This cleverly designed mug would make an ideal gift for your gran to drink her favourite beverage from every morning.</p><p>It would also make an ideal gift for your boss to show your appreciation for them micromanaging you at work every day.</p>",
+        images: [
+            {
+                src: "cunt-mug.webp",
+                alt: "CUNT Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "rude",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/49NzPEr",
+        price: 9.95,
+    },
+    {
+        name: "52 Things to Learn on the Loo",
+        slug: "52-things-to-learn-on-the-loo",
+        description: "Put stuff in your brain while you take stuff out of your bum with this educational book.",
+        body: "<p>Turn your bathroom into a classroom with this book that could replace formal education at any school in the world.</p><p>It contains random facts and trivia, including what the dot over an ‘i’ is called, how a starfish eats a clam, and the different types of moustaches a man (or woman, we don’t want to be sexist) can have.</p>",
+        images: [
+            {
+                src: "52-things-to-learn-on-the-loo.webp",
+                alt: "52 Things to Learn on the Loo"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "toilet",
+            "educational",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3v9bg5F",
+        price: 6.50,
+    },
+    {
+        name: "52 Things to Do While You Poo",
+        slug: "52-things-to-do-while-you-poo",
+        description: "Do something productive while you sit on the toilet with this book filled with facts and activities.",
+        body: "<p>What do you do when you do a poo? Do you think about having a big dinner so you can waste more time sitting on the toilet? Or do you peer out of the window hoping someone is watching you?</p><p>If you don’t do any of the above, you can keep your mind active with this book providing 52 things to do while you poo, from entertaining activities to learning fun facts. It’s a great way to make that time in the bathroom more productive.</p>",
+        images: [
+            {
+                src: "52-things-to-do-while-you-poo.webp",
+                alt: "52 Things to Do While You Poo"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "poop",
+            "toilet",
+            "bathroom",
+            "funny"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4c3Oixz",
+        price: 6.50,
+    },
     {
         name: "Fuggler",
         slug: "fuggler",
@@ -209,7 +559,8 @@ export const allItems = [
             "dogs",
             "animals",
             "bums",
-            "funny"
+            "funny",
+            "poop"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2784,7 +3135,7 @@ export const allItems = [
             "party games",
             "penis",
             "adult",
-            "wanker",
+            "masturbation",
             "funny"
         ],
         gender: "Unisex",
@@ -3062,7 +3413,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "toys",
             "weird",
             "tiny",
             "hands"
@@ -3297,7 +3647,7 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "wanker",
+            "masturbation",
             "funny",
             "photo books"
         ],
