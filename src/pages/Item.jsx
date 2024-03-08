@@ -49,12 +49,6 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                 <meta name="description" content={item[0].description} />
             </Helmet>
 
-            {/* <div className="header-wrapper">
-                <header>
-
-                </header>
-            </div> */}
-
             <div className="main-wrapper">
                 <main>
                     <section id="item">
@@ -74,7 +68,10 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                             }
                             <div id="item-body-and-external-link-button">
                                 <h1 id="item-name">{item[0].name}</h1>
-                                <div><strong>Category:</strong> {item[0].category}</div>
+                                <div className="item-category">
+                                    <strong>Category: </strong>
+                                    <Link to={`/?category=${utils.convertToSlug(item[0].category)}&page=1`}>{item[0].category}</Link>
+                                </div>
                                 <div id="item-tag-label-and-tags">
                                     <strong>Tags:</strong>
                                     <div id="item-tags-wrapper">
