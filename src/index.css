@@ -117,24 +117,22 @@ nav a:hover {
     color: var(--rose);
 }
 
-.nav-categories {
-    background: var(--night);
-    display: grid;
-}
-
 .nav-categories-heading {
     font-weight: bold;
     text-transform: uppercase;
     display: grid;
     gap: 15px;
     color: var(--white);
+    font-size: 0.8rem;
 }
 
 .nav-categories {
+    background: var(--night);
     text-transform: initial;
     font-weight: initial;
     display: grid;
     gap: 15px;
+    font-size: 0.8rem;
 }
 
 #empty-logo-and-nav-button-element {
@@ -516,7 +514,7 @@ figcaption {
     .nav-categories {
         position: absolute;
         top: 100%;
-        left: -20px;
+        left: -10px;
         width: 220px;
         gap: initial;
     }
@@ -524,7 +522,7 @@ figcaption {
     .nav-categories a:link,
     .nav-categories a:active,
     .nav-categories a:visited {
-        padding: 10px 20px;
+        padding: 10px;
     }
 
     .nav-categories a:hover {
