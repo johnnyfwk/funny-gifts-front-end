@@ -126,7 +126,7 @@ export const allItems = [
     {
         name: "How to Poo at Work",
         slug: "how-to-poo-at-work",
-        description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        description: "Learn to become a professional pooper at work.",
         body: "<p>This book gives you practical advice on how to avoid embarrassing situations when you visit the toilet at work, such as what to do when:</p><ul><li>a colleague follows you into the bathroom;</li><li>you run out of toilet paper and</li><li>when you receive a phone call knowing someone is listening in the next stall.</li></ul><p>This gift is perfect for anyone who always has a mishap in the workplace toilet, turning their embarrassing experiences into ones they look forward to when nature calls.</p>",
         images: [
             {
@@ -691,7 +691,8 @@ export const allItems = [
         tags: [
             "necklaces",
             "chicken nuggets",
-            "food"
+            "food",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -887,7 +888,8 @@ export const allItems = [
             "shoe charms",
             "scrotum",
             "glow in the dark",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -952,7 +954,8 @@ export const allItems = [
         tags: [
             "shoulder bags",
             "chickens",
-            "animals"
+            "animals",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1317,7 +1320,8 @@ export const allItems = [
             "ginger",
             "beard",
             "eyebrows",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1450,7 +1454,8 @@ export const allItems = [
         tags: [
             "middle finger",
             "tiny",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1672,7 +1677,8 @@ export const allItems = [
         tags: [
             "pens",
             "sperm",
-            "eggs"
+            "eggs",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1737,7 +1743,8 @@ export const allItems = [
         category: "Office & Stationery",
         tags: [
             "pens",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2038,7 +2045,8 @@ export const allItems = [
         category: "Books",
         tags: [
             "toilet",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2150,7 +2158,8 @@ export const allItems = [
         tags: [
             "soap dispensers",
             "bathroom",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2849,7 +2858,8 @@ export const allItems = [
             "earrings",
             "onion rings",
             "funny",
-            "food"
+            "food",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -3179,8 +3189,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "funny",
-            "rocks",
-            "weird"
+            "rocks"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -3530,7 +3539,8 @@ export const allItems = [
             "bathroom",
             "penis",
             "adult",
-            "funny"
+            "funny",
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",

@@ -51,13 +51,13 @@ export default function GiftGuides({ maxNumberOfCardsToDisplay, maxNumberOfPages
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://skiver.co.uk/gift-guides/" />
                 <title>Gift Guides • Skiver</title>
-                <meta name="description" content="Find a decent gift for someone with our gift guides." />
+                <meta name="description" content="Find a decent gift for someone you quite like with our gift guides." />
             </Helmet>
 
             <div className="header-wrapper">
                 <header>
                     <h1>Gift Guides</h1>
-                    <p>Find a decent gift for someone with our gift guides.</p>
+                    <p>Find a decent gift for someone you quite like with our gift guides.</p>
                 </header>
             </div>
 
