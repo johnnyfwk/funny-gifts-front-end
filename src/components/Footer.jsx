@@ -14,28 +14,37 @@ export default function Footer() {
             <footer>
                 <div id="footer-links-wrapper">
                     <div className="footer-links">
-                        <div>Skiver</div>
-                        <Link to="/" onClick={handleFooterLinks}>Home</Link>
-                        <Link to="/gift-guides/" onClick={handleFooterLinks}>Gift Guides</Link>
-                    </div>
-
-                    <div className="footer-links">
-                        <div>Categories</div>
+                        <div className="footer-links-heading">Categories</div>
                         {categories.map((category, index) => {
                             return (
-                                <Link
-                                    key={index}
-                                    to={`/?category=${utils.convertToSlug(category)}&page=1`}
-                                    onClick={handleFooterLinks}
-                                >{category}</Link>
+                                <div key={index}>
+                                    <Link
+                                        to={`/?category=${utils.convertToSlug(category)}&page=1`}
+                                        onClick={handleFooterLinks}
+                                    >{category}</Link>
+                                </div>   
                             )
                         })}
                     </div>
 
                     <div className="footer-links">
-                        <div>Legal Stuff</div>
-                        <Link to="/terms-and-conditions" onClick={handleFooterLinks}>Terms & Conditions</Link>
-                        <Link to="/privacy-policy" onClick={handleFooterLinks}>Privacy Policy</Link>
+                        <div className="footer-links-heading">Skiver</div>
+                        <div>
+                            <Link to="/" onClick={handleFooterLinks}>Home</Link>
+                        </div>
+                        <div>
+                            <Link to="/gift-guides/" onClick={handleFooterLinks}>Gift Guides</Link>
+                        </div>
+                    </div>
+
+                    <div className="footer-links">
+                        <div className="footer-links-heading">Legal Stuff</div>
+                        <div>
+                            <Link to="/terms-and-conditions" onClick={handleFooterLinks}>Terms & Conditions</Link>
+                        </div>
+                        <div>
+                            <Link to="/privacy-policy" onClick={handleFooterLinks}>Privacy Policy</Link>
+                        </div>
                     </div>
                 </div>
                 <div id="copyright">Copyright &copy; {new Date().getFullYear()} Skiver.co.uk. All Rights Reserved.</div>

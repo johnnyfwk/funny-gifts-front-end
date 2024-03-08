@@ -39,7 +39,6 @@ export default function Post() {
             <div className="header-wrapper">
                 <header>
                     <h1>{post[0].name}</h1>
-                    <p>{post[0].description}</p>
                 </header>
             </div>
 

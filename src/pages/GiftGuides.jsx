@@ -86,7 +86,7 @@ export default function GiftGuides({ maxNumberOfCardsToDisplay, maxNumberOfPages
                             {pagesToDisplay.map((pageNumber, index) => {
                                 return (
                                     (pageNumber === 1 && page === null) || (pageNumber === parseInt(page))
-                                        ? <div key={index}>{pageNumber}</div>
+                                        ? <div key={index}><strong>{pageNumber}</strong></div>
                                         : <Link key={index} to={`/gift-guides?page=${pageNumber}`}>{pageNumber}</Link>
                                 )
                             })}
