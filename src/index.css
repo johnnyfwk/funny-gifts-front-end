@@ -5,7 +5,7 @@
     --item-card-image-max-height: 300px;
     --item-image-max-height: 400px;
     --card-min-width: 200px;
-    --gap-between-cards: 30px;
+    --gap-between-cards: 30px 20px;
 
     --night: #0C0F0A;
     --battleship-gray: #868785;
@@ -275,7 +275,6 @@ figcaption {
 .item-cards-wrapper {
     display: grid;
     gap: var(--gap-between-cards);
-    /* grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); */
 }
 
 .item-card {
