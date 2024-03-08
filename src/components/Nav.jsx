@@ -6,7 +6,7 @@ import * as utils from '../utils';
 const categories = Array.from(new Set(allItems.map((item) => item.category))).sort();
 
 export default function Nav({ isNavVisible, setIsNavVisible }) {
-    const screenWidthBreakpoint = 500;
+    const screenWidthBreakpoint = 769;
     const [ isNavCategoriesVisible, setIsNavCategoriesVisible] = useState(false);
 
     useEffect(() => {
