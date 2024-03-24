@@ -5,9 +5,9 @@ export default function PrivacyPolicy() {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://skiver.co.uk/privacy-policy" />
-                <title>Privacy Policy • Skiver</title>
-                <meta name="description" content="The privacy policy for Skiver.co.uk." />
+                <link rel="canonical" href="https://funnygifts.uk/privacy-policy" />
+                <title>Privacy Policy • FunnyGifts.uk</title>
+                <meta name="description" content="The privacy policy for FunnyGifts.uk." />
             </Helmet>
 
             <div className="header-wrapper">
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             <div className="main-wrapper">
                 <main>
                     <section className="body">
-                        <p>This Privacy Policy describes how Skiver.co.uk ("we", "us", or "our") collects, uses, and discloses personal information when you visit or interact with our website and services.</p>
+                        <p>This Privacy Policy describes how FunnyGifts.uk ("we", "us", or "our") collects, uses, and discloses personal information when you visit or interact with our website and services.</p>
 
                         <h2>Information We Collect</h2>
                         <ul>
@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
                         <p>We may disclose your personal information to third-party service providers who assist us in operating our website and services. These third parties have access to your personal information only to perform specific tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
 
                         <h2>Affiliate Marketing</h2>
-                        <p>Skiver.co.uk participates in affiliate marketing programs where we earn commissions by referring visitors to our affiliate partners' products and services. When you click on affiliate links on our website, cookies may be placed on your device to track your activity and ensure that we receive proper credit for the referral. This allows us to earn a commission if you make a purchase through the affiliate link.</p>
+                        <p>FunnyGifts.uk participates in affiliate marketing programs where we earn commissions by referring visitors to our affiliate partners' products and services. When you click on affiliate links on our website, cookies may be placed on your device to track your activity and ensure that we receive proper credit for the referral. This allows us to earn a commission if you make a purchase through the affiliate link.</p>
 
                         <h2>Your Choices</h2>
                         <p>You can choose to disable cookies through your browser settings or by using opt-out mechanisms provided by third-party advertisers and ad networks. However, please note that disabling cookies may affect your experience on our website and may limit the functionality of certain features.</p>
@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
                         <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
 
                         <h2>Contact Us</h2>
-                        <p>If you have any questions or concerns about this Privacy Policy, please contact us at hi@skiver.co.uk.</p>
+                        <p>If you have any questions or concerns about this Privacy Policy, please contact us at hi@funnygifts.uk.</p>
 
                         <p>This Privacy Policy was last updated on 7 March 2024.</p>
                     </section>
