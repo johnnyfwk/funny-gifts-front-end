@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
 
                     <div className="footer-links">
-                        <div className="footer-links-heading">Skiver</div>
+                        <div className="footer-links-heading">FunnyGifts.uk</div>
                         <div>
                             <Link to="/" onClick={handleFooterLinks}>Home</Link>
                         </div>
@@ -47,7 +47,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div id="copyright">Copyright &copy; {new Date().getFullYear()} Skiver.co.uk. All Rights Reserved.</div>
+                <div id="copyright">Copyright &copy; {new Date().getFullYear()} FunnyGifts.uk. All Rights Reserved.</div>
             </footer>
         </div>
     )

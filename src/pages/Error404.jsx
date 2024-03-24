@@ -6,8 +6,8 @@ export default function Error404() {
         <div>
             <Helmet>
                 <meta name="robots" content="noindex, nofollow" />
-                <link rel="canonical" href="https://skiver.co.uk/" />
-                <title>404 • Skiver</title>
+                <link rel="canonical" href="https://funnygifts.uk/" />
+                <title>404 • FunnyGifts.uk</title>
                 <meta name="description" content="You lost? This page doesn't exist. Go away." />
             </Helmet>
 

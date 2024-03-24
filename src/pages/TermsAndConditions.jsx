@@ -5,9 +5,9 @@ export default function TermsAndConditions() {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://skiver.co.uk/terms-and-conditions" />
-                <title>Terms & Conditions • Skiver</title>
-                <meta name="description" content="The terms and conditions for Skiver.co.uk." />
+                <link rel="canonical" href="https://funnygifts.uk/terms-and-conditions" />
+                <title>Terms & Conditions • FunnyGifts.uk</title>
+                <meta name="description" content="The terms and conditions for FunnyGifts.uk." />
             </Helmet>
 
             <div className="header-wrapper">
@@ -19,7 +19,7 @@ export default function TermsAndConditions() {
             <div className="main-wrapper">
                 <main>
                     <section className="body">
-                        <p>Welcome to Skiver.co.uk ("the Website"). Please read these Terms and Conditions carefully before using our services.</p>
+                        <p>Welcome to FunnyGifts.uk ("the Website"). Please read these Terms and Conditions carefully before using our services.</p>
                         
                         <p>By accessing or using the Website, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these Terms and Conditions, you may not use the Website.</p>
 

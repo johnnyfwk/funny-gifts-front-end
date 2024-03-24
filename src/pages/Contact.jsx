@@ -5,8 +5,8 @@ export default function Contact() {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://skiver.co.uk/contact" />
-                <title>Contact • Skiver</title>
+                <link rel="canonical" href="https://funnygifts.uk/contact" />
+                <title>Contact • FunnyGifts.uk</title>
                 <meta name="description" content="Get in touch with us." />
             </Helmet>
 

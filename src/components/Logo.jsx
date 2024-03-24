@@ -8,7 +8,7 @@ export default function Logo({ setIsNavVisible }) {
 
     return (
         <div id="logo">
-            <Link to="/" onClick={handleLogo}>Skiver</Link>
+            <Link to="/" onClick={handleLogo}>FunnyGifts.uk</Link>
         </div>
     )
 }

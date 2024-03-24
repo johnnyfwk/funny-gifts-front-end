@@ -5,8 +5,8 @@ export default function About() {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://skiver.co.uk/about" />
-                <title>About • Skiver</title>
+                <link rel="canonical" href="https://funnygifts.uk/about" />
+                <title>About • FunnyGifts.uk</title>
                 <meta name="description" content="Learn more about us." />
             </Helmet>
 

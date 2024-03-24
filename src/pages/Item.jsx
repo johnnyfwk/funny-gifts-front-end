@@ -44,8 +44,8 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
         <div>
             <Helmet>
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href={`https://skiver.co.uk/items/${item_slug}`} />
-                <title>{item[0].name} • Skiver</title>
+                <link rel="canonical" href={`https://funnygifts.uk/items/${item_slug}`} />
+                <title>{item[0].name} • FunnyGifts.uk</title>
                 <meta name="description" content={item[0].description} />
             </Helmet>
 

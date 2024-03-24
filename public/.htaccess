@@ -6,6 +6,4 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-l
     RewriteRule . /index.html [L]
-
-    Redirect 301 /post/sleep-in-a-tank-in-lincolnshire-england https://skiver.co.uk/
 </IfModule>

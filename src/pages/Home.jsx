@@ -22,6 +22,8 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         let allRelevantItems;
         if (category_slug === null && tag_slug === null) {
             allRelevantItems = allItems;
+            setTitleAndH1("Funny gifts that'll make you pee your pants");
+            setDescription("Searching the Internet to find funny gifts that'll put a smile on people who have no sense of humour.");
         } else if (category_slug) {
             allRelevantItems = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
             setTitleAndH1(utils.slugToCategoryName(category_slug));
@@ -71,9 +73,9 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             {!category_slug && !tag_slug
                 ? <Helmet>
                     <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href="https://skiver.co.uk/" />
-                    <title>Gifts You Won't Hate • Skiver</title>
-                    <meta name="description" content="Finding gifts online that your friends and family won't throw in the bin." />
+                    <link rel="canonical" href="https://funnygifts.uk/" />
+                    <title>{titleAndH1} • FunnyGifts.uk</title>
+                    <meta name="description" content={description} />
                 </Helmet>
                 : null
             }
@@ -81,27 +83,19 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             {category_slug || tag_slug
                 ? <Helmet>
                     <meta name="robots" content="noindex, nofollow" />
-                    <link rel="canonical" href="https://skiver.co.uk/" />
-                    <title>{titleAndH1} • Skiver</title>
+                    <link rel="canonical" href="https://funnygifts.uk/" />
+                    <title>{titleAndH1} • FunnyGifts.uk</title>
                     <meta name="description" content={description} />
                 </Helmet>
                 : null
             }
 
-            {!category_slug && !tag_slug
-                ? <div className="header-wrapper">
-                    <header>
-                        <h1>Gifts You Won't Hate</h1>
-                        <p>Finding gifts online that your friends and family won't throw in the bin.</p>
-                    </header>
-                </div>
-                : <div className="header-wrapper">
-                    <header>
-                        <h1>{titleAndH1}</h1>
-                        <p>{description}</p>
-                    </header>
-                </div>
-            }
+            <div className="header-wrapper">
+                <header>
+                    <h1>{titleAndH1}</h1>
+                    {/* <p>{description}</p> */}
+                </header>
+            </div>
             
             <div className="main-wrapper">
                 <main>
