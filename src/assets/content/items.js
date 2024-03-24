@@ -3342,5 +3342,5 @@ export const allItems = [
         supplier: "Amazon",
         externalLink: "https://amzn.to/3Tz1Bh0",
         price: 16.79,
-    },
+    }
 ];
