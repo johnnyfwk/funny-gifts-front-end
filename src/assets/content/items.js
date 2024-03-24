@@ -76,7 +76,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c0osut",
+        externalLink: "https://amzn.to/3IQPy9P",
         price: 5.70,
     },
     {
@@ -97,7 +97,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a3lvHH",
+        externalLink: "https://amzn.to/498VmWX",
         price: 3.99,
     },
     {
@@ -117,7 +117,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a1jHyX",
+        externalLink: "https://amzn.to/3vpJCl4",
         price: 11.35,
     },
     {
@@ -139,7 +139,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3T8Rm2X",
+        externalLink: "https://amzn.to/3IO766y",
         price: 5.75,
     },
     {
@@ -160,7 +160,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wLYIBS",
+        externalLink: "https://amzn.to/4a4W3BP",
         price: 9.93,
     },
     {
@@ -182,7 +182,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c5ulXe",
+        externalLink: "https://amzn.to/3vrmMts",
         price: 21.62,
     },
     {
@@ -202,7 +202,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V7ZS4C",
+        externalLink: "https://amzn.to/49bNP9X",
         price: 4.99,
     },
     {
@@ -222,7 +222,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a4tmVy",
+        externalLink: "https://amzn.to/3xj1eQ4",
         price: 6.99,
     },
     {
@@ -243,7 +243,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TC8gZj",
+        externalLink: "https://amzn.to/3ISCiS4",
         price: 7.99,
     },
     {
@@ -264,7 +264,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/43aXEDx",
+        externalLink: "https://amzn.to/49avQR6",
         price: 12.39,
     },
     {
@@ -285,7 +285,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c7JU0v",
+        externalLink: "https://amzn.to/3TQyYx2",
         price: 3.69,
     },
     {
@@ -308,7 +308,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wO0ceT",
+        externalLink: "https://amzn.to/4aqvF5h",
         price: 6.69,
     },
     {
@@ -329,7 +329,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49NzPEr",
+        externalLink: "https://amzn.to/4as8O9k",
         price: 9.95,
     },
     {
@@ -350,7 +350,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v9bg5F",
+        externalLink: "https://amzn.to/4aoBY9w",
         price: 6.50,
     },
     {
@@ -372,7 +372,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c3Oixz",
+        externalLink: "https://amzn.to/4a4Wf41",
         price: 6.50,
     },
     {
@@ -393,7 +393,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V8kZUG",
+        externalLink: "https://amzn.to/3vpaemg",
         price: 13.98,
     },
     {
@@ -414,7 +414,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3T2qAct",
+        externalLink: "https://amzn.to/3IQKz9m",
         price: 20.59,
     },
     {
@@ -437,7 +437,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3ImW1cy",
+        externalLink: "https://amzn.to/4a2Lj76",
         price: 6.23,
     },
     {
@@ -459,7 +459,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wLwzeb",
+        externalLink: "https://amzn.to/4cxAwU3",
         price: 8.30,
     },
     {
@@ -481,7 +481,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TnuyOe",
+        externalLink: "https://amzn.to/4cnN1lf",
         price: 6.99,
     },
     {
@@ -505,7 +505,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3T8IFWk",
+        externalLink: "https://amzn.to/3xbyMQj",
         price: 2.48,
     },
     {
@@ -526,7 +526,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3PbNw81",
+        externalLink: "https://amzn.to/3Pvx56I",
         price: 7.58,
     },
     {
@@ -547,7 +547,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3Tntav0",
+        externalLink: "https://amzn.to/3x9tJ2Q",
         price: 17.99,
     },
     {
@@ -569,7 +569,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a1Bea9",
+        externalLink: "https://amzn.to/3x517HX",
         price: 16.99,
     },
     {
@@ -590,7 +590,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3Ix3tlb",
+        externalLink: "https://amzn.to/4a7LaiH",
         price: 4.00,
     },
     {
@@ -610,8 +610,29 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P9Sbak",
+        externalLink: "https://amzn.to/3TMQC52",
         price: 18.90,
+    },
+    {
+        name: "Boyfriend Cuddle Pillow",
+        slug: "boyfriend-cuddle-pillow",
+        description: "Get a cuddle when you need one from this boyfriend pillow.",
+        body: "<p>We all need a cuddle now and again, especially after a stressful day at work. But a cuddle is hard to get if you’re single.</p><p>Cue the boyfriend cuddly pillow. Dressed in a pyjama top, you can snuggle into the pillow’s arm like it was a real boyfriend. It’s made of memory foam so it will feel more comfortable than resting on a real body. And the armpit will never smell!</p>",
+        images: [
+            {
+                src: "boyfriend-cuddle-pillow.webp",
+                alt: "Boyfriend Cuddle Pillow"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "pillows",
+            "single"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a7QEdk",
+        price: 27.98,
     },
     {
         name: "Chicken Nugget Necklace",
@@ -633,7 +654,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49G9PLc",
+        externalLink: "https://amzn.to/3VpRIVA",
         price: 8.50,
     },
     {
@@ -654,7 +675,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wJ5oAK",
+        externalLink: "https://amzn.to/3TMC0CH",
         price: 8.50,
     },
     {
@@ -674,7 +695,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uZ0PSe",
+        externalLink: "https://amzn.to/3IS8Yeu",
         price: 1.69,
     },
     {
@@ -695,7 +716,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uYfL36",
+        externalLink: "https://amzn.to/3vrFvFb",
         price: 1.69,
     },
     {
@@ -715,7 +736,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wQ8C5f",
+        externalLink: "https://amzn.to/3PALJtr",
         price: 2.49,
     },
     {
@@ -735,7 +756,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wCK6Vc",
+        externalLink: "https://amzn.to/3vqxssg",
         price: 1.69,
     },
     {
@@ -756,7 +777,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3ImNS7Y",
+        externalLink: "https://amzn.to/3VxkWBU",
         price: 12.99,
     },
     {
@@ -778,7 +799,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3PbFVq1",
+        externalLink: "https://amzn.to/3PzaIgE",
         price: 21.99,
     },
     {
@@ -799,7 +820,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/437vdXh",
+        externalLink: "https://amzn.to/3TNR7vD",
         price: 5.49,
     },
     {
@@ -822,7 +843,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V05cXU",
+        externalLink: "https://amzn.to/43yPGUU",
         price: 5.99,
     },
     {
@@ -844,7 +865,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V7vSpE",
+        externalLink: "https://amzn.to/3x9tKUs",
         price: 5.99,
     },
     {
@@ -867,7 +888,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3IsDxaG",
+        externalLink: "https://amzn.to/4cwVzpK",
         price: 16.57,
     },
     {
@@ -888,7 +909,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TmlGZ0",
+        externalLink: "https://amzn.to/3TyG8om",
         price: 19.99,
     },
     {
@@ -909,7 +930,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wJkAhe",
+        externalLink: "https://amzn.to/497DdJ9",
         price: 8.11,
     },
     {
@@ -931,7 +952,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V6PAln",
+        externalLink: "https://amzn.to/4arOmFL",
         price: 39.95,
     },
     {
@@ -952,7 +973,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/48GI2ZS",
+        externalLink: "https://amzn.to/43vAnfL",
         price: 32.19,
     },
     {
@@ -973,7 +994,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3ToFxXB",
+        externalLink: "https://amzn.to/43uKNwe",
         price: 23.99,
     },
     {
@@ -994,7 +1015,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/435ZSEe",
+        externalLink: "https://amzn.to/3Tt7qN3",
         price: 19.99,
     },
     {
@@ -1015,7 +1036,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3IKU89T",
+        externalLink: "https://amzn.to/3TywC4Q",
         price: 16.99,
     },
     {
@@ -1036,7 +1057,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v9Czgd",
+        externalLink: "https://amzn.to/3TMRh6w",
         price: 21.90,
     },
     {
@@ -1057,7 +1078,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/48KievU",
+        externalLink: "https://amzn.to/4a6bXMx",
         price: 13.99,
     },
     {
@@ -1078,7 +1099,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3UZXi0G",
+        externalLink: "https://amzn.to/3VxJxqm",
         price: 16.84,
     },
     {
@@ -1100,7 +1121,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4cfadlE",
+        externalLink: "https://amzn.to/4apPvhc",
         price: 9.99,
     },
     {
@@ -1121,7 +1142,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V7n3fw",
+        externalLink: "https://amzn.to/4apbzIx",
         price: 14.56,
     },
     {
@@ -1142,7 +1163,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49RWK14",
+        externalLink: "https://amzn.to/4aotLSM",
         price: 16.99,
     },
     {
@@ -1163,7 +1184,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a2F2b6",
+        externalLink: "https://amzn.to/4aqVbHx",
         price: 11.50,
     },
     {
@@ -1186,7 +1207,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c2UKEW",
+        externalLink: "https://amzn.to/4cqu6WN",
         price: 3.85,
     },
     {
@@ -1207,7 +1228,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3PwYncX",
+        externalLink: "https://amzn.to/4a6pFPl",
         price: 12.00,
     },
     {
@@ -1228,7 +1249,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V70sjc",
+        externalLink: "https://amzn.to/43xyvmT",
         price: 9.03,
     },
     {
@@ -1249,7 +1270,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TnHOCp",
+        externalLink: "https://amzn.to/43yktRY",
         price: 8.72,
     },
     {
@@ -1271,7 +1292,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3Tm4xPg",
+        externalLink: "https://amzn.to/3Vxldoq",
         price: 5.99,
     },
     {
@@ -1292,7 +1313,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v0kUrm",
+        externalLink: "https://amzn.to/3TnUIPq",
         price: 3.99,
     },
     {
@@ -1314,7 +1335,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3Iqsqis",
+        externalLink: "https://amzn.to/3VpSn9w",
         price: 7.99,
     },
     {
@@ -1335,7 +1356,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49J1zdw",
+        externalLink: "https://amzn.to/3TxU8P9",
         price: 59.68,
     },
     {
@@ -1356,7 +1377,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c4VTfq",
+        externalLink: "https://amzn.to/3VvZAoD",
         price: 10.19,
     },
     {
@@ -1380,7 +1401,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wIqjno",
+        externalLink: "https://amzn.to/49bXqxk",
         price: 8.99,
     },
     {
@@ -1401,7 +1422,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c0L2mF",
+        externalLink: "https://amzn.to/3ve48W0",
         price: 6.99,
     },
     {
@@ -1422,7 +1443,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v6b9I3",
+        externalLink: "https://amzn.to/3IO87vo",
         price: 29.99,
     },
     {
@@ -1443,7 +1464,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3Td5jgm",
+        externalLink: "https://amzn.to/3ISK7aG",
         price: 9.95,
     },
     {
@@ -1464,7 +1485,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/439TpIr",
+        externalLink: "https://amzn.to/3PvyhHe",
         price: 28.95,
     },
     {
@@ -1485,7 +1506,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P88TH8",
+        externalLink: "https://amzn.to/49bnSr9",
         price: 5.24,
     },
     {
@@ -1506,7 +1527,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49YVrgW",
+        externalLink: "https://amzn.to/49eWI2l",
         price: 2.99,
     },
     {
@@ -1529,7 +1550,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uVLimj",
+        externalLink: "https://amzn.to/3PyT906",
         price: 7.99,
     },
     {
@@ -1551,28 +1572,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3IlUbst",
-        price: 5.99,
-    },
-    {
-        name: "Syringe Pens",
-        slug: "syringe-pens",
-        description: "Inject some creativity into your writing with these syringe-shaped pens",
-        body: "<p>Inject some creativity into your writing with these syringe-shaped pens. Each pen contains a different coloured liquid in their barrel but all write in black ink.</p>",
-        images: [
-            {
-                src: "syringe-pens.webp",
-                alt: "Syringe Pens"
-            }
-        ],
-        category: "Office & Stationery",
-        tags: [
-            "pens",
-            "syringe"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3T8pyvg",
+        externalLink: "https://amzn.to/3vo8Znu",
         price: 5.99,
     },
     {
@@ -1593,7 +1593,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P5DbKL",
+        externalLink: "https://amzn.to/43uB2ye",
         price: 6.99,
     },
     {
@@ -1615,7 +1615,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P8E8BP",
+        externalLink: "https://amzn.to/43xyFL1",
         price: 6.99,
     },
     {
@@ -1637,7 +1637,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P7JqxD",
+        externalLink: "https://amzn.to/4ct72Xy",
         price: 10.99,
     },
     {
@@ -1659,7 +1659,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P86U5I",
+        externalLink: "https://amzn.to/43DIK9d",
         price: 5.99,
     },
     {
@@ -1682,7 +1682,7 @@ export const allItems = [
         ],
         gender: "Female",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4386fHq",
+        externalLink: "https://amzn.to/4cmjgB8",
         price: 9.99,
     },
     {
@@ -1705,7 +1705,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3T78JAT",
+        externalLink: "https://amzn.to/3TuRQAy",
         price: 14.99,
     },
     {
@@ -1727,7 +1727,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wI0u6Y",
+        externalLink: "https://amzn.to/497Yen5",
         price: 6.98,
     },
     {
@@ -1748,7 +1748,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P91NSI",
+        externalLink: "https://amzn.to/49dBOAK",
         price: 8.49,
     },
     {
@@ -1769,7 +1769,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TnUFEt",
+        externalLink: "https://amzn.to/3TuMRQq",
         price: 20.15,
     },
     {
@@ -1791,7 +1791,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V6Gk0D",
+        externalLink: "https://amzn.to/43vB3BP",
         price: 35.30,
     },
     {
@@ -1813,7 +1813,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P4bXE3",
+        externalLink: "https://amzn.to/4ai7Ooq",
         price: 17.99,
     },
     {
@@ -1835,7 +1835,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49XrT3a",
+        externalLink: "https://amzn.to/4avrkOp",
         price: 8.48,
     },
     {
@@ -1858,7 +1858,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P9msGn",
+        externalLink: "https://amzn.to/4aqVt15",
         price: 11.99,
     },
     {
@@ -1883,7 +1883,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/48BZXkg",
+        externalLink: "https://amzn.to/3x2Sxt8",
         price: 5.99,
     },
     {
@@ -1904,7 +1904,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TnBhrd",
+        externalLink: "https://amzn.to/3TOBljX",
         price: 4.19,
     },
     {
@@ -1925,7 +1925,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wIwAj2",
+        externalLink: "https://amzn.to/3TOBm7v",
         price: 16.66,
     },
     {
@@ -1948,7 +1948,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49IGwI2",
+        externalLink: "https://amzn.to/3TQAe3A",
         price: 12.99,
     },
     {
@@ -1970,7 +1970,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v2lMM7",
+        externalLink: "https://amzn.to/4alTpYV",
         price: 17.59,
     },
     {
@@ -1992,7 +1992,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/437ZAN2",
+        externalLink: "https://amzn.to/3IOAhqf",
         price: 11.95,
     },
     {
@@ -2015,7 +2015,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3T5jT9B",
+        externalLink: "https://amzn.to/3VOR0BB",
         price: 73.84,
     },
     {
@@ -2036,7 +2036,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3PbAWpk",
+        externalLink: "https://amzn.to/3x5stO1",
         price: 34.99,
     },
     {
@@ -2057,7 +2057,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c6ng8H",
+        externalLink: "https://amzn.to/3vfysQ5",
         price: 33.95,
     },
     {
@@ -2103,7 +2103,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uVqrzx",
+        externalLink: "https://amzn.to/4ar7iEF",
         price: 7.05,
     },
     {
@@ -2124,12 +2124,12 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V3SWFG",
+        externalLink: "https://amzn.to/4cqIRJh",
         price: 15.99,
     },
     {
         name: "Vagina Bottle Opener",
-        slug: "vagina-bottle-ppener",
+        slug: "vagina-bottle-opener",
         description: "Use this wall-mounted bronze vagina bottle opener to open your beers.",
         body: "<p>Add sensual vibes to your room with this vagina-shaped wall bottle opener.</p><p>With its unique design, it's guaranteed to make your idiotic friends try to use it in a way that's not opening bottles when they've had too much to drink.</p>",
         images: [
@@ -2145,7 +2145,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/439vc51",
+        externalLink: "https://amzn.to/43Dz6Uc",
         price: 19.00,
     },
     {
@@ -2168,7 +2168,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TpSKj4",
+        externalLink: "https://amzn.to/3PAMDGl",
         price: 8.99,
     },
     {
@@ -2188,32 +2188,8 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/48MY986",
+        externalLink: "https://amzn.to/3PCG1XY",
         price: 11.99,
-    },
-    {
-        name: "Name That Bumhole",
-        slug: "name-that-bumhole",
-        description: "A trivia card game where you guess which animal a bum hole belongs to.",
-        body: "<p>Have you ever caught yourself staring at a dog or cat's anus feeling mildly aroused and told yourself you would never do that again? Now you can stare at them, and anuses of other animals, all day long without feeling guilty with this animal trivia card game.</p><p>Each card has a picture of a bum hole and you have to guess which animal it belongs to. If you guess correctly, you then answer a trivia question about that animal's bum.</p><p>This is an animal card game you'll have a hole lot of fun playing.</p>",
-        images: [
-            {
-                src: "name-that-bumhole.webp",
-                alt: "Name That Bumhole"
-            }
-        ],
-        category: "Toys & Games",
-        tags: [
-            "animals",
-            "card games",
-            "trivia",
-            "bums",
-            "educational"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/48GtERo",
-        price: 9.99,
     },
     {
         name: "Glow in the Dark Condoms",
@@ -2234,7 +2210,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a19bHI",
+        externalLink: "https://amzn.to/3PyOnzE",
         price: 8.49,
     },
     {
@@ -2257,7 +2233,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/434Drzf",
+        externalLink: "https://amzn.to/49hjJSE",
         price: 7.99,
     },
     {
@@ -2279,7 +2255,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c2x7wk",
+        externalLink: "https://amzn.to/49hk1Je",
         price: 8.19,
     },
     {
@@ -2302,7 +2278,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V4qtj0",
+        externalLink: "https://amzn.to/49eX357",
         price: 9.08,
     },
     {
@@ -2324,7 +2300,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TnRo8c",
+        externalLink: "https://amzn.to/49dC5DM",
         price: 8.17,
     },
     {
@@ -2345,7 +2321,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wDWqVb",
+        externalLink: "https://amzn.to/3PC0ImJ",
         price: 9.99,
     },
     {
@@ -2367,7 +2343,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c0FAQK",
+        externalLink: "https://amzn.to/4a1l1SK",
         price: 9.99,
     },
     {
@@ -2390,7 +2366,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uQ2xWb",
+        externalLink: "https://amzn.to/3VtkFjh",
         price: 16.53,
     },
     {
@@ -2411,7 +2387,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a3d2V1",
+        externalLink: "https://amzn.to/4a2N04s",
         price: 4.99,
     },
     {
@@ -2434,7 +2410,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/49XMyE5",
+        externalLink: "https://amzn.to/3PBdl1h",
         price: 5.02,
     },
     {
@@ -2457,7 +2433,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/431Sf1L",
+        externalLink: "https://amzn.to/3TOmupJ",
         price: 12.97,
     },
     {
@@ -2478,7 +2454,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wHqCix",
+        externalLink: "https://amzn.to/496frgB",
         price: 8.95,
     },
     {
@@ -2500,7 +2476,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wDVwYN",
+        externalLink: "https://amzn.to/497EfVx",
         price: 6.99,
     },
     {
@@ -2521,7 +2497,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v8H5vr",
+        externalLink: "https://amzn.to/4avsHN7",
         price: 9.00,
     },
     {
@@ -2542,7 +2518,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3T7dDOo",
+        externalLink: "https://amzn.to/43DJpHJ",
         price: 10.25,
     },
     {
@@ -2563,7 +2539,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3TqP28R",
+        externalLink: "https://amzn.to/3TxUUvx",
         price: 19.99,
     },
     {
@@ -2586,51 +2562,8 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/437lpfP",
+        externalLink: "https://amzn.to/4alU7Fz",
         price: 18.17,
-    },
-    {
-        name: "Bath Noodles",
-        slug: "bath-noodles",
-        description: "Clean yourself in a bathtub full of noodles.",
-        body: "<p>Have you ever slurped on a bowl of ramen and wished you could bathe in a bathtub full of it? Now you can with these noodle-shaped bath time scents.</p><p>They come in three scents - Tangy Thai, Singapore Spice, and Vietnamese Fresh – so you can get clean (or dirty) with your favourite flavour.</p><p>Not only will they give you a foodgasm as you writhe amidst the noodles, but they will leave your skin feeling clean and smooth with their essential oils.</p>",
-        images: [
-            {
-                src: "bath-noodles.webp",
-                alt: "Bath Noodles"
-            }
-        ],
-        category: "Beauty",
-        tags: [
-            "noodles",
-            "bathroom",
-            "body wash"
-        ],
-        gender: "Unisex",
-        supplier: "Firebox",
-        externalLink: "https://firebox.com/bath-noodles",
-        price: 9.99,
-    },
-    {
-        name: "Boyfriend Cuddle Pillow",
-        slug: "boyfriend-cuddle-pillow",
-        description: "Get a cuddle when you need one from this boyfriend pillow.",
-        body: "<p>We all need a cuddle now and again, especially after a stressful day at work. But a cuddle is hard to get if you’re single.</p><p>Cue the boyfriend cuddly pillow. Dressed in a pyjama top, you can snuggle into the pillow’s arm like it was a real boyfriend. It’s made of memory foam so it will feel more comfortable than resting on a real body. And the armpit will never smell!</p>",
-        images: [
-            {
-                src: "boyfriend-cuddle-pillow.webp",
-                alt: "Boyfriend Cuddle Pillow"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "pillows",
-            "single"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/48JnaRI",
-        price: 27.98,
     },
     {
         name: "Grow Your Own Boobs",
@@ -2651,7 +2584,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4a0TT64",
+        externalLink: "https://amzn.to/3IQK52V",
         price: 4.00,
     },
     {
@@ -2682,7 +2615,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uXUpCS",
+        externalLink: "https://amzn.to/3VpTki6",
         price: 6.99,
     },
     {
@@ -2704,7 +2637,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uY6QP1",
+        externalLink: "https://amzn.to/4aqxfUL",
         price: 8.96,
     },
     {
@@ -2727,7 +2660,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P89fh9",
+        externalLink: "https://amzn.to/3xauZmn",
         price: 7.49,
     },
     {
@@ -2816,7 +2749,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P6YxHw",
+        externalLink: "https://amzn.to/3TnRLyw",
         price: 4.50,
     },
     {
@@ -2883,7 +2816,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c1IRza",
+        externalLink: "https://amzn.to/4a9Dkp4",
         price: 7.49,
     },
     {
@@ -2903,7 +2836,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/43bMheH",
+        externalLink: "https://amzn.to/3TtMYf6",
         price: 4.99,
     },
     {
@@ -2927,7 +2860,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3IqFRyE",
+        externalLink: "https://amzn.to/3TugUYf",
         price: 11.30,
     },
     {
@@ -2950,7 +2883,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/48LfQ7Y",
+        externalLink: "https://amzn.to/3vqz3hK",
         price: 7.99,
     },
     {
@@ -2973,7 +2906,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/430U1Ad",
+        externalLink: "https://amzn.to/3TP7HLH",
         price: 9.00,
     },
     {
@@ -2995,7 +2928,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P9IRDw",
+        externalLink: "https://amzn.to/3TyifNK",
         price: 22.99,
     },
     {
@@ -3019,7 +2952,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3IqcBrQ",
+        externalLink: "https://amzn.to/3TQAYpo",
         price: 25.99,
     },
     {
@@ -3040,7 +2973,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3To5sPh",
+        externalLink: "https://amzn.to/3ISaywW",
         price: 11.78,
     },
     {
@@ -3062,7 +2995,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V5sdbU",
+        externalLink: "https://amzn.to/3xhUxOf",
         price: 16.70,
     },
     {
@@ -3085,7 +3018,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3v4bDhS",
+        externalLink: "https://amzn.to/3PANgzH",
         price: 14.99,
     },
     {
@@ -3108,7 +3041,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V666Ci",
+        externalLink: "https://amzn.to/49ehOOu",
         price: 21.99,
     },
     {
@@ -3130,7 +3063,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c5E5AT",
+        externalLink: "https://amzn.to/494FC7j",
         price: 8.59,
     },
     {
@@ -3153,7 +3086,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3Vaepgt",
+        externalLink: "https://amzn.to/4980gDI",
         price: 17.95,
     },
     {
@@ -3175,7 +3108,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3IoV97i",
+        externalLink: "https://amzn.to/3PEug35",
         price: 18.75,
     },
     {
@@ -3197,7 +3130,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/48Fz138",
+        externalLink: "https://amzn.to/3ve5e44",
         price: 11.99,
     },
     {
@@ -3219,7 +3152,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/436G83C",
+        externalLink: "https://amzn.to/3Pz8L3R",
         price: 7.09,
     },
     {
@@ -3243,7 +3176,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3V4JFgF",
+        externalLink: "https://amzn.to/3vmduir",
         price: 3.99,
     },
     {
@@ -3265,7 +3198,7 @@ export const allItems = [
         ],
         gender: "Male",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4c3fIDS",
+        externalLink: "https://amzn.to/3TNapBo",
         price: 14.99,
     },
     {
@@ -3308,7 +3241,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3wNakEw",
+        externalLink: "https://amzn.to/43txjkv",
         price: 18.98,
     },
     {
@@ -3337,7 +3270,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3P6v7cE",
+        externalLink: "https://amzn.to/43unr9W",
         price: 10.35,
     },
     {
@@ -3358,7 +3291,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/4bYD1yB",
+        externalLink: "https://amzn.to/49bpjWz",
         price: 7.09,
        
     },
@@ -3383,7 +3316,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3ImE6T9",
+        externalLink: "https://amzn.to/3TtNaLm",
         price: 10.50,
     },
     {
@@ -3407,7 +3340,7 @@ export const allItems = [
         ],
         gender: "Unisex",
         supplier: "Amazon",
-        externalLink: "https://amzn.to/3uWxUy8",
+        externalLink: "https://amzn.to/3Tz1Bh0",
         price: 16.79,
     },
 ];

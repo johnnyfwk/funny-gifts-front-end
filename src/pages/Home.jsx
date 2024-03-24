@@ -23,7 +23,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         if (category_slug === null && tag_slug === null) {
             allRelevantItems = allItems;
             setTitleAndH1("Funny gifts that'll make you pee your pants");
-            setDescription("Searching the Internet to find funny gifts that'll put a smile on people who have no sense of humour.");
+            setDescription("Searching the Internet to find funny gifts that'll put a smile on the faces of people who have no sense of humour.");
         } else if (category_slug) {
             allRelevantItems = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
             setTitleAndH1(utils.slugToCategoryName(category_slug));
@@ -93,7 +93,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
             <div className="header-wrapper">
                 <header>
                     <h1>{titleAndH1}</h1>
-                    {/* <p>{description}</p> */}
+                    <p>{description}</p>
                 </header>
             </div>
             
