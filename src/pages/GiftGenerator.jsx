@@ -75,10 +75,10 @@ export default function GiftGenerator() {
 
                     <section className="body">
                         <h2>Find a random funny gift</h2>
-                        <p>We’ve all been in that stressful situation of having only hours or days to buy the perfect birthday, wedding, or Secret Santa Christmas gift for friends, family, and colleagues that doesn’t make you look cheap or offend the recipient.</p>
-                        <p>Many of us end up giving up and say “<i>This’ll do!</i>” to the next thing we see and watch the recipient fake happiness as they unwrap their disappointment you’ve just handed to them.</p>
-                        <p>Avoid these stressful situations with our random funny gift generator. We waste our time searching the internet for funny gift ideas so you don’t have to waste yours.</p>
-                        <p>Simply click the ‘Generate Random Gift’ button and a single gift will be displayed with a short description. Keep pressing the button until you come across a funny gift that you think someone might like. For more information about the gift, click on its image or the 'More Info' link.</p>
+                        <p>We’ve all been in that stressful situation of having only a few hours or days to buy the perfect birthday, wedding, or Secret Santa Christmas gift for friends, family, and colleagues that doesn’t make you look cheap or offend the recipient.</p>
+                        <p>Many of us give up and say “<i>This’ll do!</i>” to the next thing we see and watch the recipient fake happiness as they unwrap their disappointment you’ve just handed to them.</p>
+                        <p>Avoid these stressful situations with our random gift generator. We waste our time searching the internet for funny gift ideas so you don’t have to waste yours.</p>
+                        <p>Simply click the ‘Generate Random Gift’ button until you come across a funny gift that you think someone might like. For more information about the item, click on its image or the 'More Info' link.</p>
                     </section>
                 </main>
             </div>
