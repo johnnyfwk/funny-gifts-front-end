@@ -14,3 +14,7 @@ export function slugToCategoryName(slug) {
     const categoryName = capitalisedWords.join(' ');
     return categoryName;
 }
+
+export function generateRandomNumber(maxNumber) {
+    return Math.floor((Math.random() * maxNumber));
+}

@@ -50,10 +50,17 @@ export default function Nav({ isNavVisible, setIsNavVisible }) {
         <div className="nav-wrapper">
             <nav style={styleNav}>
                 <Link
+                    to="/random-gift-generator/"
+                    className="nav-categories-heading"
+                    onClick={handleNavLink}
+                >Random Gift Generator</Link>
+
+                <Link
                     to="/gift-guides/"
                     className="nav-categories-heading"
                     onClick={handleNavLink}
                 >Gift Guides</Link>
+
                 <div
                     className="nav-categories-heading"
                     onMouseEnter={handleNavCategoriesMouseEnter}

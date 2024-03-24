@@ -33,6 +33,9 @@ export default function Footer() {
                             <Link to="/" onClick={handleFooterLinks}>Home</Link>
                         </div>
                         <div>
+                            <Link to="/random-gift-generator/" onClick={handleFooterLinks}>Random Gift Generator</Link>
+                        </div>
+                        <div>
                             <Link to="/gift-guides/" onClick={handleFooterLinks}>Gift Guides</Link>
                         </div>
                     </div>

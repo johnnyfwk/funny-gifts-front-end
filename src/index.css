@@ -176,7 +176,7 @@ h1 {
 
 main {
     display: grid;
-    gap: 30px;
+    gap: 40px;
     max-width: var(--max-width);
     margin: auto;
     padding: var(--padding-sides) var(--padding-sides) 30px var(--padding-sides);
@@ -388,21 +388,25 @@ figcaption {
     cursor: pointer;
 }
 
-.item-external-link {
+.button-link {
     background: var(--night);
-    padding: 20px;
+    color: var(--white);
+    padding:  15px 30px;
     display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5rem;
 }
 
-.item-external-link:link,
-.item-external-link:active,
-.item-external-link:visited {
-    color: var(--white);
+.button-link:link,
+.button-link:active,
+.button-link:visited {
     text-decoration: none;
     font-weight: bold;
 }
 
-.item-external-link:hover {
+.button-link:hover {
     background: var(--rose);
     color: var(--white);
     text-decoration: none;
@@ -473,6 +477,38 @@ figcaption {
 /***************************** POST *****************************/
 
 
+
+/***************************** POST *****************************/
+#random-gift-generator-item {
+    display: grid;
+    gap: 15px;
+    justify-items: center;
+    text-align: center;
+}
+
+#random-gift-generator-image {
+    max-height: 300px;
+}
+
+#random-gift-generator-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#random-gift-generator-more-info:link,
+#random-gift-generator-more-info:active,
+#random-gift-generator-more-info:visited {
+    color: var(--rose);
+    text-decoration: none;
+}
+
+#random-gift-generator-more-info:hover {
+    text-decoration: underline;
+}
+/***************************** POST *****************************/
+
+
+
 @media screen and (min-width: 320px) {
     .item-cards-wrapper,
     .post-cards-wrapper {
@@ -495,6 +531,10 @@ figcaption {
 
     #logo-and-nav-button {
         justify-content: center;
+    }
+
+    #logo {
+        padding: 5px;
     }
 
     #nav-button,

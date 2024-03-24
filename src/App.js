@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Post from "./pages/Post";
 import Item from "./pages/Item";
 import GiftGuides from "./pages/GiftGuides";
+import GiftGenerator from "./pages/GiftGenerator";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
@@ -73,6 +74,13 @@ function App() {
                     path="/gift-guides/:post_slug"
                     element={
                         <Post />
+                    }
+                ></Route>
+
+                <Route
+                    path="/random-gift-generator"
+                    element={
+                        <GiftGenerator />
                     }
                 ></Route>
 
