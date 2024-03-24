@@ -72,7 +72,6 @@ export const allItems = [
         tags: [
             "signs",
             "toilet",
-            "funny",
             "poop"
         ],
         gender: "Unisex",
@@ -94,7 +93,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "condoms",
-            "funny",
             "tiny"
         ],
         gender: "Unisex",
@@ -115,8 +113,7 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "swearing",
-            "funny"
+            "swearing"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -137,7 +134,6 @@ export const allItems = [
         category: "Books",
         tags: [
             "toilet",
-            "funny",
             "poop",
             "work"
         ],
@@ -181,7 +177,6 @@ export const allItems = [
         category: "Toys & Games",
         tags: [
             "swearing",
-            "funny",
             "educational",
             "cards"
         ],
@@ -203,8 +198,7 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "self help",
-            "funny"
+            "self help"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -232,27 +226,6 @@ export const allItems = [
         price: 6.99,
     },
     {
-        name: "Air Zooka",
-        slug: "air-zooka",
-        description: "Shoot a ball of air up to 20ft with this toy.",
-        body: "<p>This totally pointless – but very fun – toy shoots a ball of air over 20ft, allowing you to get up to all sorts of no good, such as blowing out the candles on a child's birthday cake, or blowing food out of someone’s hand right before they are about to take a bite out of it.</p>",
-        images: [
-            {
-                src: "air-zooka.webp",
-                alt: "Air Zooka"
-            }
-        ],
-        category: "Toys & Games",
-        tags: [
-            "pointless",
-            "toys"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3TsOePF",
-        price: 26.82,
-    },
-    {
         name: "Lonely Wank Wipes",
         slug: "lonely-wank-wipes",
         description: "Wipe away your DNA with these special tissues.",
@@ -266,7 +239,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "masturbation",
-            "funny",
             "single"
         ],
         gender: "Unisex",
@@ -309,7 +281,6 @@ export const allItems = [
         category: "Books",
         tags: [
             "masturbation",
-            "funny",
             "self help"
         ],
         gender: "Male",
@@ -333,8 +304,7 @@ export const allItems = [
             "poop",
             "toilet",
             "bathroom",
-            "timers",
-            "funny"
+            "timers"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -355,8 +325,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "mugs",
-            "rude",
-            "funny"
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -377,8 +346,7 @@ export const allItems = [
         category: "Books",
         tags: [
             "toilet",
-            "educational",
-            "funny"
+            "educational"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -400,8 +368,7 @@ export const allItems = [
         tags: [
             "poop",
             "toilet",
-            "bathroom",
-            "funny"
+            "bathroom"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -443,35 +410,12 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "useless",
-            "funny",
             "boxes"
         ],
         gender: "Unisex",
         supplier: "Amazon",
         externalLink: "https://amzn.to/3T2qAct",
         price: 20.59,
-    },
-    {
-        name: "Coffin Shelf and Makeup Brush Holder",
-        slug: "coffin-shelf-and-makeup-brush-holder",
-        description: "Keep your makeup organised in this coffin-shaped shelf and brush holder.",
-        body: "<p>Lay your makeup to rest in this coffin-shaped shelf which can be placed on your desk or hung on the wall.</p><p>It has three shelves so you can keep your lipsticks, mascaras, and nail polishes organised.</p><p>The shelf comes with a makeup brush holder that's also coffin-shaped to give your room that gothic vibe.</p>",
-        images: [
-            {
-                src: "coffin-shelf-and-makeup-brush-holder.webp",
-                alt: "Coffin Shelf and Makeup Brush Holder"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "shelves",
-            "coffins",
-            "makeup"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3T7yiSx",
-        price: 74.41,
     },
     {
         name: "Vagina Hidden Objects Picture Book",
@@ -511,7 +455,6 @@ export const allItems = [
         tags: [
             "photo books",
             "vaginas",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -534,7 +477,6 @@ export const allItems = [
         tags: [
             "colouring books",
             "vaginas",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -559,7 +501,6 @@ export const allItems = [
             "dogs",
             "animals",
             "bums",
-            "funny",
             "poop"
         ],
         gender: "Unisex",
@@ -581,8 +522,7 @@ export const allItems = [
         category: "Health",
         tags: [
             "stress toys",
-            "bums",
-            "funny"
+            "bums"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -603,8 +543,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "vases",
-            "bums",
-            "funny"
+            "bums"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -626,8 +565,7 @@ export const allItems = [
         tags: [
             "bingo",
             "poop",
-            "games",
-            "funny"
+            "games"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -648,8 +586,7 @@ export const allItems = [
         category: "Books",
         tags: [
             "bums",
-            "animals",
-            "funny"
+            "animals"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -733,8 +670,7 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "cotton wool pads",
-            "funny"
+            "cotton wool pads"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -755,8 +691,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "cotton buds",
-            "weightlifting",
-            "funny"
+            "weightlifting"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -776,8 +711,7 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "batteries",
-            "funny"
+            "batteries"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -797,8 +731,7 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "jigsaw puzzles",
-            "funny"
+            "jigsaw puzzles"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -819,8 +752,7 @@ export const allItems = [
         category: "Toys & Games",
         tags: [
             "games",
-            "underwear",
-            "funny"
+            "underwear"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -842,8 +774,7 @@ export const allItems = [
         tags: [
             "games",
             "poop",
-            "toilet",
-            "funny"
+            "toilet"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -864,8 +795,7 @@ export const allItems = [
         category: "Health",
         tags: [
             "stress toys",
-            "poop",
-            "funny"
+            "poop"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -888,7 +818,6 @@ export const allItems = [
             "shoe charms",
             "scrotum",
             "glow in the dark",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -917,27 +846,6 @@ export const allItems = [
         supplier: "Amazon",
         externalLink: "https://amzn.to/3V7vSpE",
         price: 5.99,
-    },
-    {
-        name: "Skull Teaspoons",
-        slug: "skull-teaspoons",
-        description: "Make your tea or coffee with these skull-shaped teaspoons.",
-        body: "<p>Make the perfect brew with these 6-inch stainless steel skull-shaped teaspoons. With its unique design, you will make tea and coffee that nobody will hate.</p>",
-        images: [
-            {
-                src: "skull-teaspoons.webp",
-                alt: "Skull Teaspoons"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "teaspoons",
-            "skulls"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/48KgN0z",
-        price: 11.99,
     },
     {
         name: "Chicken Shoulder Bag",
@@ -1090,28 +998,6 @@ export const allItems = [
         price: 19.99,
     },
     {
-        name: "Tiger Head Backpack",
-        slug: "tiger-head-backpack",
-        description: "Carry your possessions in this white tiger head-shaped backpack.",
-        body: "<p>Keep your possessions in backpack shaped as a white tiger head. Measuring 40cm x 30cm x 60cm, the backpack has a zipper fastening system at the back where you can store your items.</p>",
-        images: [
-            {
-                src: "tiger-head-backpack.webp",
-                alt: "Tiger Head Backpack"
-            }
-        ],
-        category: "Bags & Luggage",
-        tags: [
-            "backpacks",
-            "tigers",
-            "animals"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/4a1Hr68",
-        price: 31.99,
-    },
-    {
         name: "Umbrella Hat",
         slug: "umbrella-hat",
         description: "An umbrella that you wear on your head.",
@@ -1125,34 +1011,12 @@ export const allItems = [
         category: "Outdoor",
         tags: [
             "umbrellas",
-            "hats",
-            "funny"
+            "hats"
         ],
         gender: "Unisex",
         supplier: "Amazon",
         externalLink: "https://amzn.to/3IKU89T",
         price: 16.99,
-    },
-    {
-        name: "Building Blocks Mug",
-        slug: "building-blocks-mug",
-        description: "A mug you can personalise with building blocks.",
-        body: "<p>If you love building stuff and taking loads of tea breaks, this building blocks mug is for you.</p><p>It comes with vehicles and minifigures you can disassemble and attach to the sides of the mug so you can get creative and personalise it with your own architectural designs.</p>",
-        images: [
-            {
-                src: "building-blocks-mug.webp",
-                alt: "Building Blocks Mug"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "mugs",
-            "building blocks"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3P8lmL3",
-        price: 11.99,
     },
     {
         name: "Climbing Mug",
@@ -1274,8 +1138,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "mugs",
-            "bins",
-            "funny"
+            "bins"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1296,8 +1159,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "inflatable",
-            "ginger",
-            "funny"
+            "ginger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1320,7 +1182,6 @@ export const allItems = [
             "ginger",
             "beard",
             "eyebrows",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -1342,8 +1203,7 @@ export const allItems = [
         category: "Toys & Games",
         tags: [
             "board games",
-            "poop",
-            "funny"
+            "poop"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1364,8 +1224,7 @@ export const allItems = [
         category: "Books",
         tags: [
             "storybooks",
-            "farting",
-            "funny"
+            "farting"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1386,8 +1245,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "candles",
-            "farting",
-            "funny"
+            "farting"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1409,8 +1267,7 @@ export const allItems = [
         tags: [
             "colouring books",
             "farting",
-            "animals",
-            "funny"
+            "animals"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1431,8 +1288,7 @@ export const allItems = [
         category: "Sports",
         tags: [
             "golf",
-            "middle finger",
-            "funny"
+            "middle finger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1454,7 +1310,6 @@ export const allItems = [
         tags: [
             "middle finger",
             "tiny",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -1476,8 +1331,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "decanters",
-            "middle finger",
-            "funny"
+            "middle finger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1498,8 +1352,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "key holders",
-            "middle finger",
-            "funny"
+            "middle finger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1523,7 +1376,6 @@ export const allItems = [
             "ducks",
             "animals",
             "middle finger",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -1545,8 +1397,7 @@ export const allItems = [
         category: "Clothes & Accessories",
         tags: [
             "sunglasses",
-            "middle finger",
-            "funny"
+            "middle finger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1567,8 +1418,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "candles",
-            "middle finger",
-            "funny"
+            "middle finger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1589,8 +1439,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "mugs",
-            "middle finger",
-            "funny"
+            "middle finger"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1632,8 +1481,7 @@ export const allItems = [
         category: "Food & Drink",
         tags: [
             "sweets",
-            "sperm",
-            "funny"
+            "sperm"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1654,8 +1502,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "sperm",
-            "keychains",
-            "funny"
+            "keychains"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1700,7 +1547,6 @@ export const allItems = [
         tags: [
             "pens",
             "penis",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -1743,7 +1589,6 @@ export const allItems = [
         category: "Office & Stationery",
         tags: [
             "pens",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -1766,7 +1611,6 @@ export const allItems = [
         tags: [
             "boobs",
             "inflatable",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -1789,7 +1633,6 @@ export const allItems = [
         tags: [
             "pillows",
             "boobs",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -1812,7 +1655,6 @@ export const allItems = [
         tags: [
             "boobs",
             "mugs",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -1836,8 +1678,7 @@ export const allItems = [
             "nipple tassels",
             "boobs",
             "christmas",
-            "christmas pudding",
-            "funny"
+            "christmas pudding"
         ],
         gender: "Female",
         supplier: "Amazon",
@@ -1859,7 +1700,6 @@ export const allItems = [
         tags: [
             "aprons",
             "boobs",
-            "funny",
             "adult",
             "inflatable"
         ],
@@ -1883,7 +1723,6 @@ export const allItems = [
         tags: [
             "boobs",
             "stress toys",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -1905,7 +1744,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "underwear",
-            "funny",
             "adult"
         ],
         gender: "Male",
@@ -1927,8 +1765,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "shot glasses",
-            "toilet",
-            "funny"
+            "toilet"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1972,8 +1809,7 @@ export const allItems = [
         tags: [
             "toilet",
             "bathroom",
-            "fishing",
-            "funny"
+            "fishing"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1995,8 +1831,7 @@ export const allItems = [
         tags: [
             "toilet",
             "toys",
-            "poop",
-            "funny"
+            "poop"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2019,8 +1854,7 @@ export const allItems = [
             "guest books",
             "poop",
             "toilet",
-            "bathroom",
-            "funny"
+            "bathroom"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2045,7 +1879,6 @@ export const allItems = [
         category: "Books",
         tags: [
             "toilet",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -2067,8 +1900,7 @@ export const allItems = [
         category: "Office & Stationery",
         tags: [
             "pens",
-            "poop",
-            "funny"
+            "poop"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2089,8 +1921,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "shot glasses",
-            "toilet",
-            "funny"
+            "toilet"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2135,8 +1966,7 @@ export const allItems = [
         tags: [
             "mugs",
             "toilet",
-            "golden",
-            "funny"
+            "golden"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2158,7 +1988,6 @@ export const allItems = [
         tags: [
             "soap dispensers",
             "bathroom",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -2182,8 +2011,7 @@ export const allItems = [
             "tissue box covers",
             "bears",
             "animals",
-            "bums",
-            "funny"
+            "bums"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2204,8 +2032,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "tissue box covers",
-            "moai",
-            "funny"
+            "moai"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2226,8 +2053,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "tissue box covers",
-            "mummies",
-            "funny"
+            "mummies"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2279,48 +2105,6 @@ export const allItems = [
         supplier: "Amazon",
         externalLink: "https://amzn.to/3uVqrzx",
         price: 7.05,
-    },
-    {
-        name: "Gas Cylinder Money Box",
-        slug: "gas-cylinder-money-box",
-        description: "Save your coins in this realistic looking gas cylinder money box.",
-        body: "<p>You'll be gassed with this money box in the shape of a gas cyclinder.</p><p>The front of the money box features a realistic looking nozzle and warning label with the coin slot located at the back.</p>",
-        images: [
-            {
-                src: "gas-cylinder-money-box.webp",
-                alt: "Gas Cylinder Money Box"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "money boxes",
-            "weird"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3T7EAle",
-        price: 14.00,
-    },
-    {
-        name: "Wosh Money Box",
-        slug: "wosh-money-box",
-        description: "Save your money in this Wosh money box by placing coins in its back.",
-        body: "<p>Save your heard-earned cash in this money box in the shape of Wosh, an alien who loves giving and receiving cuddles and love.</p><p>However, getting a cuddle from Wosh will cost you, and you can pay him with coins via the slot in his back.</p>",
-        images: [
-            {
-                src: "wosh-money-box.webp",
-                alt: "Wosh Money Box"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "money boxes",
-            "weird"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/49UY0jO",
-        price: 29.98,
     },
     {
         name: "Coin Eating Face Money Bank",
@@ -2380,38 +2164,12 @@ export const allItems = [
             "bottle openers",
             "penis",
             "wooden",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
         supplier: "Amazon",
         externalLink: "https://amzn.to/3TpSKj4",
         price: 8.99,
-    },
-    {
-        name: "Pam The Beach Girl Bottle Opener",
-        slug: "pam-the-beach-girl-bottle-opener",
-        description: "Let Pam The Beach Girl open your beer bottles with her anus.",
-        body: "<p>Some people can open beer bottles with their teeth. Others can open them with their bare hands. Others still can use the folds in their skin.</p><p>Pam The Beach Girl has a very unique way of opening beer bottles; she uses her bum hole. The strength she must have in her sphincter muscles is quite impressive. Must be from all the surfing she does when she goes to the beach.</p><p>So if you ever need someone to open your beer bottle for you, give Pam a shout. Just make sure you give the bottle a thorough clean before you take a swig from it.</p>",
-        images: [
-            {
-                src: "pam-the-beach-girl-bottle-opener.webp",
-                alt: "Pam The Beach Girl Bottle Opener"
-            },
-            {
-                src: "pam-the-beach-girl-bottle-opener-back.webp",
-                alt: "Pam The Beach Girl Bottle Opener - Back"
-            }
-        ],
-        category: "Home & Garden",
-        tags: [
-            "bottle openers",
-            "funny"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3wJRfDq",
-        price: 10.95,
     },
     {
         name: "Mr Lovin' Cork Screw",
@@ -2426,8 +2184,7 @@ export const allItems = [
         ],
         category: "Home & Garden",
         tags: [
-            "bottle openers",
-            "funny"
+            "bottle openers"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2451,8 +2208,7 @@ export const allItems = [
             "card games",
             "trivia",
             "bums",
-            "educational",
-            "funny"
+            "educational"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2497,7 +2253,7 @@ export const allItems = [
             "sweets",
             "condoms",
             "food",
-            "funny"
+
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2519,8 +2275,7 @@ export const allItems = [
         tags: [
             "taxidermy",
             "photo books",
-            "animals",
-            "funny"
+            "animals"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2543,8 +2298,7 @@ export const allItems = [
             "cats",
             "pets",
             "animals",
-            "guides",
-            "funny"
+            "guides"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2566,7 +2320,6 @@ export const allItems = [
         tags: [
             "penis",
             "storybooks",
-            "funny",
             "adult"
         ],
         gender: "Male",
@@ -2594,27 +2347,6 @@ export const allItems = [
         supplier: "Amazon",
         externalLink: "https://amzn.to/3wDWqVb",
         price: 9.99,
-    },
-    {
-        name: "The Serial Killer Coloring Book",
-        slug: "the-serial-killer-coloring-book",
-        description: "A colouring book featuring 38 serial killers and what drove them to commit their crimes.",
-        body: "<p>Learn about the most dangerous serial killers ever to exist while improving your colouring skills with this colouring book.</p><p>Featuring 38 monsters to colour in, you’ll learn about their backgrounds and what drove each to commit their crimes.</p><p>Colouring books are meant to help reduce stress and anxiety but this one may have the opposite effect as you have nightmares about what these killers have done.</p>",
-        images: [
-            {
-                src: "the-serial-killer-coloring-book.webp",
-                alt: "The Serial Killer Coloring Book"
-            },
-        ],
-        category: "Books",
-        tags: [
-            "colouring books",
-            "crime"
-        ],
-        gender: "Unisex",
-        supplier: "Amazon",
-        externalLink: "https://amzn.to/3wEtn46",
-        price: 7.95,
     },
     {
         name: "Zombie Blood Shower Gel",
@@ -2654,8 +2386,7 @@ export const allItems = [
             "pianos",
             "toilet",
             "bathroom",
-            "music",
-            "funny"
+            "music"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2676,7 +2407,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "poop",
-            "funny",
             "tiny"
         ],
         gender: "Unisex",
@@ -2700,8 +2430,7 @@ export const allItems = [
             "books",
             "poop",
             "search and find",
-            "puzzles",
-            "funny"
+            "puzzles"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2724,7 +2453,6 @@ export const allItems = [
             "sprays",
             "poop",
             "prank",
-            "funny",
             "gross"
         ],
         gender: "Unisex",
@@ -2745,7 +2473,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "farting",
             "emergency"
         ],
@@ -2769,7 +2496,6 @@ export const allItems = [
         tags: [
             "card games",
             "farting",
-            "funny",
             "educational"
         ],
         gender: "Unisex",
@@ -2791,8 +2517,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "fans",
-            "farting",
-            "funny"
+            "farting"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2813,8 +2538,7 @@ export const allItems = [
         category: "Books",
         tags: [
             "guides",
-            "farting",
-            "funny"
+            "farting"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -2857,7 +2581,6 @@ export const allItems = [
         tags: [
             "earrings",
             "onion rings",
-            "funny",
             "food",
             "weird"
         ],
@@ -2901,7 +2624,6 @@ export const allItems = [
         ],
         category: "Home & Garden",
         tags: [
-            "funny",
             "pillows",
             "single"
         ],
@@ -2924,7 +2646,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "boobs",
-            "funny",
             "tiny",
             "adult"
         ],
@@ -2956,7 +2677,6 @@ export const allItems = [
         tags: [
             "books",
             "animals",
-            "funny",
             "penis",
             "adult"
         ],
@@ -2978,7 +2698,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "jesus",
             "dancing",
             "figurines"
@@ -3001,7 +2720,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "penis",
             "weightlifting",
             "adult",
@@ -3025,7 +2743,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "underwear",
             "emergency"
         ],
@@ -3049,8 +2766,7 @@ export const allItems = [
         tags: [
             "body pillows",
             "penis",
-            "adult",
-            "funny"
+            "adult"
         ],
         gender: "Unisex",
         supplier: "Firebox",
@@ -3074,7 +2790,6 @@ export const allItems = [
             "food",
             "penis",
             "gardening",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -3096,7 +2811,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "penis",
-            "funny",
             "adult",
             "tiny"
         ],
@@ -3120,7 +2834,6 @@ export const allItems = [
         tags: [
             "penis",
             "inflatable",
-            "funny",
             "giant",
             "adult"
         ],
@@ -3145,8 +2858,7 @@ export const allItems = [
             "party games",
             "penis",
             "adult",
-            "masturbation",
-            "funny"
+            "masturbation"
         ],
         gender: "Unisex",
         supplier: "MenKind",
@@ -3167,8 +2879,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "underwear",
-            "farting",
-            "funny"
+            "farting"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -3188,7 +2899,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "rocks"
         ],
         gender: "Unisex",
@@ -3213,8 +2923,7 @@ export const allItems = [
             "animals",
             "feet",
             "costumes",
-            "weird",
-            "funny"
+            "weird"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -3234,7 +2943,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "baubles",
             "christmas",
             "beard",
@@ -3261,7 +2969,6 @@ export const allItems = [
             "penis",
             "willy warmers",
             "rainbow",
-            "funny",
             "adult"
         ],
         gender: "Male",
@@ -3282,7 +2989,6 @@ export const allItems = [
         ],
         category: "Clothes & Accessories",
         tags: [
-            "funny",
             "flip flops",
             "fish",
             "animals"
@@ -3305,7 +3011,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "penis",
             "costumes",
             "giant",
@@ -3330,7 +3035,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "moustaches",
             "emergency"
         ],
@@ -3352,7 +3056,6 @@ export const allItems = [
         ],
         category: "Home & Garden",
         tags: [
-            "funny",
             "aprons",
             "penis",
             "adult"
@@ -3375,7 +3078,6 @@ export const allItems = [
         ],
         category: "Toys & Games",
         tags: [
-            "funny",
             "poop",
             "fishing",
             "games",
@@ -3491,8 +3193,7 @@ export const allItems = [
         tags: [
             "mugs",
             "penis",
-            "adult",
-            "funny"
+            "adult"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -3514,7 +3215,6 @@ export const allItems = [
         tags: [
             "penis",
             "adult",
-            "funny",
             "board books"
         ],
         gender: "Male",
@@ -3539,7 +3239,6 @@ export const allItems = [
             "bathroom",
             "penis",
             "adult",
-            "funny",
             "weird"
         ],
         gender: "Unisex",
@@ -3561,7 +3260,6 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "penis",
-            "funny",
             "grooming",
             "adult"
         ],
@@ -3583,7 +3281,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "scrotum"
         ],
         gender: "Male",
@@ -3636,7 +3333,6 @@ export const allItems = [
         category: "Books",
         tags: [
             "penis",
-            "funny",
             "adult"
         ],
         gender: "Unisex",
@@ -3658,7 +3354,6 @@ export const allItems = [
         category: "Books",
         tags: [
             "masturbation",
-            "funny",
             "photo books"
         ],
         gender: "Unisex",
@@ -3680,7 +3375,6 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "funny",
             "duck",
             "penis",
             "animals",
@@ -3708,7 +3402,6 @@ export const allItems = [
             "pickle",
             "food",
             "yodelling",
-            "funny",
             "weird",
             "annoying"
         ],

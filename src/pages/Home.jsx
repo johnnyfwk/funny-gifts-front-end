@@ -103,8 +103,6 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 </div>
             }
             
-            
-            
             <div className="main-wrapper">
                 <main>
                     <section>
