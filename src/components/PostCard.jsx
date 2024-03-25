@@ -13,7 +13,7 @@ export default function PostCard({ post }) {
                 </div>
             </Link>
             <div className="post-card-name">
-                <Link to={`/gift-guides/${post.slug}`} onClick={handlePostCard}>{post.name}</Link>
+                <Link to={`/gift-guides/${post.slug}`} onClick={handlePostCard}>{post.shortName}</Link>
             </div>
         </div>
     )
