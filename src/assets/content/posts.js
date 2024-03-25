@@ -26,6 +26,7 @@ export const allPosts = [
     {
         name: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         slug: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        shortName: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         body: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         image: {
@@ -44,10 +45,28 @@ export const allPosts = [
     },
     ********************************* TEMPLATE *********************************/
 
-
+    {
+        name: "Funny Rude Gifts",
+        slug: "funny-rude-gifts",
+        shortName: "Rude Gifts",
+        description: "Funny rude gifts for the idiots in your life.",
+        body: "<p>The world is full of idiots, but some of them don't realise they are and blissfully continue to be one to the annoyance of others. So how do you put an end to their idiocy? Give them one of these funny rude gifts in the hope that they'll acknowledge their negative trait and change to become a more tolerable human being.</p>",
+        image: {
+            src: "cunt-mug.webp",
+            alt: "CUNT Mug"
+        },
+        category: "",
+        tags: [
+            "rude"
+        ],
+        author: "FunnyGifts.uk",
+        published: "2024-03-25",
+        modified: ""
+    },
     {
         name: "Funny Weird Gifts",
         slug: "funny-weird-gifts",
+        shortName: "Weird Gifts",
         description: "Funny weird gifts for those who may not be all there.",
         body: "<p>Do you get insulted by the lack of enthusiasm on people's faces when they unwrap your presents? If so, you are giving them boring gifts.</p><p>Have a look at some of the funny weird gifts below and buy one for someone's birthday or as a Christmas present. We guarantee they won't look bored when they they receive it. If anything, they'll look really confused as to why you bought them it, and will begin to think you're a weirdo.</p>",
         image: {
@@ -65,6 +84,7 @@ export const allPosts = [
     {
         name: "Funny Middle Finger Gifts",
         slug: "funny-middle-finger-gifts",
+        shortName: "Middle Finger Gifts",
         description: "Funny middle finger gifts for those who love swearing without opening their mouth.",
         body: "<p>Swearing at randoms, little old ladies, and children can be hard work, especially if you're holding up your arm and middle finger for hours on end. After a long day of flipping the bird at our fellow human beings, it can feel like we've done a long arm day at the gym.</p><p>If you get immense pleasure from showing others your middle finger but don't have the physical strength to do it all day, get one of these funny gifts so you can swear at them without lifting a finger.</p>",
         image: {
@@ -82,6 +102,7 @@ export const allPosts = [
     {
         name: "Funny Poop Gifts",
         slug: "funny-poop-gifts",
+        shortName: "Poop Gifts",
         description: "Funny poop-themed gifts for people who really enjoy emptying their bowels.",
         body: "<p>If you enjoy dropping off your dirty passengers on the toilet more than spending time with your family, that's completely understandable. Pooing is fun and relaxing. We love looking down to see the masterpiece we have just created. Sometimes we take a photo of it so we can reminisce the great time we had earlier in the day on the toilet.</p><p>The unfortunate thing is that most of us generally don't poo more than once a day. There are some people who can drop a load several times a day. Congratulations to you if you're one of those people. We envy you!</p><p>For us mere mortals, here are some funny poop-themed gifts that will keep you entertained until your next visit to the toilet.</p>",
         image: {
@@ -99,6 +120,7 @@ export const allPosts = [
     {
         name: "Funny Fart Gifts",
         slug: "funny-fart-gifts",
+        shortName: "Fart Gifts",
         description: "Funny fart-themed gifts for those who love producing and smelling their own as well as others.",
         body: "<p>We all love farting. We love smelling them even more, looking around to make sure no one saw or heard us enjoying our own produce.</p><p>But what do we do when our bodies run out of gas? We follow randoms on the street like a chicken following its human owner around a farm in the hopes that they release a toxic one in order to get our hit. Once we regain conciousness after passing out from that high, we find another person who looks like they've had a big lunch and do it all over again until it gets dark.</p><p>However, not all of us are lucky enough to have time to follow people and smell their farts. One of our life goals at FunnyGifts.uk is to find all the funny fart-themed gifts that are worth buying so flatulence lovers can enjoy the experience in some form when our bodies fail to produce that intoxicating odour.</p>",
         image: {
@@ -116,6 +138,7 @@ export const allPosts = [
     {
         name: "Funny Penis Gifts",
         slug: "funny-penis-gifts",
+        shortName: "Penis Gifts",
         description: "Funny penis-themed gifts for people obssessed with the male appendage.",
         body: "<p>Do you know someone who is obssessed with willies? Do they walk around town staring at every crotch they encounter and drool with excitement?</p><p>If they aren't polite enough to look at men's faces when they talk to them, it's time they were taught some manners and given some products that will help them keep their eyes to themselves.</p><p>Ranging from books to toys and games, these funny penis-themed gifts will help wean them off staring at random's crotches.</p>",
         image: {

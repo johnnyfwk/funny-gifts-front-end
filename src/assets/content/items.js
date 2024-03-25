@@ -58,6 +58,157 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Talking Remote Control",
+        slug: "talking-remote-control",
+        description: "Command your partner to do stuff for you with this talking remote control that features 33 different orders.",
+        body: "<p>Giving orders to your partner every five minutes can be tiring, especially when they never get it right. Save your energy barking commands with this talking remote control.</p><p>It features 33 orders, including fetching a beer, performing a striptease, making food, looking after the kids, and sex so your partner will attend to your every whim and need without having to open your mouth.</p>",
+        images: [
+            {
+                src: "talking-remote-control.webp",
+                alt: "Talking Remote Control"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "remote controls",
+            "talking"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TRebIT",
+        price: 9.99,
+    },
+    {
+        name: "'Have a Great Day' Mug",
+        slug: "have-a-great-day-mug",
+        description: "Swear at friends and colleagues with this mug featuring a middle finger on its base.",
+        body: "<p>This mug features a nice message on its side, making others think you're a friendly and positive person. But it also has a middle finger on its base so you can reveal your true feelings about the person you're interacting with whenever you take a drink.</p>",
+        images: [
+            {
+                src: "have-a-great-day-mug.webp",
+                alt: "'Have a Great Day' Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "middle finger",
+            "rude"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3x5Vzgl",
+        price: 7.99,
+    },
+    {
+        name: "Fuck Off Morse Code Bracelet",
+        slug: "fuck-off-morse-code-bracelet",
+        description: "A bracelet featuring a lovely message written in morse code.",
+        body: "<p>We all wish we could tell the people we hate to go away without offending or  upsetting them. Well you can with this bracelet.</p><p>It features the message 'Fuck Off' written in morse code so you can raise your wrist to them if you find them boring or annoying in the hopes they'll be able to read it.</p>",
+        images: [
+            {
+                src: "fuck-off-morse-code-bracelet.webp",
+                alt: "Fuck Off Morse Code Bracelet"
+            }
+        ],
+        category: "Clothes & Accessories",
+        tags: [
+            "morse code",
+            "bracelets",
+            "swearing",
+            "rude"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4awlV9T",
+        price: 6.99,
+    },
+    {
+        name: "Cheeky Ballpoint Pens",
+        slug: "cheeky-ballpoint-pens",
+        description: "Remind yourself how much you love your job with these ten ballpoint pens featuring rude quotes.",
+        body: "<p>Let your colleagues know how much you love them and your job with these ballpoint pens featuring work-related motivational quotes, including:</p><ul><li>I fucking hate mondays</li><li>This meeting is shit</li><li>I'm very busy and important, so piss off</li><li>Zero fucks given.</li></ul>",
+        images: [
+            {
+                src: "cheeky-ballpoint-pens.webp",
+                alt: "Cheeky Ballpoint Pens"
+            }
+        ],
+        category: "Office & Stationery",
+        tags: [
+            "pens",
+            "rude"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PByR6l",
+        price: 11.69,
+    },
+    {
+        name: "Magnetic Rudey Words",
+        slug: "magnetic-rudey-words",
+        description: "Leave touching messages on someone's fridge with these magnetic words.",
+        body: "Leave lovely and wholesome messages for your gran on her fridge with these magnetic words. Featuring words such as 'bukake', 'shitbox', and 'slut', we're sure you'll leave creative and touching messages that will make your gran emotional every time she makes a cup of tea.</p>",
+        images: [
+            {
+                src: "magnetic-rudey-words.webp",
+                alt: "Magnetic Rudey Words"
+            },
+        ],
+        category: "Home & Garden",
+        tags: [
+            "swearing",
+            "rude"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3x9Vmc6",
+        price: 6.99,
+    },
+    {
+        name: "Bullshitamins",
+        slug: "bullshitamins",
+        description: "Prescribe bullshitters these jelly beans that look like real medication.",
+        body: "<p>If you know someone like Jay from The Inbetweeners who is a compulsive liar or exaggerates their stories, prescribe them these jelly beans made to look like medication.</p><p>Tell them to take two tablets four times a day and they'll stop annoying everyone with their made up nonsense.</p>",
+        images: [
+            {
+                src: "bullshitamins.webp",
+                alt: "Bullshitamins"
+            }
+        ],
+        category: "Food & Drink",
+        tags: [
+            "sweets",
+            "jelly beans",
+            "rude"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PBUD9N",
+        price: 6.99,
+    },
+    {
+        name: "Ways to Tell Employees They're Stupid",
+        slug: "ways-to-tell-employees-theyre-stupid",
+        description: "A weekly planner featuring 52 ways to call your employees stupid.",
+        body: "<p>Are you running out of creative ways to call your employees stupid? If so, get yourself this weekly planner/lined notebook that features a put down for every week of the year so you have a fresh insult for them when they come back to work after a relaxing weekend. Not only will they be insulted but also impressed with your creative rudeness.</p>",
+        images: [
+            {
+                src: "ways-to-tell-employees-theyre-stupid.webp",
+                alt: "Ways to Tell Employees They're Stupid"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "work",
+            "rude",
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43Awfvg",
+        price: 6.56,
+    },
+    {
         name: "Deeply Satisfying Poo in Progress Warning Sign",
         slug: "deeply-satisfying-poo-in-progress-warning-sign",
         description: "Warn others you're about to drop a huge log in the toilet with this sign.",
@@ -1309,7 +1460,8 @@ export const allItems = [
         category: "Sports",
         tags: [
             "golf",
-            "middle finger"
+            "middle finger",
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1330,6 +1482,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "middle finger",
+            "rude",
             "tiny",
             "weird"
         ],
@@ -1352,7 +1505,8 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "decanters",
-            "middle finger"
+            "middle finger",
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1373,7 +1527,8 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "key holders",
-            "middle finger"
+            "middle finger",
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1397,6 +1552,7 @@ export const allItems = [
             "ducks",
             "animals",
             "middle finger",
+            "rude",
             "weird"
         ],
         gender: "Unisex",
@@ -1418,7 +1574,8 @@ export const allItems = [
         category: "Clothes & Accessories",
         tags: [
             "sunglasses",
-            "middle finger"
+            "middle finger",
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1439,7 +1596,8 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "candles",
-            "middle finger"
+            "middle finger",
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1460,7 +1618,8 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "mugs",
-            "middle finger"
+            "middle finger",
+            "rude"
         ],
         gender: "Unisex",
         supplier: "Amazon",
