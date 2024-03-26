@@ -64,7 +64,9 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                                         })}
                                     </div>
                                 </div>
-                                : <img src={`/images/${selectedImage.src}`} alt={selectedImage.alt} id="item-main-image" />
+                                : <div id="item-images">
+                                    <img src={`/images/${selectedImage.src}`} alt={selectedImage.alt} id="item-main-image" />
+                                </div>
                             }
                             <div id="item-body-and-external-link-button">
                                 <h1 id="item-name">{item[0].name}</h1>

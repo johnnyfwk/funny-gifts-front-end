@@ -46,6 +46,24 @@ export const allPosts = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Funny Sweary Gifts",
+        slug: "funny-sweary-gifts",
+        shortName: "Sweary Gifts",
+        description: "Sweary gifts for those who love to curse at every given opportunity.",
+        body: "We all love to have a good swear from time to time. But there are those who enjoy it a bit too much, like grannies. When they spend time with others, every other word that comes out of their mouth is a swear word. Swearing is like a drug to them. Every time they say the 'C' word, they get a real high from it and need to say it again. It's a problem that all women will inevitably face when they reach old age.<p>The sweary gifts below will either solve this problem or make it worse. What you choose for them will determine what society will like be in the future. Choose wisely!</p>",
+        image: {
+            src: "how-to-swear-an-illustrated-guide.webp",
+            alt: "How to Swear: An illustrated Guide"
+        },
+        category: "",
+        tags: [
+            "swearing"
+        ],
+        author: "FunnyGifts.uk",
+        published: "2024-04-26",
+        modified: ""
+    },
+    {
         name: "Funny Rude Gifts",
         slug: "funny-rude-gifts",
         shortName: "Rude Gifts",

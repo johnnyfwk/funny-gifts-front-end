@@ -53,7 +53,7 @@ img {
 }
 
 #logo {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -371,6 +371,7 @@ figcaption {
 #item-images {
     display: grid;
     gap: 10px;
+    justify-content: center;
 }
 
 #item img {
@@ -418,7 +419,8 @@ figcaption {
 }
 
 #related-items h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     text-align: center;
 }
 /***************************** ITEM *****************************/
