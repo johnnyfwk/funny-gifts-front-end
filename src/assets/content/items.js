@@ -58,6 +58,154 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Swear Box",
+        slug: "swear-box",
+        description: "Become rich by charging people who swear a lot fines with this swear box.",
+        body: "<p>If your gran looooooooooooooooooooooooves swearing at people, start a side hustle and make some money from her with this swear box.</p><div><p>The tin lists fines for various types of swearing:</p><ul><li>Cussing - 20p</li><li>When it slips out - 50px</li><li>Big 'F' Words - £1.</li></ul></div>",
+        images: [
+            {
+                src: "swear-box.webp",
+                alt: "Swear Box"
+            },
+            {
+                src: "swear-box-back.webp",
+                alt: "Swear Box - Back"
+            },
+        ],
+        category: "Home & Garden",
+        tags: [
+            "money boxes",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/499FSlK",
+        price: 8.26,
+    },
+    {
+        name: "AntiSwearBiotics",
+        slug: "antiswearbiotics",
+        description: "Jelly beans in a medication box that will stop people from swearing.",
+        body: "<p>If your gran finds immense pleasure in calling you, her family, and randoms on the street the 'C', 'F', 'Z', 'J', 'I', and 'Q' words regularly, these jelly beans in a medication box will suppress her pleasure in using these swear words.</p><p>On the off chance that these brain cells somehow regrow, prescribe her more of the jelly beans so she stops using those disgusting words.</p>",
+        images: [
+            {
+                src: "antiswearbiotics.webp",
+                alt: "AntiSwearBiotics "
+            }
+        ],
+        category: "Food & Drink",
+        tags: [
+            "sweets",
+            "jelly beans",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3xigjS0",
+        price: 5.76,
+    },
+    {
+        name: "Swear 'N' Search!",
+        slug: "swear-n-search",
+        description: "A search word puzzle book containing hundreds of swear words.",
+        body: "<p>If you gran loves roaming the streets all day swearing at children and dogs, get her this word search puzzle book containing hundreds of curse words so she can swear to her heart's content in her home without terrorising others with her abusive language.</p>",
+        images: [
+            {
+                src: "swear-n-search.webp",
+                alt: "Swear 'N' Search! Puzzle Book"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "search and find",
+            "puzzles",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TORupN",
+        price: 4.71,
+    },
+    {
+        name: "Fuckity Fuck Fuck Fuck",
+        slug: "fuckity-fuck-fuck-fuck",
+        description: "A colouring book containing a swear word and a unique design on each page.",
+        body: "<p>Improve your colouring skills and swearing vocabulary with this colouring book that features a swear word and unique design on each page for you to colour in.</p><p>Each page is made of high quality paper so you can colour each design using a variety of paint mediums.</p>",
+        images: [
+            {
+                src: "fuckity-fuck-fuck-fuck.webp",
+                alt: "Fuckity Fuck Fuck Fuck"
+            },
+            {
+                src: "fuckity-fuck-fuck-fuck-shit-pouch.webp",
+                alt: "Fuckity Fuck Fuck Fuck - Shit Pouch"
+            },
+            {
+                src: "fuckity-fuck-fuck-fuck-knob-jockey.webp",
+                alt: "Fuckity Fuck Fuck Fuck - Knob Jockey"
+            },
+            {
+                src: "fuckity-fuck-fuck-fuck-cuntzilla.webp",
+                alt: "Fuckity Fuck Fuck Fuck - Cuntzilla"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "colouring books",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a9yyI7",
+        price: 5.99,
+    },
+    {
+        name: "The Book of Foreign Swear Words",
+        slug: "the-book-of-foreign-swear-words",
+        description: "Learn to swear in over 15 languages, including French, Thai, and Punjabi.",
+        body: "<p>Does your gran's violence not help her buy stuff or find places when she's abroad? Help her get what she wants with this book filled with foreign swear words.</p><p>With curse words in over 15 languages, including French, Thai, Russian, Punjabi, and Nigerian, your gran will be able to communicate with locals and get what she wants without hospitalising anyone.</p>",
+        images: [
+            {
+                src: "the-book-of-foreign-swear-words.webp",
+                alt: "The Book of Foreign Swear Words"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "swearing",
+            "languages"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/49Zh3dn",
+        price: 4.83,
+    },
+    {
+        name: "Swear Snap",
+        slug: "swear-snap",
+        description: "Just like the original Snap card game but with swear words.",
+        body: "<p>Swear Snap is just like the original Snap card game, but instead of numbers and suits, cards have swear words on them. Players take turns laying a card on the pile in the middle. If their card is the same as the one on top of the pile, the first person to slam all the cards and shout the swear word on the card wins the pile of cards.</p>",
+        images: [
+            {
+                src: "swear-snap.webp",
+                alt: "Swear Snap"
+            },
+            {
+                src: "swear-snap-cards.webp",
+                alt: "Swear Snap Cards"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "swearing",
+            "card games"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43B7Fdm",
+        price: 6.50,
+    },
+    {
         name: "Talking Remote Control",
         slug: "talking-remote-control",
         description: "Command your partner to do stuff for you with this talking remote control that features 33 different orders.",
@@ -93,6 +241,7 @@ export const allItems = [
         tags: [
             "mugs",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
@@ -903,7 +1052,8 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "jigsaw puzzles"
+            "jigsaw puzzles",
+            "puzzles"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -1461,6 +1611,7 @@ export const allItems = [
         tags: [
             "golf",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
@@ -1482,6 +1633,7 @@ export const allItems = [
         category: "Novelty",
         tags: [
             "middle finger",
+            "swearing",
             "rude",
             "tiny",
             "weird"
@@ -1506,6 +1658,7 @@ export const allItems = [
         tags: [
             "decanters",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
@@ -1528,6 +1681,7 @@ export const allItems = [
         tags: [
             "key holders",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
@@ -1552,6 +1706,7 @@ export const allItems = [
             "ducks",
             "animals",
             "middle finger",
+            "swearing",
             "rude",
             "weird"
         ],
@@ -1575,6 +1730,7 @@ export const allItems = [
         tags: [
             "sunglasses",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
@@ -1597,6 +1753,7 @@ export const allItems = [
         tags: [
             "candles",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
@@ -1619,6 +1776,7 @@ export const allItems = [
         tags: [
             "mugs",
             "middle finger",
+            "swearing",
             "rude"
         ],
         gender: "Unisex",
