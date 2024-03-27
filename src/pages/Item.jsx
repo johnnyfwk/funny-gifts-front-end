@@ -36,6 +36,10 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
         setSelectedImage({ src, alt });
     }
 
+    function handleItemCategoryAndTagLinks() {
+        window.scrollTo(0, 0);
+    }
+
     if (!item) {
         return null;
     }
@@ -72,14 +76,14 @@ export default function Item({ maxNumberOfCardsToDisplay }) {
                                 <h1 id="item-name">{item[0].name}</h1>
                                 <div className="item-category">
                                     <strong>Category: </strong>
-                                    <Link to={`/?category=${utils.convertToSlug(item[0].category)}&page=1`}>{item[0].category}</Link>
+                                    <Link to={`/?category=${utils.convertToSlug(item[0].category)}&page=1`} onClick={handleItemCategoryAndTagLinks}>{item[0].category}</Link>
                                 </div>
                                 <div id="item-tag-label-and-tags">
                                     <strong>Tags:</strong>
                                     <div id="item-tags-wrapper">
                                         {item[0].tags.map((tag, index) => {
                                             return (
-                                                <Link key={index} to={`/?tag=${utils.convertToSlug(tag)}&page=1`}>{tag}</Link>
+                                                <Link key={index} to={`/?tag=${utils.convertToSlug(tag)}&page=1`} onClick={handleItemCategoryAndTagLinks}>{tag}</Link>
                                             )
                                         })}
                                     </div>
