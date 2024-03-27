@@ -1,7 +1,7 @@
 :root {
     --max-width: 1000px;
     --padding-sides: 20px;
-    --nav-button-dimensions: 22px;
+    --nav-button-dimensions: 20px;
     --item-card-image-max-height: 300px;
     --item-image-max-height: 400px;
     --card-min-width: 200px;
@@ -220,7 +220,7 @@ footer {
 #copyright {
     color: var(--white);
     font-size: 0.9rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 

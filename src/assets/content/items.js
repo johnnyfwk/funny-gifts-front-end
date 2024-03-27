@@ -58,6 +58,178 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Prescription Alcohol Label & Gift Bag",
+        slug: "prescription-alcohol-label-and-gift-bag",
+        description: "A personalised prescription alcohol label and gift bag for those who love drinking more than the average person.",
+        body: "<p>Does your gran love drinking alcohol a bit too much, consuming five bottles of wine and 20 cans of beer every morning before setting off into town to swear at randoms?</p><p>If so, get this personalised prescription alcohol label and gift bag so she feels better about her drinking by convincing herself that all the alcohol she drinks has been prescribed by her doctor.</p>",
+        images: [
+            {
+                src: "prescription-alcohol-label-and-gift-bag.webp",
+                alt: "Prescription Alcohol Label & Gift Bag"
+            }
+        ],
+        category: "Office & Stationery",
+        tags: [
+            "alcohol",
+            "labels",
+            "gift bags"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TQiaGy",
+        price: 6.99,
+    },
+    {
+        name: "Nag Note Sticky Notes",
+        slug: "nag-note-sticky-notes",
+        description: "Leave tasks and chores for others to do with these sticky notes.",
+        body: "<p>If you love delegating tasks and bossing people around, get yourself these sticky notes so you can remind others to get stuff done when you're too busy relaxing.</p><p>Tick the 'Thank You' option at the bottom of the sticky note if you're feeling grateful to the person for doing something for you.</p>",
+        images: [
+            {
+                src: "nag-note-sticky-notes.webp",
+                alt: "Nag Note Sticky Notes"
+            }
+        ],
+        category: "Office & Stationery",
+        tags: [
+            "sticky notes"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3U3uYd3",
+        price: 2.95,
+    },
+    {
+        name: "Periodic Tea Towel of Swearing",
+        slug: "periodic-tea-towel-of-swearing",
+        description: "A tea towel featuring 100 swear words and phrases in the form of the periodic table.",
+        body: "<p>If you run out of swear words to express how much you hate drying the dishes after dinner, get this tea towel featuring 100 swear words and phrases displayed in the form of a periodic table.</p><p>Pick a swearing element on the left if you're feeling really frustrated with being left with the boring chore or one on the right if you're not too bothered about doing it.</p>",
+        images: [
+            {
+                src: "periodic-tea-towel-of-swearing.webp",
+                alt: "Periodic Tea Towel of Swearing"
+            },
+            {
+                src: "periodic-tea-towel-of-swearing-closeup.webp",
+                alt: "Periodic Tea Towel of Swearing - Closeup"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "tea towels",
+            "chemistry",
+            "periodic table",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TxSWvf",
+        price: 12.00,
+    },
+    {
+        name: "\"Fuck Off I'm Reading\" Magnetic Bookmark",
+        slug: "fuck-off-im-reading-magnetic-bookmark",
+        description: "A rude magnetic bookmark that can be opened to stand on a table.",
+        body: "<p>Let people know you're busy reading your favourite DIY pamphlet or adult magazine with this magnetic bookmark.</p><p>Place it on the last page when you're done reading and stand it on your table when you're ready to continue learning about how to change a lightbulb and don't want to be interrupted.</p>",
+        images: [
+            {
+                src: "fuck-off-im-reading-magnetic-bookmark.webp",
+                alt: "'Fuck Off I'm Reading' Magnetic Bookmark"
+            },
+            {
+                src: "fuck-off-im-reading-magnetic-bookmark-stand.webp",
+                alt: "'Fuck Off I'm Reading' Magnetic Bookmark - Stand"
+            }
+        ],
+        category: "Office & Stationery",
+        tags: [
+            "bookmarks",
+            "swearing",
+            "rude",
+            "magnetic"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TrUl6E",
+        price: 3.45,
+    },
+    {
+        name: "You're a Mother F*cking Badass Colouring Book",
+        slug: "youre-a-mother-fucking-badass-colouring-book",
+        description: "A colouring book featuring 40 pages of inspirational phrases and swear words.",
+        body: "<p>Relieve stress and motivate yourself to becoming a better person with this colouring book featuring inspirational phrases and swear words. With 40 pages to colour in, you'll become the best version of yourself once you've completed the book.</p>",
+        images: [
+            {
+                src: "youre-a-mother-fucking-badass-colouring-book.webp",
+                alt: "You're a Mother F*cking Badass Colouring Book"
+            },
+            {
+                src: "youre-a-mother-fucking-badass-colouring-book-you-are-awesome-as-fuck.webp",
+                alt: "You're a Mother F*cking Badass Colouring Book - You Are Awesome As Fuck"
+            },
+            {
+                src: "youre-a-mother-fucking-badass-colouring-book-let-that-shit-go.webp",
+                alt: "You're a Mother F*cking Badass Colouring Book - Let That Shit Go"
+            },
+            {
+                src: "youre-a-mother-fucking-badass-colouring-book-be-happy-it-drives-assholes-crazy.webp",
+                alt: "You're a Mother F*cking Badass Colouring Book - Be Happy, It Drives Assholes Crazy"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "colouring books",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4abUhio",
+        price: 5.99,
+    },
+    {
+        name: "Jar of Fucks",
+        slug: "jar-of-fucks",
+        description: "A jar of wooden cutouts of the word 'FUCK'.",
+        body: "<p>Are you sick of being that person your friends and family go to when they need help or something bad happens to them?</p><p>Get this jar of wooden cutouts of the word 'FUCK' and hand them out to people who come to you with their sob story. When the jar is empty, simply tell people you've run out of fucks.</p>",
+        images: [
+            {
+                src: "jar-of-fucks.webp",
+                alt: "Jar of Fucks"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "swearing",
+            "jars"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4avRBvT",
+        price: 7.63,
+    },
+    {
+        name: "C*UNT",
+        slug: "cunt",
+        description: "A word games where you create swear words from the letters on the dice.",
+        body: "<p>A word game where you roll the dice with letters on them and cross off swear words on your card that you can create from those letters. The last player to cross off all their words is called a c*nt by the other players.</p>",
+        images: [
+            {
+                src: "cunt.webp",
+                alt: "C*UNT"
+            }
+        ],
+        category: "Toys & Games",
+        tags: [
+            "words games",
+            "dice",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3ITcrcL",
+        price: 12.99,
+    },
+    {
         name: "Swear Box",
         slug: "swear-box",
         description: "Become rich by charging people who swear a lot fines with this swear box.",
@@ -1657,6 +1829,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "decanters",
+            "alcohol",
             "middle finger",
             "swearing",
             "rude"
@@ -2082,6 +2255,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "shot glasses",
+            "alcohol",
             "toilet"
         ],
         gender: "Unisex",
@@ -2238,6 +2412,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "shot glasses",
+            "alcohol",
             "toilet"
         ],
         gender: "Unisex",
@@ -2458,6 +2633,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "bottle openers",
+            "alcohol",
             "vaginas"
         ],
         gender: "Unisex",
@@ -2479,6 +2655,7 @@ export const allItems = [
         category: "Home & Garden",
         tags: [
             "bottle openers",
+            "alcohol",
             "penis",
             "wooden",
             "adult"
@@ -2501,7 +2678,8 @@ export const allItems = [
         ],
         category: "Home & Garden",
         tags: [
-            "bottle openers"
+            "bottle openers",
+            "alcohol",
         ],
         gender: "Unisex",
         supplier: "Amazon",
