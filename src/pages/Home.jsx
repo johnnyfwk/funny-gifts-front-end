@@ -5,6 +5,11 @@ import { allItems } from "../assets/content/items";
 import ItemCard from "../components/ItemCard"; 
 import * as utils from '../utils';
 
+// const suppliers = Array.from(new Set(allItems.map((item) => item.supplier))).sort();
+// console.log("Suppliers: ", suppliers);
+// const genders = Array.from(new Set(allItems.map((item) => item.gender))).sort();
+// console.log("Genders: ", genders);
+
 export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisplay }) {
     const [ searchParams ] = useSearchParams();
     const page = searchParams.get("page");
@@ -69,7 +74,7 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
     }
 
     return (
-        <div>
+        <div>            
             {!category_slug && !tag_slug
                 ? <Helmet>
                     <meta name="robots" content="index, follow" />
@@ -80,10 +85,20 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
                 : null
             }
 
-            {category_slug || tag_slug
+            {category_slug
                 ? <Helmet>
-                    <meta name="robots" content="noindex, nofollow" />
-                    <link rel="canonical" href="https://funnygifts.uk/" />
+                    <meta name="robots" content="noindex, follow" />
+                    <link rel="canonical" href={`/?category=${utils.convertToSlug(category_slug)}&page=1`} />
+                    <title>{titleAndH1} • FunnyGifts.uk</title>
+                    <meta name="description" content={description} />
+                </Helmet>
+                : null
+            }
+
+            {tag_slug
+                ? <Helmet>
+                    <meta name="robots" content="noindex, follow" />
+                    <link rel="canonical" href={`/?tag=${utils.convertToSlug(tag_slug)}&page=1`} />
                     <title>{titleAndH1} • FunnyGifts.uk</title>
                     <meta name="description" content={description} />
                 </Helmet>
