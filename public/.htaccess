@@ -6,4 +6,7 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-l
     RewriteRule . /index.html [L]
+
+    Redirect 301 /?page=2 https://funnygifts.uk/
+    Redirect 301 /?page=3 https://funnygifts.uk/
 </IfModule>
