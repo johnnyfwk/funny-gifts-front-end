@@ -46,6 +46,24 @@ export const allPosts = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Funny Wanker Gifts",
+        slug: "funny-wanker-gifts",
+        shortName: "Wanker Gifts",
+        description: "Wanker gifts for people whose hand is always down their pants.",
+        body: "<p>Masturbating is a natural human activity. There are some people who do it as a hobby, like playing golf, reading a book, or hiking. And like other hobbies, you can buy products and accessories that will enhance the self-stimulating experience.</p><p>If you know someone who does masturbating as a hobby, get them a wanker gift so they can have much more fun with themself.</p>",
+        image: {
+            src: "wank-diary.webp",
+            alt: "Wank Diary"
+        },
+        category: "",
+        tags: [
+            "wanker"
+        ],
+        author: "FunnyGifts.uk",
+        published: "2024-03-28",
+        modified: ""
+    },
+    {
         name: "Funny Sweary Gifts",
         slug: "funny-sweary-gifts",
         shortName: "Sweary Gifts",

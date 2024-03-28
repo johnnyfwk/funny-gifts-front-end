@@ -5,6 +5,7 @@ import { allItems } from "../assets/content/items";
 import ItemCard from "../components/ItemCard"; 
 import * as utils from '../utils';
 
+// console.log("Number of gifts: ", allItems.length);
 // const suppliers = Array.from(new Set(allItems.map((item) => item.supplier))).sort();
 // console.log("Suppliers: ", suppliers);
 // const genders = Array.from(new Set(allItems.map((item) => item.gender))).sort();
