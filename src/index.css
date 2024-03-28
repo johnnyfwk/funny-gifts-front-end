@@ -5,7 +5,7 @@
     --item-card-image-max-height: 300px;
     --item-image-max-height: 400px;
     --card-min-width: 200px;
-    --gap-between-cards: 30px 20px;
+    --gap-between-cards: 30px;
 
     --night: #0C0F0A;
     --battleship-gray: #868785;
@@ -253,7 +253,7 @@ figcaption {
 .pagination {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px 25px;
     justify-content: center;
 }
 

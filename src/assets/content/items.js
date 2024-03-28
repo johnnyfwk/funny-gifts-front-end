@@ -58,6 +58,204 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Muscle Mug",
+        slug: "muscle-mug",
+        description: "Enjoy your favourite beverage from this mug in the shape of a muscly body.",
+        body: "If you gran gets very aroused when she sees a bodybuilder on the street and runs over to them to touch their arms and six pack, she'll love this mug in the shape of the body of a Greek god. She'll really enjoy grabbing either arm when drinking from it as well as the looking at the 8-pack which regular mortals don't have.</p>",
+        images: [
+            {
+                src: "muscle-mug.webp",
+                alt: "Muscle Mug"
+            },
+            {
+                src: "muscle-mug-back.webp",
+                alt: "Muscle Mug - Back"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "muscles"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PDXWgR",
+        price: 12.49,
+    },
+    {
+        name: "Anti-Wank Tablet Box",
+        slug: "anti-wank-tablet-box",
+        description: "Fill this fake anti-wank medication box with sweets and give it to someone who can't stop masturbating.",
+        body: "<p>If hiding your gran's porn collection doesn't stop her from playing with herself, give her some sweets in this fake medication box. The placebo effect will hopefully stop her hand from disappearing down her trousers.</p>",
+        images: [
+            {
+                src: "anti-wank-tablet-box.webp",
+                alt: "Anti-Wank Tablet Box"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "wanker"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43BHfZ4",
+        price: 4.89,
+    },
+    {
+        name: "Personalised Fanny Flannel",
+        slug: "personalised-fanny-flannel",
+        description: "A personalised cloth for women to clean themselves with after having some 'me' time.",
+        body: "<p>If you gran wipes her private parts on your curtains, T-shirt, or laptop after having some special alone time, buy her this personalised fanny flannel so she uses it to clean herself with instead of the first thing she sees.</p>",
+        images: [
+            {
+                src: "personalised-fanny-flannel.webp",
+                alt: "Personalised Fanny Flannel"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "cloths",
+            "personalised"
+        ],
+        gender: "Female",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TUIwHy",
+        price: 10.99,
+    },
+    {
+        name: "Personalised Ginger Nut Wank Cloth",
+        slug: "personalised-ginger-nut-wank-cloth",
+        description: "A persoanlised wank cloth just for ginger people.",
+        body: "<p>If you have a ginger friend who loves playing with themself, they'll definitely appreciate you gifting them this personalised wank cloth because ginger people know it's almost impossible to find products and services for the ginger community, especially sex-related items.</p>",
+        images: [
+            {
+                src: "personalised-ginger-nut-wank-cloth.webp",
+                alt: "Personalised Ginger Nut Wank Cloth"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "wanker",
+            "cloths",
+            "ginger",
+            "personalised"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3vxjTat",
+        price: 10.99,
+    },
+    {
+        name: "Personalised Wank cloth",
+        slug: "personalised-wank-cloth",
+        description: "A wank towel you can personalise so no one steals it.",
+        body: "<p>If you're sick of your housemates using your special towel to clean up their DNA after pleasuring themselves, get yourself this personalised wank cloth so they'll think twice about touching it, let alone use it for their own personal use.</p>",
+        images: [
+            {
+                src: "personalised-wank-cloth.webp",
+                alt: "Personalised Wank cloth"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "wanker",
+            "cloths",
+            "personalised"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TJvBai",
+        price: 10.99,
+    },
+    {
+        name: "The Wankerchief",
+        slug: "the-wankerchief",
+        description: "Clean up after a cheeky tug wherever you are with this wankerchief.",
+        body: "<p>Do you find yourself randomly nipping to a public toilet or back alley in the town centre to have a cheeky tug but never have anything to wipe away your mess with? Get this handy wankerchief so you're always prepared to clean up wherever you are when the urge becomes overhwelming.</p>",
+        images: [
+            {
+                src: "the-wankerchief.webp",
+                alt: "The Wankerchief"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "wanker"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4aurSnF",
+        price: 2.50,
+    },
+    {
+        name: "Wank Sock",
+        slug: "wank-sock",
+        description: "A sock designed just for your special alone-time.",
+        body: "<p>Do you sometimes accidentally put your foot in your special alone-time sock?</p><p>If so, buy this wank sock so you never mistake your regular socks with your special one and end up with wet feet again.</p><p>You'll also save on clean-up time and the forests as no tissues are needed for your extra-curricular activity.</p>",
+        images: [
+            {
+                src: "wank-sock.webp",
+                alt: "Wank Sock"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "wanker",
+            "socks"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43Jl2IH",
+        price: 4.50,
+    },
+    {
+        name: "Wank Diary",
+        slug: "wank-diary",
+        description: "Remember every wank by recording them in this wank diary.",
+        body: "<p>Never forget your best (and worst) wanks by recording them in this diary. It contains 61 pages where you can write the date and time you self-pleasured, how many times you did it, final thoughts, and rating between 1 and 10.</p><p>When the book has been filled with entries, share your favourite moments with friends and family at the dinner table.</p>",
+        images: [
+            {
+                src: "wank-diary.webp",
+                alt: "Wank Diary"
+            },
+            {
+                src: "wank-diary-inside.webp",
+                alt: "Wank Diary - Inside"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "wanker",
+            "diaries"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3vuKwgc",
+        price: 7.49,
+    },
+    {
+        name: "Luxury Posh Wank Kit",
+        slug: "luxury-posh-wank-kit",
+        description: "Masturbate like posh people with this luxury wank kit.",
+        body: "<p>Don't masturbate like a peasant! Pleasure yourself like how the rich and famous people do it with this luxury posh wank kit.</p><p>Contains a condom, satchet of lube, gold rubber glove, and wet wipes so you can get a taste of the luxury lifestyle that posh people live for less than £10.</p>",
+        images: [
+            {
+                src: "luxury-posh-wank-kit.webp",
+                alt: "Luxury Posh Wank Kit"
+            },
+        ],
+        category: "Novelty",
+        tags: [
+            "wanker",
+            "luxury"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PGeViJ",
+        price: 5.95,
+    },
+    {
         name: "Prescription Alcohol Label & Gift Bag",
         slug: "prescription-alcohol-label-and-gift-bag",
         description: "A personalised prescription alcohol label and gift bag for those who love drinking more than the average person.",
@@ -72,7 +270,8 @@ export const allItems = [
         tags: [
             "alcohol",
             "labels",
-            "gift bags"
+            "gift bags",
+            "personalised"
         ],
         gender: "Unisex",
         supplier: "Amazon",
@@ -710,7 +909,7 @@ export const allItems = [
         ],
         category: "Novelty",
         tags: [
-            "masturbation",
+            "wanker",
             "single"
         ],
         gender: "Unisex",
@@ -752,7 +951,7 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "masturbation",
+            "wanker",
             "self help"
         ],
         gender: "Male",
@@ -3286,7 +3485,7 @@ export const allItems = [
             "party games",
             "penis",
             "adult",
-            "masturbation"
+            "wanker"
         ],
         gender: "Unisex",
         supplier: "MenKind",
@@ -3781,7 +3980,7 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "masturbation",
+            "wanker",
             "photo books"
         ],
         gender: "Unisex",
