@@ -58,6 +58,118 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Nosey Cunt Mug",
+        slug: "nosey-cunt-mug",
+        description: "Find out who they nosey people in your life are with this mug.",
+        body: "<p>If you want to find out who the nosey people in your life are, get this mug. They'll be easy to spot if they try to read what is written on it.</p>",
+        images: [
+            {
+                src: "nosey-cunt-mug.webp",
+                alt: "Nosey Cunt Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "rude",
+            "swearing"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4aaXKhb",
+        price: 9.97,
+    },
+    {
+        name: "Marvellous Map of Great British Place Names",
+        slug: "marvellous-map-of-great-british-place-names",
+        description: "Discover the funniest, rudest and strangest place names in the UK, including Butthole Lane, Tickle Cock Bridge and The Bastard.",
+        body: "<p>The UK is one of the most self-deprecating countries in the world, giving itself some funny, rude, and strange place names, like Tickle Cock Bridge, Shitterton, Dull, Butthole Lane, and The Bastard.</p><p>Buy this map and discover over 2,000 unusual place names and plan a 'rude trip' to visit all the cocks in the country.</p>",
+        images: [
+            {
+                src: "marvellous-map-of-great-british-place-names.webp",
+                alt: "Marvellous Map of Great British Place Names"
+            },
+            {
+                src: "marvellous-map-of-great-british-place-names-fulking-hill.webp",
+                alt: "marvellous-map-of-great-british-place-names-fulking-hill - Fulking Hill"
+            },
+        ],
+        category: "Books",
+        tags: [
+            "maps",
+            "uk"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4cyEUSV",
+        price: 10.19,
+    },
+    {
+        name: "Hand in Hand Socks",
+        slug: "hand-in-hand-socks",
+        description: "Socks that hold hands using magnets.",
+        body: "<p>Socks have to endure the worst odour known to humankind — smelly feet. Imagine covering a stinky foot for hours every day without being given a second to breathe any fresh air. At FunnyGifts.uk, our hearts and thoughts go out to them.</p><p>To help them get through this horrible experience, a genius and philanthropist has genetically modified a pair of socks to give them arms so that they can hold hands and support each other until they are taken off the human's feet and given a bath in the washing machine.</p><p>If you care about the lives of socks, buy these instead of ordinary ones without arms.</p>",
+        images: [
+            {
+                src: "hand-in-hand-socks.webp",
+                alt: "Hand in Hand Socks"
+            }
+        ],
+        category: "Clothing & Accessories",
+        tags: [
+            "socks",
+            "friendship"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3vA2EFx",
+        price: 5.99,
+    },
+    {
+        name: "Massive Cock Socks",
+        slug: "massive-cock-socks",
+        description: "Socks that make it look like you have a really long willy.",
+        body: "<p>Do you have trouble pulling the women? If so, buy these socks and women will think you are very well endowed and form a queue.</p><p>Don't wear them with shorts otherwise it will ruin the illusion.</p>",
+        images: [
+            {
+                src: "massive-cock-socks.webp",
+                alt: "Massive Cock Socks"
+            }
+        ],
+        category: "Clothing & Accessories",
+        tags: [
+            "socks",
+            "penis"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4a9Pq1e",
+        price: 14.99,
+    },
+    {
+        name: "The Most Random Card You Have Ever Received",
+        slug: "the-most-random-card-you-have-ever-received",
+        description: "A greetings card featuring random items that can be used for any occasion.",
+        body: "<p>Do you hate buying greetings cards for people because it takes you forever to find the perfect one?</p><p>Buy a bunch of these cards featuring random items and give them to friends and family on special occasions, such as birthdays, Christmas, housewarmings, graduations, and celebrating a newborn. The recipient will find it so random and humorous that they'll forgive you for not buying them a card especially for the occasion.</p>",
+        images: [
+            {
+                src: "the-most-random-card-you-have-ever-received.webp",
+                alt: "The Most Random Card You Have Ever Received"
+            }
+        ],
+        category: "Greetings Cards",
+        tags: [
+            "jesus",
+            "aliens",
+            "kettles",
+            "lawnmowers"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TA6d6F",
+        price: 3.99,
+    },
+    {
         name: "Muscle Mug",
         slug: "muscle-mug",
         description: "Enjoy your favourite beverage from this mug in the shape of a muscly body.",
