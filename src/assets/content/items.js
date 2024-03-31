@@ -58,6 +58,117 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Mankini",
+        slug: "mankini",
+        description: "Make others thirsty for you by wearing this bikini for men.",
+        body: "<p>Popularised by Borat, the mankini gives men the opportunity to show off their sexy hairy bodies in public places, like the beach, while shopping in town, or walking the dog.</p><p>It's about time the swimwear industry created a bikini for men that gives others something to lust over.</p>",
+        images: [
+            {
+                src: "mankini.webp",
+                alt: "Mankini"
+            }
+        ],
+        category: "Clothes & Accessories",
+        tags: [
+            "mankinis",
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TTZvtv",
+        price: 5.99,
+    },
+    {
+        name: "'Bald Lives Matter' Mug",
+        slug: "bald-lives-matter-mug",
+        description: "Spread awareness of the bald community and their rights with this mug.",
+        body: "<p>If you are bald and feel your community is underrepresented, repressed, or abused for being follically-challenged, start using this mug during your tea breaks to show baldies have the same rights and feelings as those with long luscious locks.</p>",
+        images: [
+            {
+                src: "bald-lives-matter-mug.webp",
+                alt: "'Bald Lives Matter' Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "bald"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TXfcQB",
+        price: 9.99,
+    },
+    {
+        name: "Fart Trumpet",
+        slug: "fart-trumpet",
+        description: "Get everyone's attention with this trumpet that makes fart noises.",
+        body: "<p>If you have something important to say in a business meeting or to the general public, pull out this fart trumpet, give it a toot, and everyone within a 5 mile radius will give you their undivided attention.</p>",
+        images: [
+            {
+                src: "fart-trumpet.webp",
+                alt: "Fart Trumpet"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "farting",
+            "trumpets"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43CjfoN",
+        price: 3.97,
+    },
+    {
+        name: "Hip Flask in Self Help Book",
+        slug: "hip-flask-in-self-help-book",
+        description: "Take booze into restricted places with this hip flask in a book.",
+        body: "<p>Smuggle alcohol into restricted areas like gigs, nightclubs, and libraries with this book that hides a hip flask. To the unsuspecting eye, it looks like an ordinary \"self-help\" book, but to you, it's your financial and entertainment saviour if things get too expensive or boring.</p>",
+        images: [
+            {
+                src: "hip-flask-in-self-help-book.webp",
+                alt: "Hip Flask in Self Help Book"
+            },
+            {
+                src: "hip-flask-in-self-help-book-closed.webp",
+                alt: "Hip Flask in Self Help Book - Closed"
+            },
+            {
+                src: "hip-flask-in-self-help-book-open.webp",
+                alt: "Hip Flask in Self Help Book - Open"
+            },
+        ],
+        category: "Home & Garden",
+        tags: [
+            "hip flasks",
+            "alcohol"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3IXCwr4",
+        price: 15.00,
+    },
+    {
+        name: "Beer Belly Bum Bag",
+        slug: "beer-belly-bum-bag",
+        description: "Give yourself an instant dad bod with this bum bag with a beer belly design.",
+        body: "<p>Beer bellies are the new six-pack. If you have the latter but want the former and don't have the patience to eats lots of food or drink lots of beer, this bum bag with a hairy belly design will give you that desired look instantly. Keep a can of beer inside it so your dad bod looks even more realistic.</p>",
+        images: [
+            {
+                src: "beer-belly-bum-bag.webp",
+                alt: "Beer Belly Bum Bag"
+            },
+        ],
+        category: "Clothes & Accessories",
+        tags: [
+            "bum bags"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3THey8w",
+        price: 11.15,
+    },
+    {
         name: "Nosey Cunt Mug",
         slug: "nosey-cunt-mug",
         description: "Find out who they nosey people in your life are with this mug.",
@@ -115,7 +226,7 @@ export const allItems = [
                 alt: "Hand in Hand Socks"
             }
         ],
-        category: "Clothing & Accessories",
+        category: "Clothes & Accessories",
         tags: [
             "socks",
             "friendship"
@@ -3209,7 +3320,6 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "books",
             "poop",
             "search and find",
             "puzzles"
@@ -3414,7 +3524,6 @@ export const allItems = [
         ],
         category: "Books",
         tags: [
-            "books",
             "animals",
             "penis",
             "adult"
