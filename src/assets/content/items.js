@@ -58,6 +58,47 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Vagitarian Mug",
+        slug: "vagitarian-mug",
+        description: "Let others know you don't eat meat with this mug.",
+        body: "<p>Do you refuse to eat willies because of how they are treated and processed in factories and only eat vaginas because of this? Buy this mug so men know where you stand when it comes to eating meat and don't waste their or your time by chatting you up.<p/>",
+        images: [
+            {
+                src: "vagitarian-mug.webp",
+                alt: "Vagitarian Mug"
+            }
+        ],
+        category: "Home & Garden",
+        tags: [
+            "mugs",
+            "lesbian"
+        ],
+        gender: "Female",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4atzdnC",
+        price: 9.99,
+    },
+    {
+        name: "Stress Reduction Mouse Pad",
+        slug: "stress-reduction-mouse-pad",
+        description: "A mouse pad you can bang your head on when your computer does silly things.",
+        body: "<p>Computers always have a way of frustrating you with its technical faults, such as crashing at the worst possible moment, deleting work that we've spent hours working on, and sending sexy emails to that colleague we really fancy...</p><p>If you're computer constantly plays up but you can't afford to buy a new one, get yourself this mouse pad with a target on it so you can smash your face onto it every time it fails you.</p>",
+        images: [
+            {
+                src: "stress-reduction-mouse-pad.webp",
+                alt: "Stress Reduction Mouse Pad"
+            }
+        ],
+        category: "Computers & Accessories",
+        tags: [
+            "mouse pads"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3PJwhLu",
+        price: 7.99,
+    },
+    {
         name: "Mankini",
         slug: "mankini",
         description: "Make others thirsty for you by wearing this bikini for men.",
@@ -247,7 +288,7 @@ export const allItems = [
                 alt: "Massive Cock Socks"
             }
         ],
-        category: "Clothing & Accessories",
+        category: "Clothes & Accessories",
         tags: [
             "socks",
             "penis"

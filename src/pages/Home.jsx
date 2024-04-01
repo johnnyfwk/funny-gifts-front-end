@@ -28,8 +28,8 @@ export default function Home({ maxNumberOfCardsToDisplay, maxNumberOfPagesToDisp
         let allRelevantItems;
         if (category_slug === null && tag_slug === null) {
             allRelevantItems = allItems;
-            setTitleAndH1("Funny gifts that'll make you pee your pants");
-            setDescription("Searching the Internet to find funny gifts that'll put a smile on the faces of people who have no sense of humour.");
+            setTitleAndH1("Funny gift ideas that'll make you pee your pants");
+            setDescription("Searching the Internet to find funny gift ideas that'll put a smile on the faces of people who have no sense of humour.");
         } else if (category_slug) {
             allRelevantItems = allItems.filter((post) => utils.convertToSlug(post.category) === category_slug);
             setTitleAndH1(utils.slugToCategoryName(category_slug));
