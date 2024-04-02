@@ -58,6 +58,69 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "The Moon Ring",
+        slug: "the-moon-ring",
+        description: "A bottom in a ring case that farts when it's opened.",
+        body: "<p>Have you been with your partner for years and they've been dropping hints for you to propose but you're too scared to take the relationship to the next level?</p><p>Buy The Moon Ring, a bent-over bottom that farts when the ring case is opened. This will make it explicitly clear that you think getting married is a smelly idea.</p>",
+        images: [
+            {
+                src: "the-moon-ring.webp",
+                alt: "The Moon Ring"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "farting"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4cCgmbF",
+        price: 24.95,
+    },
+    {
+        name: "Spectacular Uses for a Saggy Scrotum",
+        slug: "spectacular-uses-for-a-saggy-scrotum",
+        description: "Discover creative ways to use your droopy balls as an older gentleman.",
+        body: "<p>If you're an older gentleman and have noticed dramatic changes to your body, including droopier balls, it's not all doom and gloom. This book offers creative uses for your saggy scrotum so you can entertain yourself, your partner, and family with weird scrotal party tricks.</p>",
+        images: [
+            {
+                src: "spectacular-uses-for-a-saggy-scrotum.webp",
+                alt: "Spectacular Uses for a Saggy Scrotum"
+            }
+        ],
+        category: "Books",
+        tags: [
+            "scrotum"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/43GbFJU",
+        price: 2.64,
+    },
+    {
+        name: "Golden Balls Balm & Sponge Set",
+        slug: "golden-balls-balm-and-sponge-set",
+        description: "A scrotum grooming set that contains a balm, wash, and sponge.",
+        body: "<p>Keep your balls clean and feeling vitalised with this bollock grooming set.</p><p>It contains a balm with aloe vera to prevent your scrotum from sweating and feeling uncomfortable, scrotum wash to make them smell fresh throughout the day, and a scrotum-shaped sponge that gently exfoliates and cleanses the real thing.</p>",
+        images: [
+            {
+                src: "golden-balls-balm-and-sponge-set.webp",
+                alt: "Golden Balls Balm & Sponge Set"
+            }
+        ],
+        category: "Beauty",
+        tags: [
+            "grooming",
+            "balms",
+            "sponges",
+            "scrotum"
+        ],
+        gender: "Male",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3J75RiQ",
+        price: 13.99,
+    },
+    {
         name: "Vagitarian Mug",
         slug: "vagitarian-mug",
         description: "Let others know you don't eat meat with this mug.",
