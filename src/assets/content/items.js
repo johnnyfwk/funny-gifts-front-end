@@ -58,6 +58,26 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Big Mom Undies",
+        slug: "big-mom-undies",
+        description: "Turn off your partner with this oversized underwear.",
+        body: "<p>Is your partner always thirsty and wants to play all the time because your underwear is too sexy? If so, get yourself this oversized underwear that will turn them off and they'll stop perstering you for sexy time when you're not in the mood.</p>",
+        images: [
+            {
+                src: "big-mom-undies.webp",
+                alt: "Big Mom Undies"
+            }
+        ],
+        category: "Novelty",
+        tags: [
+            "underwear"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3vAr6GO",
+        price: 20.38,
+    },
+    {
         name: "The Moon Ring",
         slug: "the-moon-ring",
         description: "A bottom in a ring case that farts when it's opened.",
