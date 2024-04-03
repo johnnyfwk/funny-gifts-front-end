@@ -58,6 +58,52 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Minge Chocolate Bar",
+        slug: "minge-chocolate-bar",
+        description: "A Galaxy chocolate bar in a novelty wrapper.",
+        body: "Give this Galaxy chocolate bar in a novelty wrapper to those who like to lick or suck on their sweet treats.",
+        images: [
+            {
+                src: "minge-chocolate-bar.webp",
+                alt: "Minge Chocolate Bar"
+            }
+        ],
+        category: "Food & Drink",
+        tags: [
+            "chocolate",
+            "vagina"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4apv2t9",
+        price: 4.99,
+    },
+    {
+        name: "52 Farts Playing Cards",
+        slug: "52-farts-playing-cards",
+        description: "Playing cards featuring 52 different types of farts and their descriptions.",
+        body: "<p>Did you know that there are 52 types of farts? No, neither did we, but we're pleased to hear there are so many and we aim to produce them all!</p><p>Each card features a fart and its definition so you can identify every fart you hear and educate the producer about its name.</p>",
+        images: [
+            {
+                src: "52-farts-playing-cards.webp",
+                alt: "52 Farts Playing Cards"
+            },
+            {
+                src: "52-farts-playing-cards-6-cards.webp",
+                alt: "52 Farts Playing Cards - 6 Cards"
+            },
+        ],
+        category: "Toys & Games",
+        tags: [
+            "playing cards",
+            "farting"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/4agP0Go",
+        price: 6.46,
+    },
+    {
         name: "Big Mom Undies",
         slug: "big-mom-undies",
         description: "Turn off your partner with this oversized underwear.",
@@ -1450,7 +1496,7 @@ export const allItems = [
         tags: [
             "colouring books",
             "search and find",
-            "vaginas",
+            "vagina",
             "adult"
         ],
         gender: "Unisex",
@@ -1472,7 +1518,7 @@ export const allItems = [
         category: "Books",
         tags: [
             "photo books",
-            "vaginas",
+            "vagina",
             "adult"
         ],
         gender: "Unisex",
@@ -1494,7 +1540,7 @@ export const allItems = [
         category: "Books",
         tags: [
             "colouring books",
-            "vaginas",
+            "vagina",
             "adult"
         ],
         gender: "Unisex",
@@ -3180,7 +3226,7 @@ export const allItems = [
         tags: [
             "bottle openers",
             "alcohol",
-            "vaginas"
+            "vagina"
         ],
         gender: "Unisex",
         supplier: "Amazon",
