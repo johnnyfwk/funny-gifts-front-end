@@ -58,6 +58,27 @@ export const allItems = [
     ********************************* TEMPLATE *********************************/
 
     {
+        name: "Penis Slippers",
+        slug: "penis-slippers",
+        description: "Gold-coloured slippers featuring willies, balls, and pubic hair.",
+        body: "<p>If your partner loves watching your tackle shake as you walk around the house naked, entertain them even more with these slippers featuring plush willies, balls, and silver pubic hair. Wear them as you clean the house and you'll make doing the chores look really sexy.</p>",
+        images: [
+            {
+                src: "penis-slippers.webp",
+                alt: "Penis Slippers"
+            },
+        ],
+        category: "Clothes & Accessories",
+        tags: [
+            "slippers",
+            "penis"
+        ],
+        gender: "Unisex",
+        supplier: "Amazon",
+        externalLink: "https://amzn.to/3TTioMa",
+        price: 7.99,
+    },
+    {
         name: "Minge Chocolate Bar",
         slug: "minge-chocolate-bar",
         description: "A Galaxy chocolate bar in a novelty wrapper.",
